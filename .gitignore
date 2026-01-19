@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (too large for Git)
+visuem_model/
+*.safetensors
+*.bin
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Package files
+*.whl
+*.egg-info/
+dist/
+build/
+
+# Generated HTML visualizations
+*.html
+
+# Large data files
+data/canonical_train_data.json
+data/poi.csv
+data/ua-name-places.csv
+
+# Generated datasets
+generate/final_training_dataset.jsonl
+generate/t5_training_data_groq.json
+generate/backup.json
+generate/all_locations_*.txt
+generate/grok_inputs_plain.txt
+generate/temp_llm_raw.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# API codes
+.env.local
+
+# Prototypes V1
+prototypesV1/
+
+# Not used
+not used(probably)/
