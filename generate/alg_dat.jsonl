@@ -1,0 +1,1000 @@
+{"input": "Кіцманська вулиця кв. 124 Justin (Каса) будинок 14", "target": "<CITY> Онуфріївка </CITY> <STREET> Кіцманська </STREET> <TYPE> вулиця </TYPE> <BUILD> 14 </BUILD> <ROOM> 124 </ROOM> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE>"}
+{"input": "№27, (demo) Луки капікраяна, квартира 154", "target": "<STREET> Луки капікраяна </STREET> <TYPE> набережна </TYPE> <BUILD> 27 </BUILD> <ROOM> 154 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "провулок Федора мазуленка №96", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Міжгір’я </CITY> <STREET> Федора мазуленка </STREET> <TYPE> провулок </TYPE> <BUILD> 96 </BUILD>"}
+{"input": "Нова Пошта, Олександра пащенка вулиця, домофон 3777, буд. 106", "target": "<CITY> Кутейникове </CITY> <STREET> Олександра пащенка </STREET> <TYPE> вулиця </TYPE> <BUILD> 106 </BUILD> <CODE> 3777 </CODE> <PROVIDER> Нова Пошта </PROVIDER>"}
+{"input": "будинок 116, 3 поверх, 2-й горіхівський", "target": "<CITY> Малокатеринівка </CITY> <STREET> 2-й горіхівський </STREET> <TYPE> провулок </TYPE> <BUILD> 116 </BUILD> <FLOOR> 3 </FLOOR>"}
+{"input": "кв. 159, Збройовий провулок, буд. 52, (demo)", "target": "<CITY> Обухів </CITY> <STREET> Збройовий </STREET> <TYPE> провулок </TYPE> <BUILD> 52 </BUILD> <ROOM> 159 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "вулиця Григорія гуляницького, будинок 88", "target": "<CITY> Свердловськ </CITY> <STREET> Григорія гуляницького </STREET> <TYPE> вулиця </TYPE> <BUILD> 88 </BUILD>"}
+{"input": "", "target": ""}
+{"input": "(demo) 4 поверх, код 6249, буд. 113, провулок Гірників", "target": "<CITY> Харків </CITY> <STREET> Гірників </STREET> <TYPE> провулок </TYPE> <BUILD> 113 </BUILD> <FLOOR> 4 </FLOOR> <CODE> 6249 </CODE> <NOTE> demo </NOTE>"}
+{"input": "район Солом'янка, Justin (Парцел)", "target": "<CITY> Любашівка </CITY> <DISTRICT> Солом'янка </DISTRICT> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE>"}
+{"input": "провулок Доброжданівський", "target": "<STREET> Доброжданівський </STREET> <TYPE> провулок </TYPE>"}
+{"input": "", "target": "<CITY> Миколаїв </CITY>"}
+{"input": "буд. 64, набережна Немишлянська", "target": "<CITY> Жденієво </CITY> <STREET> Немишлянська </STREET> <TYPE> набережна </TYPE> <BUILD> 64 </BUILD>"}
+{"input": "вулиця Грозненська, буд. 90", "target": "<CITY> Вишневе </CITY> <STREET> Грозненська </STREET> <TYPE> вулиця </TYPE> <BUILD> 90 </BUILD>"}
+{"input": "6 поверх, 18, Воркутинський", "target": "<CITY> Новопокровка </CITY> <STREET> Воркутинський </STREET> <TYPE> провулок </TYPE> <BUILD> 18 </BUILD> <FLOOR> 6 </FLOOR>"}
+{"input": "Rozetka (Парцел)", "target": "<PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE>"}
+{"input": "ЖК Олімп", "target": "<CITY> Кобилецька Поляна </CITY> <COMPLEX> ЖК Олімп </COMPLEX>"}
+{"input": "5-а садова вулиця, кв 189, будинок 46", "target": "<CITY> Верхньоторецьке </CITY> <STREET> 5-а садова </STREET> <TYPE> вулиця </TYPE> <BUILD> 46 </BUILD> <ROOM> 189 </ROOM>"}
+{"input": "поверх 12, №41, вулиця Бориса мозолевського", "target": "<CITY> Кам’янка-Дніпровська </CITY> <STREET> Бориса мозолевського </STREET> <TYPE> вулиця </TYPE> <BUILD> 41 </BUILD> <FLOOR> 12 </FLOOR>"}
+{"input": "Кружанська", "target": "<CITY> Перевальськ </CITY> <STREET> Кружанська </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "1-й учительський, буд. 90", "target": "<STREET> 1-й учительський </STREET> <TYPE> провулок </TYPE> <BUILD> 90 </BUILD>"}
+{"input": "Троєщина Новий", "target": "<CITY> Новый Свет </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Новий </STREET> <TYPE> бульвар </TYPE>"}
+{"input": "Ланжеронівський узвіз", "target": "<CITY> Михайло-Коцюбинське </CITY> <STREET> Ланжеронівський </STREET> <TYPE> узвіз </TYPE>"}
+{"input": "будинок 135, Молодіжна  центральна", "target": "<STREET> Молодіжна  центральна </STREET> <TYPE> вулиця </TYPE> <BUILD> 135 </BUILD>"}
+{"input": "Удода, 38965, кв 18, 100", "target": "<ZIP> 38965 </ZIP> <STREET> Удода </STREET> <TYPE> узвіз </TYPE> <BUILD> 100 </BUILD> <ROOM> 18 </ROOM>"}
+{"input": "Академіка стародубова площа, №128 Нова Пошта", "target": "<OBLAST> Запорізька область </OBLAST> <CITY> Гірник </CITY> <STREET> Академіка стародубова </STREET> <TYPE> площа </TYPE> <BUILD> 128 </BUILD> <PROVIDER> Нова Пошта </PROVIDER>"}
+{"input": "будинок 119, провулок Нафтовиків кв. 31", "target": "<STREET> Нафтовиків </STREET> <TYPE> провулок </TYPE> <BUILD> 119 </BUILD> <ROOM> 31 </ROOM>"}
+{"input": "п. 2 кв 118, буд. 16 Карантинний, 10424", "target": "<ZIP> 10424 </ZIP> <CITY> Петрівка </CITY> <STREET> Карантинний </STREET> <TYPE> узвіз </TYPE> <BUILD> 16 </BUILD> <ENTRANCE> 2 </ENTRANCE> <ROOM> 118 </ROOM>"}
+{"input": "Торфʼяна вулиця", "target": "<CITY> Берегове </CITY> <STREET> Торфʼяна </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "", "target": "<CITY> Лисянка </CITY>"}
+{"input": "провулок 1-й проїзний, офіс 188 будинок 130, район Печерськ", "target": "<DISTRICT> Печерськ </DISTRICT> <STREET> 1-й проїзний </STREET> <TYPE> провулок </TYPE> <BUILD> 130 </BUILD> <ROOM> 188 </ROOM>"}
+{"input": "вулиця Вʼячеслава малі, 128", "target": "<STREET> Вʼячеслава малі </STREET> <TYPE> вулиця </TYPE> <BUILD> 128 </BUILD>"}
+{"input": "Rozetka (Відділення) №164, вулиця Часовоярська, будинок 74 корп. Б", "target": "<STREET> Часовоярська </STREET> <TYPE> вулиця </TYPE> <BUILD> 74 </BUILD> <CORP> Б </CORP> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE> <BRANCH_ID> 164 </BRANCH_ID>"}
+{"input": "Лагутенка, п. 5, №92", "target": "<STREET> Лагутенка </STREET> <TYPE> проспект </TYPE> <BUILD> 92 </BUILD> <ENTRANCE> 5 </ENTRANCE>"}
+{"input": "Європейського союзу проспект Justin №33 №50", "target": "<OBLAST> Запорізька область </OBLAST> <CITY> Краснодон </CITY> <STREET> Європейського союзу </STREET> <TYPE> проспект </TYPE> <BUILD> 50 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_ID> 33 </BRANCH_ID>"}
+{"input": "Я ленина набережна, №129, п. 3, (demo)", "target": "<CITY> Красна Гора </CITY> <STREET> Я ленина </STREET> <TYPE> набережна </TYPE> <BUILD> 129 </BUILD> <ENTRANCE> 3 </ENTRANCE> <NOTE> demo </NOTE>"}
+{"input": "вулиця Братів реваїв, №34", "target": "<CITY> Глеваха </CITY> <STREET> Братів реваїв </STREET> <TYPE> вулиця </TYPE> <BUILD> 34 </BUILD>"}
+{"input": "Нова Пошта (Пункт видачі), В. набережна, будинок 61, квартира 71, поверх 15, код 7007", "target": "<CITY> Рогатин </CITY> <STREET> В. </STREET> <TYPE> набережна </TYPE> <BUILD> 61 </BUILD> <FLOOR> 15 </FLOOR> <ROOM> 71 </ROOM> <CODE> 7007 </CODE> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE>"}
+{"input": "119, провулок Вузькоколійний", "target": "<CITY> Золочів </CITY> <STREET> Вузькоколійний </STREET> <TYPE> провулок </TYPE> <BUILD> 119 </BUILD>"}
+{"input": "ЖК Ліквувально", "target": "<CITY> Кодра </CITY> <COMPLEX> ЖК Ліквувально </COMPLEX>"}
+{"input": "Полковий провулок буд. 121, 3 поверх", "target": "<STREET> Полковий </STREET> <TYPE> провулок </TYPE> <BUILD> 121 </BUILD> <FLOOR> 3 </FLOOR>"}
+{"input": "84678 провулок Семикрасівський", "target": "<ZIP> 84678 </ZIP> <CITY> Нова Прага </CITY> <STREET> Семикрасівський </STREET> <TYPE> провулок </TYPE>"}
+{"input": "вулиця Лосівська будинок 26", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Виноградное </CITY> <STREET> Лосівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 26 </BUILD>"}
+{"input": "21230, ЖК Центр, район Позняки", "target": "<ZIP> 21230 </ZIP> <CITY> Новий Світ </CITY> <DISTRICT> Позняки </DISTRICT> <COMPLEX> ЖК Центр </COMPLEX>"}
+{"input": "Оболонь, Укрпошта, Солом'янська, будинок 127 квартира 48", "target": "<CITY> Тячів </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Солом'янська </STREET> <TYPE> вулиця </TYPE> <BUILD> 127 </BUILD> <ROOM> 48 </ROOM> <PROVIDER> Укрпошта </PROVIDER>"}
+{"input": "4, Олени бурʼянової вулиця квартира 17", "target": "<CITY> Маломиколаївка </CITY> <STREET> Олени бурʼянової </STREET> <TYPE> вулиця </TYPE> <BUILD> 4 </BUILD> <ROOM> 17 </ROOM>"}
+{"input": "Барвистий, 61, Осокорки, поверх 17", "target": "<OBLAST> Полтавська область </OBLAST> <DISTRICT> Осокорки </DISTRICT> <STREET> Барвистий </STREET> <TYPE> провулок </TYPE> <BUILD> 61 </BUILD> <FLOOR> 17 </FLOOR>"}
+{"input": "137, Зоряний проспект", "target": "<CITY> Вигода </CITY> <STREET> Зоряний </STREET> <TYPE> проспект </TYPE> <BUILD> 137 </BUILD>"}
+{"input": "будинок 52, Кондукторський провулок, 20 поверх, ЖК Комфорт Таун", "target": "<CITY> Ірміно </CITY> <STREET> Кондукторський </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Комфорт Таун </COMPLEX> <BUILD> 52 </BUILD> <FLOOR> 20 </FLOOR>"}
+{"input": "вулиця Котельна Оболонь", "target": "<CITY> Малинівка </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Котельна </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "оф. 52, №90 р-н Оболонь, Лучова", "target": "<CITY> Миколаїв </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Лучова </STREET> <TYPE> вулиця </TYPE> <BUILD> 90 </BUILD> <ROOM> 52 </ROOM>"}
+{"input": "Rozetka №273, Бащенка, будинок 8А", "target": "<CITY> Дашів </CITY> <STREET> Бащенка </STREET> <TYPE> вулиця </TYPE> <BUILD> 8А </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 273 </BRANCH_ID>"}
+{"input": "№147, ЖК Комфорт Таун 39229 Трудовой провулок, кв. 19", "target": "<ZIP> 39229 </ZIP> <STREET> Трудовой </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Комфорт Таун </COMPLEX> <BUILD> 147 </BUILD> <ROOM> 19 </ROOM>"}
+{"input": "76961 буд. 98, Тараса шевченка 2-й", "target": "<ZIP> 76961 </ZIP> <STREET> Тараса шевченка 2-й </STREET> <TYPE> провулок </TYPE> <BUILD> 98 </BUILD>"}
+{"input": "Бродського провулок", "target": "<CITY> Червонопартизанськ </CITY> <STREET> Бродського </STREET> <TYPE> провулок </TYPE>"}
+{"input": "№103, ЖК Львівський, узвіз Тетерівський", "target": "<STREET> Тетерівський </STREET> <TYPE> узвіз </TYPE> <COMPLEX> ЖК Львівський </COMPLEX> <BUILD> 103 </BUILD>"}
+{"input": "Укрпошта (Парцел) №96", "target": "<CITY> Болехів </CITY> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE> <BRANCH_ID> 96 </BRANCH_ID>"}
+{"input": "Укрпошта (Відділення) №10", "target": "<CITY> Вараш </CITY> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE> <BRANCH_ID> 10 </BRANCH_ID>"}
+{"input": "Межибрідський, будинок 11", "target": "<STREET> Межибрідський </STREET> <TYPE> провулок </TYPE> <BUILD> 11 </BUILD>"}
+{"input": "10 вересня, 113", "target": "<STREET> 10 вересня </STREET> <TYPE> вулиця </TYPE> <BUILD> 113 </BUILD>"}
+{"input": "Печерськ, Укрпошта №68", "target": "<DISTRICT> Печерськ </DISTRICT> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_ID> 68 </BRANCH_ID>"}
+{"input": "Стартова вулиця, №14, Нова Пошта №26", "target": "<CITY> Красятичі </CITY> <STREET> Стартова </STREET> <TYPE> вулиця </TYPE> <BUILD> 14 </BUILD> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 26 </BRANCH_ID>"}
+{"input": "кв. 73, провулок 4-й  сагайдачного, №145", "target": "<CITY> Гриців </CITY> <STREET> 4-й  сагайдачного </STREET> <TYPE> провулок </TYPE> <BUILD> 145 </BUILD> <ROOM> 73 </ROOM>"}
+{"input": "кв. 161, узвіз Кодацький, будинок 19", "target": "<CITY> Турійськ </CITY> <STREET> Кодацький </STREET> <TYPE> узвіз </TYPE> <BUILD> 19 </BUILD> <ROOM> 161 </ROOM>"}
+{"input": "ЖК Центр", "target": "<COMPLEX> ЖК Центр </COMPLEX>"}
+{"input": "Оболонь", "target": "<CITY> Новомиколаївка </CITY> <DISTRICT> Оболонь </DISTRICT>"}
+{"input": "будинок 67, кв. 72, вулиця Шабліовського", "target": "<STREET> Шабліовського </STREET> <TYPE> вулиця </TYPE> <BUILD> 67 </BUILD> <ROOM> 72 </ROOM>"}
+{"input": "(demo) Скрипниківський", "target": "<CITY> Куликів </CITY> <STREET> Скрипниківський </STREET> <TYPE> узвіз </TYPE> <NOTE> demo </NOTE>"}
+{"input": "Укрпошта (Філія) №196, Авіаконструктора антонова", "target": "<STREET> Авіаконструктора антонова </STREET> <TYPE> вулиця </TYPE> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE> <BRANCH_ID> 196 </BRANCH_ID>"}
+{"input": "площа Героєв вов", "target": "<CITY> Черкаське </CITY> <STREET> Героєв вов </STREET> <TYPE> площа </TYPE>"}
+{"input": "Підприємницька вулиця, домофон 5346, 40444 буд. 39", "target": "<ZIP> 40444 </ZIP> <CITY> Севастополь </CITY> <STREET> Підприємницька </STREET> <TYPE> вулиця </TYPE> <BUILD> 39 </BUILD> <CODE> 5346 </CODE>"}
+{"input": "Перемоги, квартира 115, 90", "target": "<CITY> Кобилецька Поляна </CITY> <STREET> Перемоги </STREET> <TYPE> проспект </TYPE> <BUILD> 90 </BUILD> <ROOM> 115 </ROOM>"}
+{"input": "будинок 97, Кобзаря площа, ЖК Центр", "target": "<STREET> Кобзаря </STREET> <TYPE> площа </TYPE> <COMPLEX> ЖК Центр </COMPLEX> <BUILD> 97 </BUILD>"}
+{"input": "", "target": "<OBLAST> Запорізька область </OBLAST> <CORP> Б </CORP>"}
+{"input": "Архітектора альошина проспект, 60, Rozetka №238", "target": "<STREET> Архітектора альошина </STREET> <TYPE> проспект </TYPE> <BUILD> 60 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 238 </BRANCH_ID>"}
+{"input": "Бігуча, №74", "target": "<OBLAST> Полтавська область </OBLAST> <CITY> Смига </CITY> <STREET> Бігуча </STREET> <TYPE> вулиця </TYPE> <BUILD> 74 </BUILD>"}
+{"input": "129, Шевчена квартира 65 ЖК Преміум", "target": "<CITY> Новопсков </CITY> <STREET> Шевчена </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 129 </BUILD> <ROOM> 65 </ROOM>"}
+{"input": "", "target": "<CITY> Овідіополь </CITY>"}
+{"input": "16 поверх, будинок 84, 13-й провулок", "target": "<CITY> Нижня Дуванка </CITY> <STREET> 13-й </STREET> <TYPE> провулок </TYPE> <BUILD> 84 </BUILD> <FLOOR> 16 </FLOOR>"}
+{"input": "19 поверх 14853, ст. м. Політехнічний інститут 4-й ракетний, будинок 50", "target": "<ZIP> 14853 </ZIP> <OBLAST> Львівська область </OBLAST> <STREET> 4-й ракетний </STREET> <TYPE> провулок </TYPE> <BUILD> 50 </BUILD> <FLOOR> 19 </FLOOR> <POI> ст. м. Політехнічний інститут </POI>"}
+{"input": "Корабелів, KFC буд. 7", "target": "<CITY> Новодар’ївка </CITY> <STREET> Корабелів </STREET> <TYPE> площа </TYPE> <BUILD> 7 </BUILD> <POI> KFC </POI>"}
+{"input": "будинок 140 Вулканівська", "target": "<STREET> Вулканівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 140 </BUILD>"}
+{"input": "", "target": "<CITY> Біловодськ </CITY>"}
+{"input": "(demo), Красна, №52, Печерськ", "target": "<OBLAST> Хмельницька область </OBLAST> <DISTRICT> Печерськ </DISTRICT> <STREET> Красна </STREET> <TYPE> площа </TYPE> <BUILD> 52 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "р-н Оболонь 136А/Б, кв. 32, Луки капікраяна, (demo)", "target": "<CITY> Клевань </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Луки капікраяна </STREET> <TYPE> набережна </TYPE> <BUILD> 136А </BUILD> <CORP> Б </CORP> <ROOM> 32 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "квартира 60 11 поверх, №115, провулок Героїв-десантників", "target": "<CITY> Кути </CITY> <STREET> Героїв-десантників </STREET> <TYPE> провулок </TYPE> <BUILD> 115 </BUILD> <FLOOR> 11 </FLOOR> <ROOM> 60 </ROOM>"}
+{"input": "Віталія блажка узвіз р-н Оболонь, 62, кв 195", "target": "<CITY> Нове </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Віталія блажка </STREET> <TYPE> узвіз </TYPE> <BUILD> 62 </BUILD> <ROOM> 195 </ROOM>"}
+{"input": "", "target": ""}
+{"input": "82 Rozetka №233, вулиця Кремінська", "target": "<CITY> Дубляни </CITY> <STREET> Кремінська </STREET> <TYPE> вулиця </TYPE> <BUILD> 82 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 233 </BRANCH_ID>"}
+{"input": "вулиця Проселищна", "target": "<OBLAST> Полтавська область </OBLAST> <CITY> Кострижівка </CITY> <STREET> Проселищна </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "Івана каркача", "target": "<OBLAST> Хмельницька область </OBLAST> <STREET> Івана каркача </STREET> <TYPE> бульвар </TYPE>"}
+{"input": "46, Бугаївка", "target": "<OBLAST> Харківська область </OBLAST> <CITY> Войковський </CITY> <STREET> Бугаївка </STREET> <TYPE> провулок </TYPE> <BUILD> 46 </BUILD>"}
+{"input": "будинок 88В, район Оболонь, Автострадна набережна", "target": "<OBLAST> Київська область </OBLAST> <CITY> Володимирівка </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Автострадна </STREET> <TYPE> набережна </TYPE> <BUILD> 88В </BUILD>"}
+{"input": "ст. м. Проспект Гагаріна, ЖК Ліквувально будинок 142 Жуля верна бульвар", "target": "<CITY> Шумськ </CITY> <STREET> Жуля верна </STREET> <TYPE> бульвар </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 142 </BUILD> <POI> ст. м. Проспект Гагаріна </POI>"}
+{"input": "Зеленосадська, буд. 63 п. 4", "target": "<CITY> Доманівка </CITY> <STREET> Зеленосадська </STREET> <TYPE> вулиця </TYPE> <BUILD> 63 </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "Ессенська будинок 128", "target": "<STREET> Ессенська </STREET> <TYPE> вулиця </TYPE> <BUILD> 128 </BUILD>"}
+{"input": "бульвар Леніна, 74", "target": "<CITY> Лисичанськ </CITY> <STREET> Леніна </STREET> <TYPE> бульвар </TYPE> <BUILD> 74 </BUILD>"}
+{"input": "квартира 97, будинок 148, Я андрея первозванного", "target": "<STREET> Я андрея первозванного </STREET> <TYPE> набережна </TYPE> <BUILD> 148 </BUILD> <ROOM> 97 </ROOM>"}
+{"input": "кв. 44, Соколова, р-н Виноградар буд. 93", "target": "<DISTRICT> Виноградар </DISTRICT> <STREET> Соколова </STREET> <TYPE> провулок </TYPE> <BUILD> 93 </BUILD> <ROOM> 44 </ROOM>"}
+{"input": "Я гагарина набережна 18394 №35, ст. м. Виставковий центр", "target": "<ZIP> 18394 </ZIP> <CITY> Березівка </CITY> <STREET> Я гагарина </STREET> <TYPE> набережна </TYPE> <BUILD> 35 </BUILD> <POI> ст. м. Виставковий центр </POI>"}
+{"input": "", "target": "<CITY> Стрижавка </CITY>"}
+{"input": "53485, 103 проспект Ленина", "target": "<ZIP> 53485 </ZIP> <STREET> Ленина </STREET> <TYPE> проспект </TYPE> <BUILD> 103 </BUILD>"}
+{"input": "вулиця Костянтина дімітрова Укрпошта (Пункт видачі)", "target": "<STREET> Костянтина дімітрова </STREET> <TYPE> вулиця </TYPE> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE>"}
+{"input": "Залядинська вулиця, будинок 102", "target": "<OBLAST> Одеська область </OBLAST> <STREET> Залядинська </STREET> <TYPE> вулиця </TYPE> <BUILD> 102 </BUILD>"}
+{"input": "р-н Солом'янка Россіні, буд. 133/1", "target": "<CITY> Молодогвардійськ </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Россіні </STREET> <TYPE> вулиця </TYPE> <BUILD> 133/1 </BUILD>"}
+{"input": "будинок 35, вулиця Конотопський шлях, ЖК Центр кв 66", "target": "<CITY> Шалигине </CITY> <STREET> Конотопський шлях </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Центр </COMPLEX> <BUILD> 35 </BUILD> <ROOM> 66 </ROOM>"}
+{"input": "ст. м. Академмістечко, 54 31729, вулиця Крайняя, Rozetka №72 кв. 166", "target": "<ZIP> 31729 </ZIP> <CITY> Гродівка </CITY> <STREET> Крайняя </STREET> <TYPE> вулиця </TYPE> <BUILD> 54 </BUILD> <ROOM> 166 </ROOM> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 72 </BRANCH_ID> <POI> ст. м. Академмістечко </POI>"}
+{"input": "ЖК Олімп вулиця Павла чеботаря (шевцової), №73-А", "target": "<STREET> Павла чеботаря (шевцової) </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Олімп </COMPLEX> <BUILD> 73 </BUILD> <CORP> А </CORP>"}
+{"input": "Соколова, 113", "target": "<CITY> Перещепине </CITY> <STREET> Соколова </STREET> <TYPE> вулиця </TYPE> <BUILD> 113 </BUILD>"}
+{"input": "п. 4, Свято-богородицький провулок буд. 91", "target": "<CITY> Дашів </CITY> <STREET> Свято-богородицький </STREET> <TYPE> провулок </TYPE> <BUILD> 91 </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "Луки долинського провулок Троєщина, кв. 61 №36 поверх 20", "target": "<CITY> Глеваха </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Луки долинського </STREET> <TYPE> провулок </TYPE> <BUILD> 36 </BUILD> <FLOOR> 20 </FLOOR> <ROOM> 61 </ROOM>"}
+{"input": "ст. м. Заводська, ЖК Преміум", "target": "<CITY> Шахтарське </CITY> <COMPLEX> ЖК Преміум </COMPLEX> <POI> ст. м. Заводська </POI>"}
+{"input": "оф. 3 Семашка, 15591, №101", "target": "<ZIP> 15591 </ZIP> <CITY> Калинівка </CITY> <STREET> Семашка </STREET> <TYPE> провулок </TYPE> <BUILD> 101 </BUILD> <ROOM> 3 </ROOM>"}
+{"input": "домофон 2814, 43 Укрпошта (Поштомат) Конституції проспект", "target": "<CITY> Жовті Води </CITY> <STREET> Конституції </STREET> <TYPE> проспект </TYPE> <BUILD> 43 </BUILD> <CODE> 2814 </CODE> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE>"}
+{"input": "ЖК Гавань", "target": "<COMPLEX> ЖК Гавань </COMPLEX>"}
+{"input": "73 Озерецька", "target": "<CITY> Олександрівка </CITY> <STREET> Озерецька </STREET> <TYPE> вулиця </TYPE> <BUILD> 73 </BUILD>"}
+{"input": "Декоративный бульвар, квартира 60, 73", "target": "<CITY> Смотрич </CITY> <STREET> Декоративный </STREET> <TYPE> бульвар </TYPE> <BUILD> 73 </BUILD> <ROOM> 60 </ROOM>"}
+{"input": "Осокорки 69, під'їзд 3, Генерала воробйова кв. 57", "target": "<CITY> Сергіївка </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Генерала воробйова </STREET> <TYPE> вулиця </TYPE> <BUILD> 69 </BUILD> <ENTRANCE> 3 </ENTRANCE> <ROOM> 57 </ROOM>"}
+{"input": "Ленина", "target": "<STREET> Ленина </STREET> <TYPE> проспект </TYPE>"}
+{"input": "Нова Пошта (Відділення) №165, ЖК Преміум офіс 8, Костьолок вулиця буд. 13", "target": "<CITY> Городок </CITY> <STREET> Костьолок </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 13 </BUILD> <ROOM> 8 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE> <BRANCH_ID> 165 </BRANCH_ID>"}
+{"input": "№135/1 кв 95, вулиця Зерновська, р-н Осокорки", "target": "<CITY> Гірницьке </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Зерновська </STREET> <TYPE> вулиця </TYPE> <BUILD> 135 </BUILD> <CORP> 1 </CORP> <ROOM> 95 </ROOM>"}
+{"input": "будинок 36/1, район Солом'янка, 71106, кв. 35, Підмонастирська вулиця", "target": "<ZIP> 71106 </ZIP> <DISTRICT> Солом'янка </DISTRICT> <STREET> Підмонастирська </STREET> <TYPE> вулиця </TYPE> <BUILD> 36/1 </BUILD> <ROOM> 35 </ROOM>"}
+{"input": "Rozetka (Каса) №63, офіс 119 будинок 93, Івана бевза вулиця", "target": "<CITY> Тячів </CITY> <STREET> Івана бевза </STREET> <TYPE> вулиця </TYPE> <BUILD> 93 </BUILD> <ROOM> 119 </ROOM> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 63 </BRANCH_ID>"}
+{"input": "буд. 66, поверх 6, Серебрича вулиця", "target": "<OBLAST> Кіровоградська область </OBLAST> <CITY> Кальміуське </CITY> <STREET> Серебрича </STREET> <TYPE> вулиця </TYPE> <BUILD> 66 </BUILD> <FLOOR> 6 </FLOOR>"}
+{"input": "буд. 8, проспект Георгія нарбута, п. 5", "target": "<CITY> Єланець </CITY> <STREET> Георгія нарбута </STREET> <TYPE> проспект </TYPE> <BUILD> 8 </BUILD> <ENTRANCE> 5 </ENTRANCE>"}
+{"input": "Припʼятський бульвар будинок 8", "target": "<CITY> Десна </CITY> <STREET> Припʼятський </STREET> <TYPE> бульвар </TYPE> <BUILD> 8 </BUILD>"}
+{"input": "Нова Пошта №186, 78996 Позняки", "target": "<ZIP> 78996 </ZIP> <DISTRICT> Позняки </DISTRICT> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 186 </BRANCH_ID>"}
+{"input": "провулок 2-й  н. сосніної, 62, Justin", "target": "<CITY> Первомайськ </CITY> <STREET> 2-й  н. сосніної </STREET> <TYPE> провулок </TYPE> <BUILD> 62 </BUILD> <PROVIDER> Justin </PROVIDER>"}
+{"input": "", "target": "<CITY> Біляївка </CITY>"}
+{"input": "№113, Ужгородська набережна район Позняки", "target": "<CITY> Дмитрівка </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Ужгородська </STREET> <TYPE> набережна </TYPE> <BUILD> 113 </BUILD>"}
+{"input": "Тракторний провулок, будинок 33, домофон 3667", "target": "<CITY> Краснокутськ </CITY> <STREET> Тракторний </STREET> <TYPE> провулок </TYPE> <BUILD> 33 </BUILD> <CODE> 3667 </CODE>"}
+{"input": "", "target": "<CITY> Шкло </CITY>"}
+{"input": "95, 47276, Дивізіонна вулиця, кв. 72, ЖК Олімп", "target": "<ZIP> 47276 </ZIP> <STREET> Дивізіонна </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Олімп </COMPLEX> <BUILD> 95 </BUILD> <ROOM> 72 </ROOM>"}
+{"input": "№81 кв 9, Треньова", "target": "<OBLAST> Запорізька область </OBLAST> <CITY> Сєверо-Гундорівський </CITY> <STREET> Треньова </STREET> <TYPE> вулиця </TYPE> <BUILD> 81 </BUILD> <ROOM> 9 </ROOM>"}
+{"input": "набережна Мороховецька №24/2", "target": "<CITY> Бучмани </CITY> <STREET> Мороховецька </STREET> <TYPE> набережна </TYPE> <BUILD> 24/2 </BUILD>"}
+{"input": "Рятівників", "target": "<CITY> Красноград </CITY> <STREET> Рятівників </STREET> <TYPE> провулок </TYPE>"}
+{"input": "площа Миру оф. 98 №129", "target": "<STREET> Миру </STREET> <TYPE> площа </TYPE> <BUILD> 129 </BUILD> <ROOM> 98 </ROOM>"}
+{"input": "", "target": "<CITY> Советский </CITY>"}
+{"input": "Олексія толстого, квартира 197, №137", "target": "<CITY> Чоповичі </CITY> <STREET> Олексія толстого </STREET> <TYPE> вулиця </TYPE> <BUILD> 137 </BUILD> <ROOM> 197 </ROOM>"}
+{"input": "буд. 27 Паляничний, (demo)", "target": "<CITY> Хотінь </CITY> <STREET> Паляничний </STREET> <TYPE> провулок </TYPE> <BUILD> 27 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "Валерія волкова вулиця кв 108, 37246, буд. 15", "target": "<ZIP> 37246 </ZIP> <STREET> Валерія волкова </STREET> <TYPE> вулиця </TYPE> <BUILD> 15 </BUILD> <ROOM> 108 </ROOM>"}
+{"input": "(demo), Нова Пошта", "target": "<CITY> Гвардейское </CITY> <PROVIDER> Нова Пошта </PROVIDER> <NOTE> demo </NOTE>"}
+{"input": "Соніна, будинок 47, квартира 197, АТБ, 2 поверх", "target": "<OBLAST> Запорізька область </OBLAST> <CITY> Чортомлик </CITY> <STREET> Соніна </STREET> <TYPE> вулиця </TYPE> <BUILD> 47 </BUILD> <FLOOR> 2 </FLOOR> <ROOM> 197 </ROOM> <POI> АТБ </POI>"}
+{"input": "64951 Павла голобородька вулиця, Поділ", "target": "<ZIP> 64951 </ZIP> <OBLAST> Кіровоградська область </OBLAST> <CITY> Бабанка </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Павла голобородька </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "ЖК Комфорт Таун", "target": "<CITY> Гірське </CITY> <COMPLEX> ЖК Комфорт Таун </COMPLEX>"}
+{"input": "62624 кв 194, провулок Фіньківський р-н Осокорки, будинок 137", "target": "<ZIP> 62624 </ZIP> <CITY> Красноторка </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Фіньківський </STREET> <TYPE> провулок </TYPE> <BUILD> 137 </BUILD> <ROOM> 194 </ROOM>"}
+{"input": "13/1, вулиця 900-річчя щирця 66985, оф. 139", "target": "<ZIP> 66985 </ZIP> <CITY> Пересічне </CITY> <STREET> 900-річчя щирця </STREET> <TYPE> вулиця </TYPE> <BUILD> 13/1 </BUILD> <ROOM> 139 </ROOM>"}
+{"input": "Justin (Філія), будинок 96 2-й ракітний провулок кв 82 (demo), 61974", "target": "<ZIP> 61974 </ZIP> <OBLAST> Полтавська область </OBLAST> <CITY> Бердичів </CITY> <STREET> 2-й ракітний </STREET> <TYPE> провулок </TYPE> <BUILD> 96 </BUILD> <ROOM> 82 </ROOM> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE> <NOTE> demo </NOTE>"}
+{"input": "п. 3, Укрпошта №160, (demo) Військовий узвіз, буд. 6", "target": "<STREET> Військовий </STREET> <TYPE> узвіз </TYPE> <BUILD> 6 </BUILD> <ENTRANCE> 3 </ENTRANCE> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_ID> 160 </BRANCH_ID> <NOTE> demo </NOTE>"}
+{"input": "75, Воскресенський", "target": "<CITY> Доброслав </CITY> <STREET> Воскресенський </STREET> <TYPE> узвіз </TYPE> <BUILD> 75 </BUILD>"}
+{"input": "", "target": ""}
+{"input": "район Позняки", "target": "<CITY> Світловодськ </CITY> <DISTRICT> Позняки </DISTRICT>"}
+{"input": "1-й квітучий провулок", "target": "<CITY> Сєверний </CITY> <STREET> 1-й квітучий </STREET> <TYPE> провулок </TYPE>"}
+{"input": "буд. 146, Rozetka (Каса), вулиця Трояндна", "target": "<CITY> Котельва </CITY> <STREET> Трояндна </STREET> <TYPE> вулиця </TYPE> <BUILD> 146 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE>"}
+{"input": "р-н Поділ", "target": "<CITY> Гірник </CITY> <DISTRICT> Поділ </DISTRICT>"}
+{"input": "р-н Осокорки", "target": "<DISTRICT> Осокорки </DISTRICT>"}
+{"input": "вулиця Мусоргського, поверх 10, кв 174 буд. 108", "target": "<CITY> Турка </CITY> <STREET> Мусоргського </STREET> <TYPE> вулиця </TYPE> <BUILD> 108 </BUILD> <FLOOR> 10 </FLOOR> <ROOM> 174 </ROOM>"}
+{"input": "кв 23 76, Миколи бажана", "target": "<CITY> Доброслав </CITY> <STREET> Миколи бажана </STREET> <TYPE> проспект </TYPE> <BUILD> 76 </BUILD> <ROOM> 23 </ROOM>"}
+{"input": "Нова Пошта, будинок 46, бульвар Ленина", "target": "<STREET> Ленина </STREET> <TYPE> бульвар </TYPE> <BUILD> 46 </BUILD> <PROVIDER> Нова Пошта </PROVIDER>"}
+{"input": "№113, Академіка курчатова п. 1", "target": "<CITY> Кам’янка </CITY> <STREET> Академіка курчатова </STREET> <TYPE> проспект </TYPE> <BUILD> 113 </BUILD> <ENTRANCE> 1 </ENTRANCE>"}
+{"input": "кв 93, Олександра цьопича 17 поверх, будинок 62В", "target": "<STREET> Олександра цьопича </STREET> <TYPE> вулиця </TYPE> <BUILD> 62В </BUILD> <FLOOR> 17 </FLOOR> <ROOM> 93 </ROOM>"}
+{"input": "будинок 92, Житній ринок площа, Позняки", "target": "<CITY> Чемерівці </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Житній ринок </STREET> <TYPE> площа </TYPE> <BUILD> 92 </BUILD>"}
+{"input": "№18, Шауляйська, 59584, кв 106", "target": "<ZIP> 59584 </ZIP> <CITY> Ков’яги </CITY> <STREET> Шауляйська </STREET> <TYPE> вулиця </TYPE> <BUILD> 18 </BUILD> <ROOM> 106 </ROOM>"}
+{"input": "Ковальова вулиця р-н Солом'янка, кв 68 123", "target": "<CITY> Кутейникове </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Ковальова </STREET> <TYPE> вулиця </TYPE> <BUILD> 123 </BUILD> <ROOM> 68 </ROOM>"}
+{"input": "Молодих патріотів вулиця, 105, Нова Пошта (Поштомат) №248, поверх 19", "target": "<CITY> Житомир </CITY> <STREET> Молодих патріотів </STREET> <TYPE> вулиця </TYPE> <BUILD> 105 </BUILD> <FLOOR> 19 </FLOOR> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE> <BRANCH_ID> 248 </BRANCH_ID>"}
+{"input": "провулок Золотаренка, буд. 8, п. 1, Нова Пошта (Каса) №179, кв. 7", "target": "<STREET> Золотаренка </STREET> <TYPE> провулок </TYPE> <BUILD> 8 </BUILD> <ENTRANCE> 1 </ENTRANCE> <ROOM> 7 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 179 </BRANCH_ID>"}
+{"input": "провулок Водостічний, 124 корп. 1", "target": "<CITY> Красятичі </CITY> <STREET> Водостічний </STREET> <TYPE> провулок </TYPE> <BUILD> 124 </BUILD> <CORP> 1 </CORP>"}
+{"input": "офіс 4 №66 Мазепи проспект", "target": "<CITY> Прудянка </CITY> <STREET> Мазепи </STREET> <TYPE> проспект </TYPE> <BUILD> 66 </BUILD> <ROOM> 4 </ROOM>"}
+{"input": "Rozetka №132, будинок 71 Щедріна вулиця", "target": "<CITY> Шепетівка </CITY> <STREET> Щедріна </STREET> <TYPE> вулиця </TYPE> <BUILD> 71 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 132 </BRANCH_ID>"}
+{"input": "Малий узвіз, буд. 91", "target": "<CITY> Ков’яги </CITY> <STREET> Малий </STREET> <TYPE> узвіз </TYPE> <BUILD> 91 </BUILD>"}
+{"input": "Адмирала перелешина я набережна, під'їзд 4, №7", "target": "<CITY> Манченки </CITY> <STREET> Адмирала перелешина я </STREET> <TYPE> набережна </TYPE> <BUILD> 7 </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "кв 163 40 74813, Селецький провулок", "target": "<ZIP> 74813 </ZIP> <CITY> Вашківці </CITY> <STREET> Селецький </STREET> <TYPE> провулок </TYPE> <BUILD> 40 </BUILD> <ROOM> 163 </ROOM>"}
+{"input": "ЖК Ліквувально, буд. 64 оф. 188 (demo) узвіз Канарський", "target": "<CITY> Аули </CITY> <STREET> Канарський </STREET> <TYPE> узвіз </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 64 </BUILD> <ROOM> 188 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "буд. 144, Канарський узвіз кв. 119", "target": "<CITY> Глухівці </CITY> <STREET> Канарський </STREET> <TYPE> узвіз </TYPE> <BUILD> 144 </BUILD> <ROOM> 119 </ROOM>"}
+{"input": "квартира 133, будинок 115 Олександра стовби провулок", "target": "<CITY> Солоницівка </CITY> <STREET> Олександра стовби </STREET> <TYPE> провулок </TYPE> <BUILD> 115 </BUILD> <ROOM> 133 </ROOM>"}
+{"input": "Виноградар, вулиця Казимира любомирського будинок 80", "target": "<CITY> Красногвардейское </CITY> <DISTRICT> Виноградар </DISTRICT> <STREET> Казимира любомирського </STREET> <TYPE> вулиця </TYPE> <BUILD> 80 </BUILD>"}
+{"input": "ЖК Комфорт Таун Сороківська", "target": "<STREET> Сороківська </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Комфорт Таун </COMPLEX>"}
+{"input": "Rozetka, код 8835, 36, Толстого вулиця, оф. 177", "target": "<STREET> Толстого </STREET> <TYPE> вулиця </TYPE> <BUILD> 36 </BUILD> <ROOM> 177 </ROOM> <CODE> 8835 </CODE> <PROVIDER> Rozetka </PROVIDER>"}
+{"input": "узвіз Фортечний, №91, оф. 200", "target": "<STREET> Фортечний </STREET> <TYPE> узвіз </TYPE> <BUILD> 91 </BUILD> <ROOM> 200 </ROOM>"}
+{"input": "№19, Нова Пошта провулок Удільний кв 147", "target": "<STREET> Удільний </STREET> <TYPE> провулок </TYPE> <BUILD> 19 </BUILD> <ROOM> 147 </ROOM> <PROVIDER> Нова Пошта </PROVIDER>"}
+{"input": "№150, Теодора скрипця вулиця", "target": "<CITY> Сиваське </CITY> <STREET> Теодора скрипця </STREET> <TYPE> вулиця </TYPE> <BUILD> 150 </BUILD>"}
+{"input": "Нова Пошта №286, 3-й  задніпровського, квартира 28, буд. 30", "target": "<CITY> Здолбунів </CITY> <STREET> 3-й  задніпровського </STREET> <TYPE> провулок </TYPE> <BUILD> 30 </BUILD> <ROOM> 28 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 286 </BRANCH_ID>"}
+{"input": "", "target": "<CITY> Сад </CITY>"}
+{"input": "№59, кв. 70, вулиця Новий світ", "target": "<OBLAST> Одеська область </OBLAST> <CITY> Городище </CITY> <STREET> Новий світ </STREET> <TYPE> вулиця </TYPE> <BUILD> 59 </BUILD> <ROOM> 70 </ROOM>"}
+{"input": "Брезаноці, будинок 86", "target": "<STREET> Брезаноці </STREET> <TYPE> площа </TYPE> <BUILD> 86 </BUILD>"}
+{"input": "р-н Печерськ, будинок 132/1 Паширова, кв. 83", "target": "<CITY> Ювілейне </CITY> <DISTRICT> Печерськ </DISTRICT> <STREET> Паширова </STREET> <TYPE> площа </TYPE> <BUILD> 132/1 </BUILD> <ROOM> 83 </ROOM>"}
+{"input": "квартира 191, 8 поверх, проспект Переможців 37907, Сільпо буд. 64", "target": "<ZIP> 37907 </ZIP> <STREET> Переможців </STREET> <TYPE> проспект </TYPE> <BUILD> 64 </BUILD> <FLOOR> 8 </FLOOR> <ROOM> 191 </ROOM> <POI> Сільпо </POI>"}
+{"input": "буд. 132 3-й  рубцова", "target": "<STREET> 3-й  рубцова </STREET> <TYPE> провулок </TYPE> <BUILD> 132 </BUILD>"}
+{"input": "квартира 69, Гідропроектовська вулиця, 88", "target": "<CITY> Краснопавлівка </CITY> <STREET> Гідропроектовська </STREET> <TYPE> вулиця </TYPE> <BUILD> 88 </BUILD> <ROOM> 69 </ROOM>"}
+{"input": "Єфремова провулок, буд. 60", "target": "<CITY> Андрушівка </CITY> <STREET> Єфремова </STREET> <TYPE> провулок </TYPE> <BUILD> 60 </BUILD>"}
+{"input": "вулиця Миколи глухенького, буд. 32, квартира 84", "target": "<OBLAST> Одеська область </OBLAST> <STREET> Миколи глухенького </STREET> <TYPE> вулиця </TYPE> <BUILD> 32 </BUILD> <ROOM> 84 </ROOM>"}
+{"input": "р-н Солом'янка домофон 4215, Темна вулиця, №112", "target": "<CITY> Комишуваха </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Темна </STREET> <TYPE> вулиця </TYPE> <BUILD> 112 </BUILD> <CODE> 4215 </CODE>"}
+{"input": "Любашевський провулок, будинок 131", "target": "<CITY> Монастирище </CITY> <STREET> Любашевський </STREET> <TYPE> провулок </TYPE> <BUILD> 131 </BUILD>"}
+{"input": "", "target": "<CITY> Донецький </CITY>"}
+{"input": "будинок 60, Каспійська", "target": "<CITY> Севастополь </CITY> <STREET> Каспійська </STREET> <TYPE> вулиця </TYPE> <BUILD> 60 </BUILD>"}
+{"input": "вулиця Олянича, №8", "target": "<OBLAST> Запорізька область </OBLAST> <STREET> Олянича </STREET> <TYPE> вулиця </TYPE> <BUILD> 8 </BUILD>"}
+{"input": "буд. 99/2, узвіз Скрипниківський", "target": "<CITY> Піщанка </CITY> <STREET> Скрипниківський </STREET> <TYPE> узвіз </TYPE> <BUILD> 99/2 </BUILD>"}
+{"input": "вулиця Пугачова , 1-й проїзд, Rozetka №140, ст. м. Олексіївська, №49", "target": "<CITY> Андріївка </CITY> <STREET> Пугачова , 1-й проїзд </STREET> <TYPE> вулиця </TYPE> <BUILD> 49 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 140 </BRANCH_ID> <POI> ст. м. Олексіївська </POI>"}
+{"input": "Веселий", "target": "<CITY> Деражня </CITY> <STREET> Веселий </STREET> <TYPE> провулок </TYPE>"}
+{"input": "133, під'їзд 4, Краснопільська площа, оф. 102", "target": "<CITY> Миропіль </CITY> <STREET> Краснопільська </STREET> <TYPE> площа </TYPE> <BUILD> 133 </BUILD> <ENTRANCE> 4 </ENTRANCE> <ROOM> 102 </ROOM>"}
+{"input": "буд. 100 кв 70 провулок Михайла артеменка", "target": "<CITY> Білолуцьк </CITY> <STREET> Михайла артеменка </STREET> <TYPE> провулок </TYPE> <BUILD> 100 </BUILD> <ROOM> 70 </ROOM>"}
+{"input": "домофон 7700 р-н Оболонь, Добрикова вулиця буд. 74", "target": "<CITY> Ворохта </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Добрикова </STREET> <TYPE> вулиця </TYPE> <BUILD> 74 </BUILD> <CODE> 7700 </CODE>"}
+{"input": "Леопольда ященка, 106", "target": "<OBLAST> Харківська область </OBLAST> <STREET> Леопольда ященка </STREET> <TYPE> провулок </TYPE> <BUILD> 106 </BUILD>"}
+{"input": "№7 площа Привокзальная дь, домофон 2315, 30814", "target": "<ZIP> 30814 </ZIP> <CITY> Мельниця-Подільська </CITY> <STREET> Привокзальная дь </STREET> <TYPE> площа </TYPE> <BUILD> 7 </BUILD> <CODE> 2315 </CODE>"}
+{"input": "домофон 4671 №76/2, квартира 133, 59370 Івана медицького вулиця", "target": "<ZIP> 59370 </ZIP> <STREET> Івана медицького </STREET> <TYPE> вулиця </TYPE> <BUILD> 76/2 </BUILD> <ROOM> 133 </ROOM> <CODE> 4671 </CODE>"}
+{"input": "42 корп. Б, 34263, офіс 54, 1-й  тропініна провулок", "target": "<ZIP> 34263 </ZIP> <CITY> Дебальцеве </CITY> <STREET> 1-й  тропініна </STREET> <TYPE> провулок </TYPE> <BUILD> 42 </BUILD> <CORP> Б </CORP> <ROOM> 54 </ROOM>"}
+{"input": "провулок Киянський кв 77, №143, Нова Пошта (Відділення) №150", "target": "<CITY> Хрустальний </CITY> <STREET> Киянський </STREET> <TYPE> провулок </TYPE> <BUILD> 143 </BUILD> <ROOM> 77 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE> <BRANCH_ID> 150 </BRANCH_ID>"}
+{"input": "Михайла фролова, 114 код 1769, 85291 кв 71", "target": "<ZIP> 85291 </ZIP> <CITY> Ямпіль </CITY> <STREET> Михайла фролова </STREET> <TYPE> вулиця </TYPE> <BUILD> 114 </BUILD> <ROOM> 71 </ROOM> <CODE> 1769 </CODE>"}
+{"input": "Піддубного вулиця, №149", "target": "<OBLAST> Хмельницька область </OBLAST> <CITY> Велика Багачка </CITY> <STREET> Піддубного </STREET> <TYPE> вулиця </TYPE> <BUILD> 149 </BUILD>"}
+{"input": "ЖК Гавань, набережна Улица я имени 60-летия ссср", "target": "<CITY> Чортків </CITY> <STREET> Улица я имени 60-летия ссср </STREET> <TYPE> набережна </TYPE> <COMPLEX> ЖК Гавань </COMPLEX>"}
+{"input": "будинок 17 домофон 7724, п. 1, Херсонський шлях", "target": "<CITY> Зідьки </CITY> <STREET> Херсонський шлях </STREET> <TYPE> вулиця </TYPE> <BUILD> 17 </BUILD> <ENTRANCE> 1 </ENTRANCE> <CODE> 7724 </CODE>"}
+{"input": "Ліснянський провулок поверх 7, кв. 162 будинок 114", "target": "<OBLAST> Запорізька область </OBLAST> <CITY> Українськ </CITY> <STREET> Ліснянський </STREET> <TYPE> провулок </TYPE> <BUILD> 114 </BUILD> <FLOOR> 7 </FLOOR> <ROOM> 162 </ROOM>"}
+{"input": "Justin №127, 27525 провулок Залютинський, №145, район Оболонь", "target": "<ZIP> 27525 </ZIP> <OBLAST> Одеська область </OBLAST> <CITY> Кутейникове </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Залютинський </STREET> <TYPE> провулок </TYPE> <BUILD> 145 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_ID> 127 </BRANCH_ID>"}
+{"input": "", "target": "<CITY> Біловодськ </CITY>"}
+{"input": "буд. 107, провулок Борідька", "target": "<STREET> Борідька </STREET> <TYPE> провулок </TYPE> <BUILD> 107 </BUILD>"}
+{"input": "р-н Позняки, оф. 41, буд. 5 Абрикосова", "target": "<CITY> Бойківське </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Абрикосова </STREET> <TYPE> вулиця </TYPE> <BUILD> 5 </BUILD> <ROOM> 41 </ROOM>"}
+{"input": "Лаборця набережна будинок 12, квартира 15", "target": "<CITY> Заболоття </CITY> <STREET> Лаборця </STREET> <TYPE> набережна </TYPE> <BUILD> 12 </BUILD> <ROOM> 15 </ROOM>"}
+{"input": "", "target": "<CITY> Захарівка </CITY>"}
+{"input": "Rozetka квартира 137 133А, Василя порика проспект", "target": "<OBLAST> Хмельницька область </OBLAST> <STREET> Василя порика </STREET> <TYPE> проспект </TYPE> <BUILD> 133А </BUILD> <ROOM> 137 </ROOM> <PROVIDER> Rozetka </PROVIDER>"}
+{"input": "Лаборця код 1412, будинок 32Б", "target": "<CITY> Новоселівка </CITY> <STREET> Лаборця </STREET> <TYPE> набережна </TYPE> <BUILD> 32Б </BUILD> <CODE> 1412 </CODE>"}
+{"input": "п. 4, буд. 86, Миколи дзявульського", "target": "<STREET> Миколи дзявульського </STREET> <TYPE> провулок </TYPE> <BUILD> 86 </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "", "target": ""}
+{"input": "", "target": "<CITY> Вугледар </CITY>"}
+{"input": "", "target": "<OBLAST> Харківська область </OBLAST> <CITY> Зуївка </CITY>"}
+{"input": "провулок Житомирський 4-й, р-н Позняки, 49", "target": "<CITY> Бродецьке </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Житомирський 4-й </STREET> <TYPE> провулок </TYPE> <BUILD> 49 </BUILD>"}
+{"input": "п. 2 квартира 151, №21, 19 поверх, набережна Зелена", "target": "<OBLAST> Запорізька область </OBLAST> <CITY> Улянівка </CITY> <STREET> Зелена </STREET> <TYPE> набережна </TYPE> <BUILD> 21 </BUILD> <ENTRANCE> 2 </ENTRANCE> <FLOOR> 19 </FLOOR> <ROOM> 151 </ROOM>"}
+{"input": "Солом'янка", "target": "<CITY> Южне </CITY> <DISTRICT> Солом'янка </DISTRICT>"}
+{"input": "Генерала острякова, будинок 78", "target": "<STREET> Генерала острякова </STREET> <TYPE> проспект </TYPE> <BUILD> 78 </BUILD>"}
+{"input": "Нова Пошта Осокорки", "target": "<CITY> Муровані Курилівці </CITY> <DISTRICT> Осокорки </DISTRICT> <PROVIDER> Нова Пошта </PROVIDER>"}
+{"input": "поверх 2, Загородний, буд. 79", "target": "<CITY> Дубно </CITY> <STREET> Загородний </STREET> <TYPE> провулок </TYPE> <BUILD> 79 </BUILD> <FLOOR> 2 </FLOOR>"}
+{"input": "буд. 69, під'їзд 4 провулок Ладигіна", "target": "<CITY> Ізмаїл </CITY> <STREET> Ладигіна </STREET> <TYPE> провулок </TYPE> <BUILD> 69 </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "", "target": ""}
+{"input": "Андрія грабенка 19725, кв 165 буд. 55", "target": "<ZIP> 19725 </ZIP> <CITY> Добрянка </CITY> <STREET> Андрія грабенка </STREET> <TYPE> вулиця </TYPE> <BUILD> 55 </BUILD> <ROOM> 165 </ROOM>"}
+{"input": "провулок Виробничий, №127", "target": "<CITY> Шпола </CITY> <STREET> Виробничий </STREET> <TYPE> провулок </TYPE> <BUILD> 127 </BUILD>"}
+{"input": "Святого николая дь площа, буд. 116", "target": "<CITY> Очаків </CITY> <STREET> Святого николая дь </STREET> <TYPE> площа </TYPE> <BUILD> 116 </BUILD>"}
+{"input": "", "target": "<OBLAST> Одеська область </OBLAST> <CITY> Брилівка </CITY>"}
+{"input": "будинок 7, Федора матушевського", "target": "<OBLAST> Хмельницька область </OBLAST> <CITY> Вахрушеве </CITY> <STREET> Федора матушевського </STREET> <TYPE> провулок </TYPE> <BUILD> 7 </BUILD>"}
+{"input": "33282, вулиця Праці буд. 28, офіс 84", "target": "<ZIP> 33282 </ZIP> <CITY> Парковое </CITY> <STREET> Праці </STREET> <TYPE> вулиця </TYPE> <BUILD> 28 </BUILD> <ROOM> 84 </ROOM>"}
+{"input": "бульвар Кобзаря, Укрпошта (Поштомат) №118, будинок 150 (demo)", "target": "<STREET> Кобзаря </STREET> <TYPE> бульвар </TYPE> <BUILD> 150 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE> <BRANCH_ID> 118 </BRANCH_ID> <NOTE> demo </NOTE>"}
+{"input": "", "target": "<CITY> Срібне </CITY>"}
+{"input": "7 поверх, 25-річчя ркка, квартира 72, №67", "target": "<CITY> Комишуваха </CITY> <STREET> 25-річчя ркка </STREET> <TYPE> проспект </TYPE> <BUILD> 67 </BUILD> <FLOOR> 7 </FLOOR> <ROOM> 72 </ROOM>"}
+{"input": "будинок 113 площа Культури", "target": "<CITY> Рівне </CITY> <STREET> Культури </STREET> <TYPE> площа </TYPE> <BUILD> 113 </BUILD>"}
+{"input": "Князя володимира великого, буд. 17 35785, кв. 98", "target": "<ZIP> 35785 </ZIP> <CITY> Васильків </CITY> <STREET> Князя володимира великого </STREET> <TYPE> проспект </TYPE> <BUILD> 17 </BUILD> <ROOM> 98 </ROOM>"}
+{"input": "", "target": "<CITY> Нижній Нагольчик </CITY>"}
+{"input": "№72, проспект Культури", "target": "<OBLAST> Київська область </OBLAST> <STREET> Культури </STREET> <TYPE> проспект </TYPE> <BUILD> 72 </BUILD>"}
+{"input": "Бойкий", "target": "<CITY> Великі Мости </CITY> <STREET> Бойкий </STREET> <TYPE> провулок </TYPE>"}
+{"input": "буд. 56 узвіз 4-й нижньогиївський", "target": "<CITY> Новодонецьке </CITY> <STREET> 4-й нижньогиївський </STREET> <TYPE> узвіз </TYPE> <BUILD> 56 </BUILD>"}
+{"input": "Укрпошта (Відділення)", "target": "<CITY> Охтирка </CITY> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE>"}
+{"input": "під'їзд 2, Польовий, №107, поверх 13", "target": "<STREET> Польовий </STREET> <TYPE> провулок </TYPE> <BUILD> 107 </BUILD> <ENTRANCE> 2 </ENTRANCE> <FLOOR> 13 </FLOOR>"}
+{"input": "№143, Азіатський Justin (Каса) №111", "target": "<CITY> Великодолинське </CITY> <STREET> Азіатський </STREET> <TYPE> провулок </TYPE> <BUILD> 143 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 111 </BRANCH_ID>"}
+{"input": "", "target": ""}
+{"input": "кв 52, Шахтарської слави, буд. 99/2, 33590", "target": "<ZIP> 33590 </ZIP> <OBLAST> Львівська область </OBLAST> <CITY> Гвіздець </CITY> <STREET> Шахтарської слави </STREET> <TYPE> бульвар </TYPE> <BUILD> 99/2 </BUILD> <ROOM> 52 </ROOM>"}
+{"input": "Крарійський, домофон 5454, ЖК Ліквувально ст. м. Берестейська, №140, кв. 13", "target": "<CITY> Курилівка </CITY> <STREET> Крарійський </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 140 </BUILD> <ROOM> 13 </ROOM> <CODE> 5454 </CODE> <POI> ст. м. Берестейська </POI>"}
+{"input": "бульвар Бірзульський, 72, офіс 127 35908", "target": "<ZIP> 35908 </ZIP> <STREET> Бірзульський </STREET> <TYPE> бульвар </TYPE> <BUILD> 72 </BUILD> <ROOM> 127 </ROOM>"}
+{"input": "буд. 117Б-Б Мисливський", "target": "<STREET> Мисливський </STREET> <TYPE> узвіз </TYPE> <BUILD> 117Б </BUILD> <CORP> Б </CORP>"}
+{"input": "п. 1, буд. 88, проспект Героев десантников", "target": "<STREET> Героев десантников </STREET> <TYPE> проспект </TYPE> <BUILD> 88 </BUILD> <ENTRANCE> 1 </ENTRANCE>"}
+{"input": "49856, будинок 74 2-й червоний провулок", "target": "<ZIP> 49856 </ZIP> <STREET> 2-й червоний </STREET> <TYPE> провулок </TYPE> <BUILD> 74 </BUILD>"}
+{"input": "буд. 113, Плавневий провулок, ЖК Гавань, п. 5", "target": "<CITY> Борова </CITY> <STREET> Плавневий </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Гавань </COMPLEX> <BUILD> 113 </BUILD> <ENTRANCE> 5 </ENTRANCE>"}
+{"input": "буд. 100, р-н Троєщина, вулиця Бажова", "target": "<OBLAST> Львівська область </OBLAST> <DISTRICT> Троєщина </DISTRICT> <STREET> Бажова </STREET> <TYPE> вулиця </TYPE> <BUILD> 100 </BUILD>"}
+{"input": "Братів міцкевичів будинок 84", "target": "<OBLAST> Київська область </OBLAST> <CITY> Звенигородка </CITY> <STREET> Братів міцкевичів </STREET> <TYPE> вулиця </TYPE> <BUILD> 84 </BUILD>"}
+{"input": "Обʼїзна дорога / обʼїзна, 88", "target": "<CITY> Первомайськ </CITY> <STREET> Обʼїзна дорога / обʼїзна </STREET> <TYPE> вулиця </TYPE> <BUILD> 88 </BUILD>"}
+{"input": "бульвар Амвросія бучми, будинок 73", "target": "<CITY> Шевченко </CITY> <STREET> Амвросія бучми </STREET> <TYPE> бульвар </TYPE> <BUILD> 73 </BUILD>"}
+{"input": "буд. 136, кв 113 набережна Студентська", "target": "<OBLAST> Київська область </OBLAST> <CITY> Рожище </CITY> <STREET> Студентська </STREET> <TYPE> набережна </TYPE> <BUILD> 136 </BUILD> <ROOM> 113 </ROOM>"}
+{"input": "квартира 28, 3-й тепличний провулок, 38", "target": "<CITY> Білики </CITY> <STREET> 3-й тепличний </STREET> <TYPE> провулок </TYPE> <BUILD> 38 </BUILD> <ROOM> 28 </ROOM>"}
+{"input": "69, оф. 137, Перемоги, під'їзд 3, 55650", "target": "<ZIP> 55650 </ZIP> <CITY> Корсунь </CITY> <STREET> Перемоги </STREET> <TYPE> площа </TYPE> <BUILD> 69 </BUILD> <ENTRANCE> 3 </ENTRANCE> <ROOM> 137 </ROOM>"}
+{"input": "Григорія донця", "target": "<STREET> Григорія донця </STREET> <TYPE> провулок </TYPE>"}
+{"input": "№38, квартира 32, Зенітна вулиця, 86869", "target": "<ZIP> 86869 </ZIP> <CITY> Вознесенськ </CITY> <STREET> Зенітна </STREET> <TYPE> вулиця </TYPE> <BUILD> 38 </BUILD> <ROOM> 32 </ROOM>"}
+{"input": "Нова Пошта №117, квартира 32, Якова гандзюка, 6 поверх буд. 61", "target": "<CITY> Бабаї </CITY> <STREET> Якова гандзюка </STREET> <TYPE> вулиця </TYPE> <BUILD> 61 </BUILD> <FLOOR> 6 </FLOOR> <ROOM> 32 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 117 </BRANCH_ID>"}
+{"input": "ЖК Комфорт Таун Троєщина", "target": "<CITY> Новооржицьке </CITY> <DISTRICT> Троєщина </DISTRICT> <COMPLEX> ЖК Комфорт Таун </COMPLEX>"}
+{"input": "Нова Пошта №276, Хіміків проспект будинок 93", "target": "<CITY> Енгельсове </CITY> <STREET> Хіміків </STREET> <TYPE> проспект </TYPE> <BUILD> 93 </BUILD> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 276 </BRANCH_ID>"}
+{"input": "набережна Ботанічна ст. м. Академіка Павлова ЖК Парк, 125Б", "target": "<CITY> Перегінське </CITY> <STREET> Ботанічна </STREET> <TYPE> набережна </TYPE> <COMPLEX> ЖК Парк </COMPLEX> <BUILD> 125Б </BUILD> <POI> ст. м. Академіка Павлова </POI>"}
+{"input": "40, провулок Отамана бондарука", "target": "<CITY> Нововоронцовка </CITY> <STREET> Отамана бондарука </STREET> <TYPE> провулок </TYPE> <BUILD> 40 </BUILD>"}
+{"input": "", "target": "<CITY> Любеч </CITY>"}
+{"input": "2-й  білоусівський узвіз", "target": "<STREET> 2-й  білоусівський узвіз </STREET> <TYPE> провулок </TYPE>"}
+{"input": "будинок 129, провулок Прохідний, р-н Печерськ", "target": "<CITY> Кринична </CITY> <DISTRICT> Печерськ </DISTRICT> <STREET> Прохідний </STREET> <TYPE> провулок </TYPE> <BUILD> 129 </BUILD>"}
+{"input": "кв. 35, поверх 8, Івана нечуя-левицького будинок 55", "target": "<CITY> Комишани </CITY> <STREET> Івана нечуя-левицького </STREET> <TYPE> проспект </TYPE> <BUILD> 55 </BUILD> <FLOOR> 8 </FLOOR> <ROOM> 35 </ROOM>"}
+{"input": "ЖК Ліквувально, №24Б вулиця Бердо кв 176", "target": "<CITY> Гоголеве </CITY> <STREET> Бердо </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 24Б </BUILD> <ROOM> 176 </ROOM>"}
+{"input": "148 корп. Б, бульвар Приозерний, Виноградар, 46100, квартира 77", "target": "<ZIP> 46100 </ZIP> <DISTRICT> Виноградар </DISTRICT> <STREET> Приозерний </STREET> <TYPE> бульвар </TYPE> <BUILD> 148 </BUILD> <CORP> Б </CORP> <ROOM> 77 </ROOM>"}
+{"input": "кв 169, будинок 65 бульвар Молодіжний", "target": "<STREET> Молодіжний </STREET> <TYPE> бульвар </TYPE> <BUILD> 65 </BUILD> <ROOM> 169 </ROOM>"}
+{"input": "Rozetka, Торпедний провулок", "target": "<STREET> Торпедний </STREET> <TYPE> провулок </TYPE> <PROVIDER> Rozetka </PROVIDER>"}
+{"input": "будинок 101", "target": "<CITY> Зміїв </CITY> <STREET> nan </STREET> <TYPE> набережна </TYPE> <BUILD> 101 </BUILD>"}
+{"input": "Левка мацієвича вулиця будинок 37", "target": "<STREET> Левка мацієвича </STREET> <TYPE> вулиця </TYPE> <BUILD> 37 </BUILD>"}
+{"input": "вулиця Всебратське-2, будинок 33/2", "target": "<STREET> Всебратське-2 </STREET> <TYPE> вулиця </TYPE> <BUILD> 33/2 </BUILD>"}
+{"input": "Демиденка вулиця, №127", "target": "<CITY> Лебедин </CITY> <STREET> Демиденка </STREET> <TYPE> вулиця </TYPE> <BUILD> 127 </BUILD>"}
+{"input": "буд. 114 вулиця Шкляра", "target": "<CITY> Чорноморськ </CITY> <STREET> Шкляра </STREET> <TYPE> вулиця </TYPE> <BUILD> 114 </BUILD>"}
+{"input": "будинок 84 Гаврилюка вулиця", "target": "<STREET> Гаврилюка </STREET> <TYPE> вулиця </TYPE> <BUILD> 84 </BUILD>"}
+{"input": "квартира 121, площа Героїв чорнобиля, №99", "target": "<STREET> Героїв чорнобиля </STREET> <TYPE> площа </TYPE> <BUILD> 99 </BUILD> <ROOM> 121 </ROOM>"}
+{"input": "№36 вулиця 8-ма  ентузіастів", "target": "<CITY> Тацине </CITY> <STREET> 8-ма  ентузіастів </STREET> <TYPE> вулиця </TYPE> <BUILD> 36 </BUILD>"}
+{"input": "ЖК Ліквувально Автозаводська, буд. 85 кв. 103", "target": "<CITY> Гвіздець </CITY> <STREET> Автозаводська </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 85 </BUILD> <ROOM> 103 </ROOM>"}
+{"input": "", "target": "<CITY> Южноукраїнськ </CITY>"}
+{"input": "Острозького бульвар кв 99, буд. 121", "target": "<CITY> Тересва </CITY> <STREET> Острозького </STREET> <TYPE> бульвар </TYPE> <BUILD> 121 </BUILD> <ROOM> 99 </ROOM>"}
+{"input": "кв. 119, 4, Петра власенка", "target": "<CITY> Софіївка </CITY> <STREET> Петра власенка </STREET> <TYPE> вулиця </TYPE> <BUILD> 4 </BUILD> <ROOM> 119 </ROOM>"}
+{"input": "буд. 106, кв 23, Западинський провулок", "target": "<STREET> Западинський </STREET> <TYPE> провулок </TYPE> <BUILD> 106 </BUILD> <ROOM> 23 </ROOM>"}
+{"input": "ст. м. Південний вокзал", "target": "<CITY> Косів </CITY> <POI> ст. м. Південний вокзал </POI>"}
+{"input": "93919 Олега жука, №73", "target": "<ZIP> 93919 </ZIP> <CITY> Малокатеринівка </CITY> <STREET> Олега жука </STREET> <TYPE> вулиця </TYPE> <BUILD> 73 </BUILD>"}
+{"input": "район Осокорки", "target": "<CITY> Немішаєве </CITY> <DISTRICT> Осокорки </DISTRICT>"}
+{"input": "", "target": ""}
+{"input": "район Оболонь Олексіївський провулок, №118", "target": "<CITY> Кегичівка </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Олексіївський </STREET> <TYPE> провулок </TYPE> <BUILD> 118 </BUILD>"}
+{"input": "домофон 8623, Лисичівка вулиця будинок 121 кв 131", "target": "<CITY> Березанка </CITY> <STREET> Лисичівка </STREET> <TYPE> вулиця </TYPE> <BUILD> 121 </BUILD> <ROOM> 131 </ROOM> <CODE> 8623 </CODE>"}
+{"input": "район Позняки", "target": "<OBLAST> Одеська область </OBLAST> <DISTRICT> Позняки </DISTRICT>"}
+{"input": "кв 155 Будівників, 138", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Олександрівка </CITY> <STREET> Будівників </STREET> <TYPE> вулиця </TYPE> <BUILD> 138 </BUILD> <ROOM> 155 </ROOM>"}
+{"input": "ЖК Ліквувально провулок 2-й  опанаса сластіона буд. 39", "target": "<STREET> 2-й  опанаса сластіона </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 39 </BUILD>"}
+{"input": "6 поверх, буд. 26, Талимонівьска вулиця", "target": "<STREET> Талимонівьска </STREET> <TYPE> вулиця </TYPE> <BUILD> 26 </BUILD> <FLOOR> 6 </FLOOR>"}
+{"input": "кв 16 88 вулиця Ігоря романенка", "target": "<CITY> Іванівка </CITY> <STREET> Ігоря романенка </STREET> <TYPE> вулиця </TYPE> <BUILD> 88 </BUILD> <ROOM> 16 </ROOM>"}
+{"input": "кв 96 буд. 114, Соніна", "target": "<CITY> Мирноград </CITY> <STREET> Соніна </STREET> <TYPE> вулиця </TYPE> <BUILD> 114 </BUILD> <ROOM> 96 </ROOM>"}
+{"input": "Тельмана 2 провулок", "target": "<CITY> Скалат </CITY> <STREET> Тельмана 2 </STREET> <TYPE> провулок </TYPE>"}
+{"input": "№102 узвіз Видрівецький", "target": "<CITY> Дніпрорудне </CITY> <STREET> Видрівецький </STREET> <TYPE> узвіз </TYPE> <BUILD> 102 </BUILD>"}
+{"input": "Андрія чайковського, Justin №254, №72", "target": "<CITY> Перещепине </CITY> <STREET> Андрія чайковського </STREET> <TYPE> площа </TYPE> <BUILD> 72 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_ID> 254 </BRANCH_ID>"}
+{"input": "ЖК Парк, 106 Осокорки бульвар Незалежності", "target": "<CITY> Дубно </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Незалежності </STREET> <TYPE> бульвар </TYPE> <COMPLEX> ЖК Парк </COMPLEX> <BUILD> 106 </BUILD>"}
+{"input": "вулиця Гайового код 7741, буд. 115", "target": "<STREET> Гайового </STREET> <TYPE> вулиця </TYPE> <BUILD> 115 </BUILD> <CODE> 7741 </CODE>"}
+{"input": "Волонтерівська, №140", "target": "<OBLAST> Кіровоградська область </OBLAST> <STREET> Волонтерівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 140 </BUILD>"}
+{"input": "вулиця Євгенії любомської", "target": "<CITY> Новий Буг </CITY> <STREET> Євгенії любомської </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "провулок Козаків, 115", "target": "<CITY> Бойківське </CITY> <STREET> Козаків </STREET> <TYPE> провулок </TYPE> <BUILD> 115 </BUILD>"}
+{"input": "п. 3, 50-річчя радянської україни бульвар, буд. 61", "target": "<CITY> Нагольно-Тарасівка </CITY> <STREET> 50-річчя радянської україни </STREET> <TYPE> бульвар </TYPE> <BUILD> 61 </BUILD> <ENTRANCE> 3 </ENTRANCE>"}
+{"input": "р-н Позняки №66, Кодацький", "target": "<DISTRICT> Позняки </DISTRICT> <STREET> Кодацький </STREET> <TYPE> узвіз </TYPE> <BUILD> 66 </BUILD>"}
+{"input": "провулок 1-й радянський буд. 147 офіс 125", "target": "<CITY> Корюківка </CITY> <STREET> 1-й радянський </STREET> <TYPE> провулок </TYPE> <BUILD> 147 </BUILD> <ROOM> 125 </ROOM>"}
+{"input": "№118, квартира 125, площа Уланська р-н Оболонь 12512", "target": "<ZIP> 12512 </ZIP> <CITY> Старомихайлівка </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Уланська </STREET> <TYPE> площа </TYPE> <BUILD> 118 </BUILD> <ROOM> 125 </ROOM>"}
+{"input": "Солом'янка", "target": "<DISTRICT> Солом'янка </DISTRICT> <CORP> 2 </CORP>"}
+{"input": "вулиця Хуторок, буд. 10", "target": "<CITY> Білицьке </CITY> <STREET> Хуторок </STREET> <TYPE> вулиця </TYPE> <BUILD> 10 </BUILD>"}
+{"input": "Б. хмельницького провулок, Автовокзал", "target": "<CITY> Підгородне </CITY> <STREET> Б. хмельницького </STREET> <TYPE> провулок </TYPE> <POI> Автовокзал </POI>"}
+{"input": "Луніна проспект буд. 146, Укрпошта (Каса) №72", "target": "<CITY> Куликівка </CITY> <STREET> Луніна </STREET> <TYPE> проспект </TYPE> <BUILD> 146 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 72 </BRANCH_ID>"}
+{"input": "Клеменова дача, будинок 56, 17345", "target": "<ZIP> 17345 </ZIP> <STREET> Клеменова дача </STREET> <TYPE> вулиця </TYPE> <BUILD> 56 </BUILD>"}
+{"input": "№49, Трубників проспект", "target": "<CITY> Вишково </CITY> <STREET> Трубників </STREET> <TYPE> проспект </TYPE> <BUILD> 49 </BUILD>"}
+{"input": "Нова Пошта №109, Карамзіна, будинок 35", "target": "<CITY> Андрушівка </CITY> <STREET> Карамзіна </STREET> <TYPE> вулиця </TYPE> <BUILD> 35 </BUILD> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 109 </BRANCH_ID>"}
+{"input": "квартира 140, вулиця Назаренка, 106Б, Нова Пошта (Філія) №66", "target": "<CITY> Неліпівка </CITY> <STREET> Назаренка </STREET> <TYPE> вулиця </TYPE> <BUILD> 106Б </BUILD> <ROOM> 140 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE> <BRANCH_ID> 66 </BRANCH_ID>"}
+{"input": "Rozetka (Парцел), Глібова вулиця", "target": "<CITY> Рожнятів </CITY> <STREET> Глібова </STREET> <TYPE> вулиця </TYPE> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE>"}
+{"input": "провулок Мостовий", "target": "<CITY> Іванівка </CITY> <STREET> Мостовий </STREET> <TYPE> провулок </TYPE>"}
+{"input": "поверх 6, Кузінський, район Оболонь, 22/Б", "target": "<OBLAST> Київська область </OBLAST> <CITY> Устилуг </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Кузінський </STREET> <TYPE> узвіз </TYPE> <BUILD> 22 </BUILD> <CORP> Б </CORP> <FLOOR> 6 </FLOOR>"}
+{"input": "буд. 100/1, 85323, район Позняки Улица восточная я, Нова Пошта (Філія) №180, під'їзд 3", "target": "<ZIP> 85323 </ZIP> <CITY> Царичанка </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Улица восточная я </STREET> <TYPE> набережна </TYPE> <BUILD> 100/1 </BUILD> <ENTRANCE> 3 </ENTRANCE> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE> <BRANCH_ID> 180 </BRANCH_ID>"}
+{"input": "78Б п. 4, вулиця Велика арнаутська квартира 110", "target": "<CITY> Білокуракине </CITY> <STREET> Велика арнаутська </STREET> <TYPE> вулиця </TYPE> <BUILD> 78Б </BUILD> <ENTRANCE> 4 </ENTRANCE> <ROOM> 110 </ROOM>"}
+{"input": "бульвар Марії примаченко, 149", "target": "<CITY> Зуя </CITY> <STREET> Марії примаченко </STREET> <TYPE> бульвар </TYPE> <BUILD> 149 </BUILD>"}
+{"input": "ЖК Гавань", "target": "<CITY> Гнівань </CITY> <COMPLEX> ЖК Гавань </COMPLEX>"}
+{"input": "узвіз Клочківський, №99/1, ЖК Преміум", "target": "<CITY> Дергачі </CITY> <STREET> Клочківський </STREET> <TYPE> узвіз </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 99/1 </BUILD>"}
+{"input": "будинок 148 Нова Пошта (Поштомат) №186, Вуглерозвідників вулиця", "target": "<CITY> Яблунів </CITY> <STREET> Вуглерозвідників </STREET> <TYPE> вулиця </TYPE> <BUILD> 148 </BUILD> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE> <BRANCH_ID> 186 </BRANCH_ID>"}
+{"input": "район Троєщина, 78630, Малий узвіз 15 офіс 176, Нова Пошта (Поштомат)", "target": "<ZIP> 78630 </ZIP> <CITY> Дніпро </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Малий </STREET> <TYPE> узвіз </TYPE> <BUILD> 15 </BUILD> <ROOM> 176 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE>"}
+{"input": "135Б, провулок Варанкіна кв. 64", "target": "<CITY> Хмільник </CITY> <STREET> Варанкіна </STREET> <TYPE> провулок </TYPE> <BUILD> 135Б </BUILD> <ROOM> 64 </ROOM>"}
+{"input": "Дяченка вулиця, квартира 92 132, район Осокорки, 5 поверх", "target": "<CITY> Сад </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Дяченка </STREET> <TYPE> вулиця </TYPE> <BUILD> 132 </BUILD> <FLOOR> 5 </FLOOR> <ROOM> 92 </ROOM>"}
+{"input": "вулиця Олександра какалюка, будинок 3, Укрпошта (Відділення) №97, п. 5", "target": "<CITY> Козацьке </CITY> <STREET> Олександра какалюка </STREET> <TYPE> вулиця </TYPE> <BUILD> 3 </BUILD> <ENTRANCE> 5 </ENTRANCE> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE> <BRANCH_ID> 97 </BRANCH_ID>"}
+{"input": "буд. 46, Орлова квартира 140", "target": "<CITY> Хоростків </CITY> <STREET> Орлова </STREET> <TYPE> провулок </TYPE> <BUILD> 46 </BUILD> <ROOM> 140 </ROOM>"}
+{"input": "вулиця Янівська, код 7461 буд. 52", "target": "<CITY> Покотилівка </CITY> <STREET> Янівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 52 </BUILD> <CODE> 7461 </CODE>"}
+{"input": "Євгена маланюка, 64, кв. 151, 81566", "target": "<ZIP> 81566 </ZIP> <STREET> Євгена маланюка </STREET> <TYPE> площа </TYPE> <BUILD> 64 </BUILD> <ROOM> 151 </ROOM>"}
+{"input": "будинок 118 проспект Героев десантников, квартира 170", "target": "<CITY> Чорний Острів </CITY> <STREET> Героев десантников </STREET> <TYPE> проспект </TYPE> <BUILD> 118 </BUILD> <ROOM> 170 </ROOM>"}
+{"input": "Нова Пошта (Парцел) №52, ст. м. Гідропарк, провулок Ізюмський будинок 27/1, п. 4", "target": "<CITY> Добровеличківка </CITY> <STREET> Ізюмський </STREET> <TYPE> провулок </TYPE> <BUILD> 27/1 </BUILD> <ENTRANCE> 4 </ENTRANCE> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE> <BRANCH_ID> 52 </BRANCH_ID> <POI> ст. м. Гідропарк </POI>"}
+{"input": "ЖК Львівський", "target": "<CITY> Чуднів </CITY> <COMPLEX> ЖК Львівський </COMPLEX>"}
+{"input": "буд. 148, Осокорки, Сторожевая я", "target": "<CITY> Олександрівка </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Сторожевая я </STREET> <TYPE> набережна </TYPE> <BUILD> 148 </BUILD>"}
+{"input": "Укрпошта (Філія), 69, бульвар Чорновола", "target": "<CITY> Корнин </CITY> <STREET> Чорновола </STREET> <TYPE> бульвар </TYPE> <BUILD> 69 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE>"}
+{"input": "16997, оф. 28, №130, Святих кирила та мефодія проспект", "target": "<ZIP> 16997 </ZIP> <CITY> Седнів </CITY> <STREET> Святих кирила та мефодія </STREET> <TYPE> проспект </TYPE> <BUILD> 130 </BUILD> <ROOM> 28 </ROOM>"}
+{"input": "143 10 поверх, квартира 107 бульвар Вечірній", "target": "<STREET> Вечірній </STREET> <TYPE> бульвар </TYPE> <BUILD> 143 </BUILD> <FLOOR> 10 </FLOOR> <ROOM> 107 </ROOM>"}
+{"input": "Слави 77А", "target": "<STREET> Слави </STREET> <TYPE> проспект </TYPE> <BUILD> 77А </BUILD>"}
+{"input": "район Печерськ, 4, узвіз Пересипський", "target": "<CITY> Калинівка </CITY> <DISTRICT> Печерськ </DISTRICT> <STREET> Пересипський </STREET> <TYPE> узвіз </TYPE> <BUILD> 4 </BUILD>"}
+{"input": "Блажка провулок", "target": "<STREET> Блажка </STREET> <TYPE> провулок </TYPE>"}
+{"input": "", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Енгельсове </CITY>"}
+{"input": "Поділ, Укрпошта, будинок 77 площа Адміралтейська", "target": "<CITY> Хрустальний </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Адміралтейська </STREET> <TYPE> площа </TYPE> <BUILD> 77 </BUILD> <PROVIDER> Укрпошта </PROVIDER>"}
+{"input": "кв 42, 113 корп. А, 23470, Олександра вишневецького вулиця", "target": "<ZIP> 23470 </ZIP> <STREET> Олександра вишневецького </STREET> <TYPE> вулиця </TYPE> <BUILD> 113 </BUILD> <CORP> А </CORP> <ROOM> 42 </ROOM>"}
+{"input": "Шепельова вулиця, Осокорки №18, Нова Пошта (Відділення)", "target": "<OBLAST> Одеська область </OBLAST> <CITY> Гуляйполе </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Шепельова </STREET> <TYPE> вулиця </TYPE> <BUILD> 18 </BUILD> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE>"}
+{"input": "будинок 75 провулок Інзова", "target": "<CITY> Щёлкино </CITY> <STREET> Інзова </STREET> <TYPE> провулок </TYPE> <BUILD> 75 </BUILD>"}
+{"input": "76728, оф. 151, Брезаноці площа будинок 40", "target": "<ZIP> 76728 </ZIP> <CITY> Делятин </CITY> <STREET> Брезаноці </STREET> <TYPE> площа </TYPE> <BUILD> 40 </BUILD> <ROOM> 151 </ROOM>"}
+{"input": "122 2-й  матерієнко, код 9987, р-н Оболонь, оф. 141", "target": "<CITY> Дрогобич </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> 2-й  матерієнко </STREET> <TYPE> провулок </TYPE> <BUILD> 122 </BUILD> <ROOM> 141 </ROOM> <CODE> 9987 </CODE>"}
+{"input": "буд. 143 Данила галицького площа", "target": "<CITY> Залізничне </CITY> <STREET> Данила галицького </STREET> <TYPE> площа </TYPE> <BUILD> 143 </BUILD>"}
+{"input": "Rozetka (Поштомат) №198, під'їзд 1, Десантників, будинок 47А, код 9357", "target": "<STREET> Десантників </STREET> <TYPE> провулок </TYPE> <BUILD> 47А </BUILD> <ENTRANCE> 1 </ENTRANCE> <CODE> 9357 </CODE> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE> <BRANCH_ID> 198 </BRANCH_ID>"}
+{"input": "р-н Солом'янка", "target": "<CITY> Розділ </CITY> <DISTRICT> Солом'янка </DISTRICT>"}
+{"input": "буд. 18В, Рєпіна", "target": "<CITY> Балаклія </CITY> <STREET> Рєпіна </STREET> <TYPE> провулок </TYPE> <BUILD> 18В </BUILD>"}
+{"input": "Андрія пʼясецького будинок 11", "target": "<CITY> Луцьк </CITY> <STREET> Андрія пʼясецького </STREET> <TYPE> вулиця </TYPE> <BUILD> 11 </BUILD>"}
+{"input": "ст. м. Оболонь, Бойко-павлова вулиця, Justin (Відділення), буд. 64", "target": "<CITY> Тересва </CITY> <STREET> Бойко-павлова </STREET> <TYPE> вулиця </TYPE> <BUILD> 64 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE> <POI> ст. м. Оболонь </POI>"}
+{"input": "", "target": "<OBLAST> Хмельницька область </OBLAST>"}
+{"input": "район Солом'янка, Ф. пішеніна вулиця, №24-1", "target": "<CITY> Контарне </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Ф. пішеніна </STREET> <TYPE> вулиця </TYPE> <BUILD> 24 </BUILD> <CORP> 1 </CORP>"}
+{"input": "Осокорки", "target": "<OBLAST> Київська область </OBLAST> <CITY> Гайсин </CITY> <DISTRICT> Осокорки </DISTRICT>"}
+{"input": "вулиця С. тулуба будинок 58-Б Солом'янка, офіс 86 поверх 13", "target": "<CITY> Букачівці </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> С. тулуба </STREET> <TYPE> вулиця </TYPE> <BUILD> 58 </BUILD> <CORP> Б </CORP> <FLOOR> 13 </FLOOR> <ROOM> 86 </ROOM>"}
+{"input": "район Осокорки 33562", "target": "<ZIP> 33562 </ZIP> <DISTRICT> Осокорки </DISTRICT>"}
+{"input": "", "target": ""}
+{"input": "проспект Індустріальний, (demo) буд. 131, район Троєщина", "target": "<CITY> Берегомет </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Індустріальний </STREET> <TYPE> проспект </TYPE> <BUILD> 131 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "", "target": ""}
+{"input": "Ленінський, Rozetka (Каса) будинок 113", "target": "<CITY> Рава-Руська </CITY> <STREET> Ленінський </STREET> <TYPE> проспект </TYPE> <BUILD> 113 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE>"}
+{"input": "", "target": ""}
+{"input": "узвіз Самарський будинок 91В", "target": "<CITY> Мельниця-Подільська </CITY> <STREET> Самарський </STREET> <TYPE> узвіз </TYPE> <BUILD> 91В </BUILD>"}
+{"input": "район Поділ, 47/2, площа Кафедральна Rozetka (Філія) №297", "target": "<CITY> Ямпіль </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Кафедральна </STREET> <TYPE> площа </TYPE> <BUILD> 47/2 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE> <BRANCH_ID> 297 </BRANCH_ID>"}
+{"input": "домофон 2566, ст. м. Видубичі, 44, провулок 1-й  старосілля, кв. 139", "target": "<CITY> Покров </CITY> <STREET> 1-й  старосілля </STREET> <TYPE> провулок </TYPE> <BUILD> 44 </BUILD> <ROOM> 139 </ROOM> <CODE> 2566 </CODE> <POI> ст. м. Видубичі </POI>"}
+{"input": "6 поверх, кв 100, 109 Колесня вулиця", "target": "<CITY> Благовіщенське </CITY> <STREET> Колесня </STREET> <TYPE> вулиця </TYPE> <BUILD> 109 </BUILD> <FLOOR> 6 </FLOOR> <ROOM> 100 </ROOM>"}
+{"input": "Івана драча будинок 33, район Оболонь", "target": "<CITY> Миколаїв </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Івана драча </STREET> <TYPE> провулок </TYPE> <BUILD> 33 </BUILD>"}
+{"input": "Р. макухи вулиця будинок 18 район Виноградар", "target": "<DISTRICT> Виноградар </DISTRICT> <STREET> Р. макухи </STREET> <TYPE> вулиця </TYPE> <BUILD> 18 </BUILD>"}
+{"input": "Мира проспект, №20, п. 1", "target": "<CITY> Турка </CITY> <STREET> Мира </STREET> <TYPE> проспект </TYPE> <BUILD> 20 </BUILD> <ENTRANCE> 1 </ENTRANCE>"}
+{"input": "", "target": "<CITY> Замглай </CITY>"}
+{"input": "Покровська буд. 72/2 60876", "target": "<ZIP> 60876 </ZIP> <STREET> Покровська </STREET> <TYPE> площа </TYPE> <BUILD> 72 </BUILD> <CORP> 2 </CORP>"}
+{"input": "вулиця Зелена долина, 58848, кв. 19, 129", "target": "<ZIP> 58848 </ZIP> <STREET> Зелена долина </STREET> <TYPE> вулиця </TYPE> <BUILD> 129 </BUILD> <ROOM> 19 </ROOM>"}
+{"input": "кв. 146, провулок В. омельського, ЖК Львівський, будинок 118, Троєщина", "target": "<CITY> Щастя </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> В. омельського </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Львівський </COMPLEX> <BUILD> 118 </BUILD> <ROOM> 146 </ROOM>"}
+{"input": "Виноградар №106 2-й  софії русової провулок", "target": "<DISTRICT> Виноградар </DISTRICT> <STREET> 2-й  софії русової </STREET> <TYPE> провулок </TYPE> <BUILD> 106 </BUILD>"}
+{"input": "Геолога лисенка вулиця буд. 43", "target": "<CITY> Новоселиця </CITY> <STREET> Геолога лисенка </STREET> <TYPE> вулиця </TYPE> <BUILD> 43 </BUILD>"}
+{"input": "", "target": ""}
+{"input": "14937 будинок 29, провулок Куїнджі", "target": "<ZIP> 14937 </ZIP> <STREET> Куїнджі </STREET> <TYPE> провулок </TYPE> <BUILD> 29 </BUILD>"}
+{"input": "оф. 78 п. 3, буд. 59/1, Василя стуса, Нова Пошта (Поштомат) №84", "target": "<CITY> Липовець </CITY> <STREET> Василя стуса </STREET> <TYPE> проспект </TYPE> <BUILD> 59 </BUILD> <CORP> 1 </CORP> <ENTRANCE> 3 </ENTRANCE> <ROOM> 78 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE> <BRANCH_ID> 84 </BRANCH_ID>"}
+{"input": "(demo)", "target": "<CITY> Іллінці </CITY> <NOTE> demo </NOTE>"}
+{"input": "оф. 170 ЖК Центр, 2-й  гніванське шосе, буд. 142", "target": "<CITY> Массандра </CITY> <STREET> 2-й  гніванське шосе </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Центр </COMPLEX> <BUILD> 142 </BUILD> <ROOM> 170 </ROOM>"}
+{"input": "Богдана хмельницького, 94 Укрпошта (Поштомат), (demo)", "target": "<CITY> Саки </CITY> <STREET> Богдана хмельницького </STREET> <TYPE> проспект </TYPE> <BUILD> 94 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE> <NOTE> demo </NOTE>"}
+{"input": "(demo), район Печерськ, ст. м. Палац спорту, 61604, вулиця Юліана ступака буд. 113", "target": "<ZIP> 61604 </ZIP> <CITY> Єланець </CITY> <DISTRICT> Печерськ </DISTRICT> <STREET> Юліана ступака </STREET> <TYPE> вулиця </TYPE> <BUILD> 113 </BUILD> <POI> ст. м. Палац спорту </POI> <NOTE> demo </NOTE>"}
+{"input": "№2, 19 поверх, Вуд.", "target": "<CITY> Чаплине </CITY> <STREET> Вуд. </STREET> <TYPE> набережна </TYPE> <BUILD> 2 </BUILD> <FLOOR> 19 </FLOOR>"}
+{"input": "буд. 110, Інгульський, кв. 101", "target": "<CITY> Сквира </CITY> <STREET> Інгульський </STREET> <TYPE> узвіз </TYPE> <BUILD> 110 </BUILD> <ROOM> 101 </ROOM>"}
+{"input": "квартира 137, Академіка василя кременя буд. 113", "target": "<OBLAST> Запорізька область </OBLAST> <CITY> Васищеве </CITY> <STREET> Академіка василя кременя </STREET> <TYPE> вулиця </TYPE> <BUILD> 113 </BUILD> <ROOM> 137 </ROOM>"}
+{"input": "район Солом'янка", "target": "<CITY> Бабинці </CITY> <DISTRICT> Солом'янка </DISTRICT>"}
+{"input": "№115, ст. м. Ботанічний сад, Енді воргола", "target": "<CITY> Городок </CITY> <STREET> Енді воргола </STREET> <TYPE> площа </TYPE> <BUILD> 115 </BUILD> <POI> ст. м. Ботанічний сад </POI>"}
+{"input": "кв. 165, буд. 17, проспект Садовий", "target": "<STREET> Садовий </STREET> <TYPE> проспект </TYPE> <BUILD> 17 </BUILD> <ROOM> 165 </ROOM>"}
+{"input": "Укрпошта 22 корп. А Виноградар вулиця Володимира сачека", "target": "<DISTRICT> Виноградар </DISTRICT> <STREET> Володимира сачека </STREET> <TYPE> вулиця </TYPE> <BUILD> 22 </BUILD> <CORP> А </CORP> <PROVIDER> Укрпошта </PROVIDER>"}
+{"input": "Justin (Пункт видачі), 2-й веселий провулок", "target": "<STREET> 2-й веселий </STREET> <TYPE> провулок </TYPE> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE>"}
+{"input": "62В O. островського провулок", "target": "<CITY> Короп </CITY> <STREET> O. островського </STREET> <TYPE> провулок </TYPE> <BUILD> 62В </BUILD>"}
+{"input": "вулиця Явірна", "target": "<STREET> Явірна </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "40, 1-й  новоселецької", "target": "<STREET> 1-й  новоселецької </STREET> <TYPE> провулок </TYPE> <BUILD> 40 </BUILD>"}
+{"input": "Шевченка бульвар, будинок 107 корп. Б квартира 164, код 9501", "target": "<STREET> Шевченка </STREET> <TYPE> бульвар </TYPE> <BUILD> 107 </BUILD> <CORP> Б </CORP> <ROOM> 164 </ROOM> <CODE> 9501 </CODE>"}
+{"input": "Віталія кулікова, №108, 92363", "target": "<ZIP> 92363 </ZIP> <OBLAST> Львівська область </OBLAST> <CITY> Радивилів </CITY> <STREET> Віталія кулікова </STREET> <TYPE> вулиця </TYPE> <BUILD> 108 </BUILD>"}
+{"input": "Машинобудівників, №109", "target": "<STREET> Машинобудівників </STREET> <TYPE> бульвар </TYPE> <BUILD> 109 </BUILD>"}
+{"input": "", "target": "<CITY> Нові Білокоровичі </CITY>"}
+{"input": "будинок 107 200-річчя херсона проспект, Нова Пошта (Пункт видачі) №210, під'їзд 1", "target": "<CITY> Нова Борова </CITY> <STREET> 200-річчя херсона </STREET> <TYPE> проспект </TYPE> <BUILD> 107 </BUILD> <ENTRANCE> 1 </ENTRANCE> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE> <BRANCH_ID> 210 </BRANCH_ID>"}
+{"input": "49 вулиця Володимира примаченка", "target": "<CITY> Токмак </CITY> <STREET> Володимира примаченка </STREET> <TYPE> вулиця </TYPE> <BUILD> 49 </BUILD>"}
+{"input": "під'їзд 3 Олександра тербана вулиця Печерськ, будинок 94", "target": "<DISTRICT> Печерськ </DISTRICT> <STREET> Олександра тербана </STREET> <TYPE> вулиця </TYPE> <BUILD> 94 </BUILD> <ENTRANCE> 3 </ENTRANCE>"}
+{"input": "будинок 137, Лева городецького провулок", "target": "<OBLAST> Дніпропетровська область </OBLAST> <CITY> Лиманчук </CITY> <STREET> Лева городецького </STREET> <TYPE> провулок </TYPE> <BUILD> 137 </BUILD>"}
+{"input": "оф. 60, буд. 32 провулок 9-й волочаївський", "target": "<CITY> Покровське </CITY> <STREET> 9-й волочаївський </STREET> <TYPE> провулок </TYPE> <BUILD> 32 </BUILD> <ROOM> 60 </ROOM>"}
+{"input": "будинок 133, кв 154, площа Советская дь", "target": "<CITY> Макошине </CITY> <STREET> Советская дь </STREET> <TYPE> площа </TYPE> <BUILD> 133 </BUILD> <ROOM> 154 </ROOM>"}
+{"input": "провулок Євгенія войцехівського (demo), кв 86, р-н Позняки, буд. 9", "target": "<CITY> Болград </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Євгенія войцехівського </STREET> <TYPE> провулок </TYPE> <BUILD> 9 </BUILD> <ROOM> 86 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "", "target": "<OBLAST> Полтавська область </OBLAST> <CITY> Дубляни </CITY>"}
+{"input": "Виноградар", "target": "<CITY> Райське </CITY> <DISTRICT> Виноградар </DISTRICT>"}
+{"input": "", "target": ""}
+{"input": "кв. 169, провулок 2-й  лисенка, 99, район Поділ", "target": "<CITY> Никифорове </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> 2-й  лисенка </STREET> <TYPE> провулок </TYPE> <BUILD> 99 </BUILD> <ROOM> 169 </ROOM>"}
+{"input": "буд. 141 Сонячний бульвар", "target": "<CITY> Великодолинське </CITY> <STREET> Сонячний </STREET> <TYPE> бульвар </TYPE> <BUILD> 141 </BUILD>"}
+{"input": "Овсія голдовського р-н Оболонь, №17 квартира 59 69407, Укрпошта (Поштомат)", "target": "<ZIP> 69407 </ZIP> <CITY> Печеніжин </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Овсія голдовського </STREET> <TYPE> вулиця </TYPE> <BUILD> 17 </BUILD> <ROOM> 59 </ROOM> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE>"}
+{"input": "Васнецова", "target": "<STREET> Васнецова </STREET> <TYPE> проспект </TYPE>"}
+{"input": "№102, Осокорки, провулок Калнишевського", "target": "<CITY> Чорноморськ </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Калнишевського </STREET> <TYPE> провулок </TYPE> <BUILD> 102 </BUILD>"}
+{"input": "р-н Троєщина", "target": "<CITY> Степанівка </CITY> <DISTRICT> Троєщина </DISTRICT>"}
+{"input": "р-н Позняки, кв 14 (demo), Нова Пошта (Поштомат) №94, буд. 58, вулиця Хомченко", "target": "<CITY> Дубляни </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Хомченко </STREET> <TYPE> вулиця </TYPE> <BUILD> 58 </BUILD> <ROOM> 14 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE> <BRANCH_ID> 94 </BRANCH_ID> <NOTE> demo </NOTE>"}
+{"input": "Нова Пошта №154, район Оболонь", "target": "<CITY> Старий Салтів </CITY> <DISTRICT> Оболонь </DISTRICT> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 154 </BRANCH_ID>"}
+{"input": "86, Цельори, кв 182", "target": "<CITY> Батурин </CITY> <STREET> Цельори </STREET> <TYPE> вулиця </TYPE> <BUILD> 86 </BUILD> <ROOM> 182 </ROOM>"}
+{"input": "", "target": "<CITY> Немішаєве </CITY>"}
+{"input": "кв. 56 Зозулі провулок будинок 4", "target": "<OBLAST> Київська область </OBLAST> <CITY> Чорноморське </CITY> <STREET> Зозулі </STREET> <TYPE> провулок </TYPE> <BUILD> 4 </BUILD> <ROOM> 56 </ROOM>"}
+{"input": "Квартальний провулок, 30751, 10 поверх буд. 28В кв 25", "target": "<ZIP> 30751 </ZIP> <CITY> Яремче </CITY> <STREET> Квартальний </STREET> <TYPE> провулок </TYPE> <BUILD> 28В </BUILD> <FLOOR> 10 </FLOOR> <ROOM> 25 </ROOM>"}
+{"input": "ст. м. Олексіївська, Rozetka р-н Поділ", "target": "<CITY> Новогродівка </CITY> <DISTRICT> Поділ </DISTRICT> <PROVIDER> Rozetka </PROVIDER> <POI> ст. м. Олексіївська </POI>"}
+{"input": "буд. 76, Десенський", "target": "<CITY> Здолбунів </CITY> <STREET> Десенський </STREET> <TYPE> провулок </TYPE> <BUILD> 76 </BUILD>"}
+{"input": "р-н Солом'янка кв. 76 Тінистий бульвар, будинок 79 п. 2", "target": "<CITY> Скороходове </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Тінистий </STREET> <TYPE> бульвар </TYPE> <BUILD> 79 </BUILD> <ENTRANCE> 2 </ENTRANCE> <ROOM> 76 </ROOM>"}
+{"input": "ЖК Комфорт Таун Назарія яремчука", "target": "<CITY> Березівка </CITY> <STREET> Назарія яремчука </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Комфорт Таун </COMPLEX>"}
+{"input": "58647, будинок 100 Корабелів", "target": "<ZIP> 58647 </ZIP> <STREET> Корабелів </STREET> <TYPE> проспект </TYPE> <BUILD> 100 </BUILD>"}
+{"input": "вулиця Малинівська №126 квартира 64", "target": "<STREET> Малинівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 126 </BUILD> <ROOM> 64 </ROOM>"}
+{"input": "10974, будинок 144, Мегедівська вулиця", "target": "<ZIP> 10974 </ZIP> <STREET> Мегедівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 144 </BUILD>"}
+{"input": "код 2561, квартира 146, буд. 37 корп. 2, вулиця Святоволодимирівська", "target": "<CITY> Дружба </CITY> <STREET> Святоволодимирівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 37 </BUILD> <CORP> 2 </CORP> <ROOM> 146 </ROOM> <CODE> 2561 </CODE>"}
+{"input": "Немишлянська буд. 117, кв 102, ст. м. Металургів", "target": "<OBLAST> Полтавська область </OBLAST> <STREET> Немишлянська </STREET> <TYPE> набережна </TYPE> <BUILD> 117 </BUILD> <ROOM> 102 </ROOM> <POI> ст. м. Металургів </POI>"}
+{"input": "вулиця Миролюбівська, буд. 140В", "target": "<CITY> Голубой Залив </CITY> <STREET> Миролюбівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 140В </BUILD>"}
+{"input": "10280", "target": "<ZIP> 10280 </ZIP> <CITY> Вольное </CITY>"}
+{"input": "147 Балабаєва вулиця під'їзд 4, квартира 85, Оболонь", "target": "<DISTRICT> Оболонь </DISTRICT> <STREET> Балабаєва </STREET> <TYPE> вулиця </TYPE> <BUILD> 147 </BUILD> <ENTRANCE> 4 </ENTRANCE> <ROOM> 85 </ROOM>"}
+{"input": "№130, 5-й  петра сагайдачного провулок кв. 170", "target": "<CITY> Біляївка </CITY> <STREET> 5-й  петра сагайдачного </STREET> <TYPE> провулок </TYPE> <BUILD> 130 </BUILD> <ROOM> 170 </ROOM>"}
+{"input": "будинок 64, кв. 19, провулок Тимірязєва", "target": "<CITY> Дубляни </CITY> <STREET> Тимірязєва </STREET> <TYPE> провулок </TYPE> <BUILD> 64 </BUILD> <ROOM> 19 </ROOM>"}
+{"input": "", "target": "<CITY> Кобеляки </CITY>"}
+{"input": "35 Воскресенський проспект", "target": "<OBLAST> Дніпропетровська область </OBLAST> <CITY> Білогорівка </CITY> <STREET> Воскресенський </STREET> <TYPE> проспект </TYPE> <BUILD> 35 </BUILD>"}
+{"input": "Машинобудівників бульвар, Троєщина", "target": "<CITY> Погребище </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Машинобудівників </STREET> <TYPE> бульвар </TYPE>"}
+{"input": "1-й  панаса мирного провулок, будинок 71", "target": "<CITY> Миронівка </CITY> <STREET> 1-й  панаса мирного </STREET> <TYPE> провулок </TYPE> <BUILD> 71 </BUILD>"}
+{"input": "р-н Оболонь 3-й клубний, №109, 74992, Justin №170", "target": "<ZIP> 74992 </ZIP> <CITY> Парафіївка </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> 3-й клубний </STREET> <TYPE> провулок </TYPE> <BUILD> 109 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_ID> 170 </BRANCH_ID>"}
+{"input": "квартира 158, проспект Театральний, 23 п. 5", "target": "<STREET> Театральний </STREET> <TYPE> проспект </TYPE> <BUILD> 23 </BUILD> <ENTRANCE> 5 </ENTRANCE> <ROOM> 158 </ROOM>"}
+{"input": "буд. 149, район Поділ, квартира 108, Лепішка вулиця (demo)", "target": "<CITY> Новотроїцьке </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Лепішка </STREET> <TYPE> вулиця </TYPE> <BUILD> 149 </BUILD> <ROOM> 108 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "Оболонь, Івана павла ii вулиця, Нова Пошта (Філія)", "target": "<CITY> Гоголеве </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Івана павла ii </STREET> <TYPE> вулиця </TYPE> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE>"}
+{"input": "буд. 109А провулок Потьомкіна, Укрпошта", "target": "<CITY> Вовковинці </CITY> <STREET> Потьомкіна </STREET> <TYPE> провулок </TYPE> <BUILD> 109А </BUILD> <PROVIDER> Укрпошта </PROVIDER>"}
+{"input": "під'їзд 5 Олександра колодуба, будинок 64", "target": "<STREET> Олександра колодуба </STREET> <TYPE> вулиця </TYPE> <BUILD> 64 </BUILD> <ENTRANCE> 5 </ENTRANCE>"}
+{"input": "24314, буд. 73, Кудрявський узвіз", "target": "<ZIP> 24314 </ZIP> <CITY> Дубровиця </CITY> <STREET> Кудрявський </STREET> <TYPE> узвіз </TYPE> <BUILD> 73 </BUILD>"}
+{"input": "буд. 49А, Я корнилова набережна", "target": "<STREET> Я корнилова </STREET> <TYPE> набережна </TYPE> <BUILD> 49А </BUILD>"}
+{"input": "№52, (demo) Хлєбнікова", "target": "<STREET> Хлєбнікова </STREET> <TYPE> вулиця </TYPE> <BUILD> 52 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "Соловʼяненка", "target": "<STREET> Соловʼяненка </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "будинок 120, Крарійський провулок, кв 11", "target": "<STREET> Крарійський </STREET> <TYPE> провулок </TYPE> <BUILD> 120 </BUILD> <ROOM> 11 </ROOM>"}
+{"input": "ЖК Ліквувально, Радулинський провулок, Rozetka №264", "target": "<CITY> Василівка </CITY> <STREET> Радулинський </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 264 </BRANCH_ID>"}
+{"input": "Нова Пошта (Пункт видачі) №287", "target": "<CITY> Єлизаветградка </CITY> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE> <BRANCH_ID> 287 </BRANCH_ID>"}
+{"input": "Нова Пошта (Пункт видачі)", "target": "<CITY> Липовець </CITY> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE>"}
+{"input": "Журавлівська, район Позняки, (demo), будинок 81, кв. 87", "target": "<CITY> Онуфріївка </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Журавлівська </STREET> <TYPE> набережна </TYPE> <BUILD> 81 </BUILD> <ROOM> 87 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "провулок Каменярів, №18 12 поверх", "target": "<CITY> Зоринськ </CITY> <STREET> Каменярів </STREET> <TYPE> провулок </TYPE> <BUILD> 18 </BUILD> <FLOOR> 12 </FLOOR>"}
+{"input": "ЖК Преміум, 29, Гайдея вулиця", "target": "<CITY> Зноб-Новгородське </CITY> <STREET> Гайдея </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 29 </BUILD>"}
+{"input": "Укрпошта №91 Патріса лумумби, буд. 25", "target": "<CITY> Веселе </CITY> <STREET> Патріса лумумби </STREET> <TYPE> вулиця </TYPE> <BUILD> 25 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_ID> 91 </BRANCH_ID>"}
+{"input": "ЖК Гавань", "target": "<CITY> Пантелеймонівка </CITY> <COMPLEX> ЖК Гавань </COMPLEX>"}
+{"input": "Нова Пошта вулиця Братів черняків №65А, кв 183", "target": "<STREET> Братів черняків </STREET> <TYPE> вулиця </TYPE> <BUILD> 65А </BUILD> <ROOM> 183 </ROOM> <PROVIDER> Нова Пошта </PROVIDER>"}
+{"input": "35, Нетіченський ЖК Ліквувально, поверх 3", "target": "<CITY> Щотове </CITY> <STREET> Нетіченський </STREET> <TYPE> бульвар </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 35 </BUILD> <FLOOR> 3 </FLOOR>"}
+{"input": "Шпиль будинок 19, р-н Троєщина", "target": "<DISTRICT> Троєщина </DISTRICT> <STREET> Шпиль </STREET> <TYPE> вулиця </TYPE> <BUILD> 19 </BUILD>"}
+{"input": "Учительський провулок, 102В", "target": "<OBLAST> Запорізька область </OBLAST> <CITY> Скала-Подільська </CITY> <STREET> Учительський </STREET> <TYPE> провулок </TYPE> <BUILD> 102В </BUILD>"}
+{"input": "Рилєєва", "target": "<STREET> Рилєєва </STREET> <TYPE> провулок </TYPE>"}
+{"input": "кв. 2, Олени степанів провулок, №30", "target": "<STREET> Олени степанів </STREET> <TYPE> провулок </TYPE> <BUILD> 30 </BUILD> <ROOM> 2 </ROOM>"}
+{"input": "4-й нижньогиївський, буд. 140/2, домофон 3502, Нова Пошта (Пункт видачі)", "target": "<CITY> Монастириська </CITY> <STREET> 4-й нижньогиївський </STREET> <TYPE> узвіз </TYPE> <BUILD> 140/2 </BUILD> <CODE> 3502 </CODE> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE>"}
+{"input": "район Солом'янка", "target": "<DISTRICT> Солом'янка </DISTRICT>"}
+{"input": "74, Романтична, квартира 52", "target": "<STREET> Романтична </STREET> <TYPE> набережна </TYPE> <BUILD> 74 </BUILD> <ROOM> 52 </ROOM>"}
+{"input": "(demo), кв. 70, 1-й  кирила розумовського провулок №10/1", "target": "<CITY> Баранівка </CITY> <STREET> 1-й  кирила розумовського </STREET> <TYPE> провулок </TYPE> <BUILD> 10/1 </BUILD> <ROOM> 70 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "провулок 1-й фіалковий, Justin (Каса), буд. 43", "target": "<CITY> Ківшарівка </CITY> <STREET> 1-й фіалковий </STREET> <TYPE> провулок </TYPE> <BUILD> 43 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE>"}
+{"input": "Стубелевича, кв 82, будинок 41", "target": "<OBLAST> Одеська область </OBLAST> <STREET> Стубелевича </STREET> <TYPE> вулиця </TYPE> <BUILD> 41 </BUILD> <ROOM> 82 </ROOM>"}
+{"input": "буд. 45, Маріупольський, р-н Солом'янка, п. 1", "target": "<CITY> Арциз </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Маріупольський </STREET> <TYPE> провулок </TYPE> <BUILD> 45 </BUILD> <ENTRANCE> 1 </ENTRANCE>"}
+{"input": "ст. м. Лук'янівська набережна Гімназійна", "target": "<CITY> Бібрка </CITY> <STREET> Гімназійна </STREET> <TYPE> набережна </TYPE> <POI> ст. м. Лук'янівська </POI>"}
+{"input": "Степового, Позняки кв. 2, буд. 91, 81550", "target": "<ZIP> 81550 </ZIP> <CITY> Головне </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Степового </STREET> <TYPE> вулиця </TYPE> <BUILD> 91 </BUILD> <ROOM> 2 </ROOM>"}
+{"input": "бульвар Десантний, п. 4, №82", "target": "<CITY> Борислав </CITY> <STREET> Десантний </STREET> <TYPE> бульвар </TYPE> <BUILD> 82 </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "62, Богдана хмельницького, п. 5, 13 поверх кв. 120", "target": "<CITY> Свердловськ </CITY> <STREET> Богдана хмельницького </STREET> <TYPE> площа </TYPE> <BUILD> 62 </BUILD> <ENTRANCE> 5 </ENTRANCE> <FLOOR> 13 </FLOOR> <ROOM> 120 </ROOM>"}
+{"input": "89740, кв 114, буд. 9/2, 6-й  леоніда каденюка", "target": "<ZIP> 89740 </ZIP> <CITY> Брацлав </CITY> <STREET> 6-й  леоніда каденюка </STREET> <TYPE> провулок </TYPE> <BUILD> 9/2 </BUILD> <ROOM> 114 </ROOM>"}
+{"input": "1 поверх Олекси діхтяря, №96 оф. 120", "target": "<CITY> Ленино </CITY> <STREET> Олекси діхтяря </STREET> <TYPE> вулиця </TYPE> <BUILD> 96 </BUILD> <FLOOR> 1 </FLOOR> <ROOM> 120 </ROOM>"}
+{"input": "домофон 6515, 101, вулиця Погідна", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Саки </CITY> <STREET> Погідна </STREET> <TYPE> вулиця </TYPE> <BUILD> 101 </BUILD> <CODE> 6515 </CODE>"}
+{"input": "будинок 87/Б, Геологічна вулиця, кв. 90", "target": "<CITY> Камінь-Каширський </CITY> <STREET> Геологічна </STREET> <TYPE> вулиця </TYPE> <BUILD> 87 </BUILD> <CORP> Б </CORP> <ROOM> 90 </ROOM>"}
+{"input": "провулок Героїв танкістів, кв. 73, 55", "target": "<OBLAST> Дніпропетровська область </OBLAST> <CITY> Олика </CITY> <STREET> Героїв танкістів </STREET> <TYPE> провулок </TYPE> <BUILD> 55 </BUILD> <ROOM> 73 </ROOM>"}
+{"input": "офіс 49, будинок 150, вулиця Братів потабашних", "target": "<OBLAST> Київська область </OBLAST> <CITY> Велика Олександрівка </CITY> <STREET> Братів потабашних </STREET> <TYPE> вулиця </TYPE> <BUILD> 150 </BUILD> <ROOM> 49 </ROOM>"}
+{"input": "Крутий, кв. 179, буд. 3", "target": "<OBLAST> Львівська область </OBLAST> <STREET> Крутий </STREET> <TYPE> узвіз </TYPE> <BUILD> 3 </BUILD> <ROOM> 179 </ROOM>"}
+{"input": "будинок 27, кв 13, Тетерівський узвіз", "target": "<CITY> Нова Маячка </CITY> <STREET> Тетерівський </STREET> <TYPE> узвіз </TYPE> <BUILD> 27 </BUILD> <ROOM> 13 </ROOM>"}
+{"input": "буд. 81, ст. м. Холодна гора, Катедральна", "target": "<CITY> Нью-Йорк </CITY> <STREET> Катедральна </STREET> <TYPE> площа </TYPE> <BUILD> 81 </BUILD> <POI> ст. м. Холодна гора </POI>"}
+{"input": "116/1, Журавлівська, ст. м. Видубичі, ЖК Комфорт Таун", "target": "<CITY> Першотравенськ </CITY> <STREET> Журавлівська </STREET> <TYPE> набережна </TYPE> <COMPLEX> ЖК Комфорт Таун </COMPLEX> <BUILD> 116/1 </BUILD> <POI> ст. м. Видубичі </POI>"}
+{"input": "будинок 149, кв 65, Олександра матросова вулиця", "target": "<CITY> Чоповичі </CITY> <STREET> Олександра матросова </STREET> <TYPE> вулиця </TYPE> <BUILD> 149 </BUILD> <ROOM> 65 </ROOM>"}
+{"input": "99, Лаборця набережна, кв. 143, район Осокорки", "target": "<CITY> Фащівка </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Лаборця </STREET> <TYPE> набережна </TYPE> <BUILD> 99 </BUILD> <ROOM> 143 </ROOM>"}
+{"input": "55168, ТРЦ Dream Town район Троєщина Rozetka (Поштомат) №102", "target": "<ZIP> 55168 </ZIP> <DISTRICT> Троєщина </DISTRICT> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE> <BRANCH_ID> 102 </BRANCH_ID> <POI> ТРЦ Dream Town </POI>"}
+{"input": "вулиця Ліпецька", "target": "<CITY> Світлодарськ </CITY> <STREET> Ліпецька </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "Поділ, (demo), кв. 125 Архітектора дяченка вулиця буд. 14", "target": "<CITY> Пересічне </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Архітектора дяченка </STREET> <TYPE> вулиця </TYPE> <BUILD> 14 </BUILD> <ROOM> 125 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "квартира 59, Рубіновий бульвар, р-н Поділ, буд. 136, 63946", "target": "<ZIP> 63946 </ZIP> <CITY> Стара Ушиця </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Рубіновий </STREET> <TYPE> бульвар </TYPE> <BUILD> 136 </BUILD> <ROOM> 59 </ROOM>"}
+{"input": "вулиця 9-та  ентузіастів, офіс 17, буд. 125", "target": "<CITY> Контарне </CITY> <STREET> 9-та  ентузіастів </STREET> <TYPE> вулиця </TYPE> <BUILD> 125 </BUILD> <ROOM> 17 </ROOM>"}
+{"input": "провулок Зінаїди мурачевської, будинок 61", "target": "<CITY> Дніпряни </CITY> <STREET> Зінаїди мурачевської </STREET> <TYPE> провулок </TYPE> <BUILD> 61 </BUILD>"}
+{"input": "Івана мазура провулок, ЖК Преміум квартира 187, буд. 51", "target": "<STREET> Івана мазура </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 51 </BUILD> <ROOM> 187 </ROOM>"}
+{"input": "Укрпошта (Філія) №209", "target": "<PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE> <BRANCH_ID> 209 </BRANCH_ID>"}
+{"input": "48983, кв 124, вулиця Г. перебийноса буд. 7", "target": "<ZIP> 48983 </ZIP> <OBLAST> Хмельницька область </OBLAST> <CITY> Станиця Луганська </CITY> <STREET> Г. перебийноса </STREET> <TYPE> вулиця </TYPE> <BUILD> 7 </BUILD> <ROOM> 124 </ROOM>"}
+{"input": "провулок Городський Justin 95625, буд. 62, п. 2", "target": "<ZIP> 95625 </ZIP> <CITY> Броди </CITY> <STREET> Городський </STREET> <TYPE> провулок </TYPE> <BUILD> 62 </BUILD> <ENTRANCE> 2 </ENTRANCE> <PROVIDER> Justin </PROVIDER>"}
+{"input": "офіс 142, вулиця Омеляновича-павленка, будинок 8", "target": "<CITY> Війтівці </CITY> <STREET> Омеляновича-павленка </STREET> <TYPE> вулиця </TYPE> <BUILD> 8 </BUILD> <ROOM> 142 </ROOM>"}
+{"input": "Нова Пошта, Осокорки", "target": "<CITY> Горлівка </CITY> <DISTRICT> Осокорки </DISTRICT> <PROVIDER> Нова Пошта </PROVIDER>"}
+{"input": "Академіка жлуктенка, 105", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Київ </CITY> <STREET> Академіка жлуктенка </STREET> <TYPE> провулок </TYPE> <BUILD> 105 </BUILD>"}
+{"input": "Антарктична, 135, р-н Оболонь", "target": "<CITY> Ківшарівка </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Антарктична </STREET> <TYPE> вулиця </TYPE> <BUILD> 135 </BUILD>"}
+{"input": "Rozetka (Парцел) №268 54817", "target": "<ZIP> 54817 </ZIP> <CITY> Головне </CITY> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE> <BRANCH_ID> 268 </BRANCH_ID>"}
+{"input": "Суб груеце, будинок 75 Укрпошта (Каса) №114", "target": "<CITY> Старий Самбір </CITY> <STREET> Суб груеце </STREET> <TYPE> вулиця </TYPE> <BUILD> 75 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 114 </BRANCH_ID>"}
+{"input": "буд. 66, квартира 146 Rozetka №248, набережна Гімназійна, (demo)", "target": "<CITY> Нововолинськ </CITY> <STREET> Гімназійна </STREET> <TYPE> набережна </TYPE> <BUILD> 66 </BUILD> <ROOM> 146 </ROOM> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 248 </BRANCH_ID> <NOTE> demo </NOTE>"}
+{"input": "Солом'янка, проспект Київський буд. 24", "target": "<DISTRICT> Солом'янка </DISTRICT> <STREET> Київський </STREET> <TYPE> проспект </TYPE> <BUILD> 24 </BUILD>"}
+{"input": "квартира 7 №84, узвіз Мандриківський Солом'янка, Rozetka №46", "target": "<CITY> Мирне </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Мандриківський </STREET> <TYPE> узвіз </TYPE> <BUILD> 84 </BUILD> <ROOM> 7 </ROOM> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 46 </BRANCH_ID>"}
+{"input": "№116, Григорія сковороди, 18 поверх р-н Троєщина під'їзд 4", "target": "<DISTRICT> Троєщина </DISTRICT> <STREET> Григорія сковороди </STREET> <TYPE> вулиця </TYPE> <BUILD> 116 </BUILD> <ENTRANCE> 4 </ENTRANCE> <FLOOR> 18 </FLOOR>"}
+{"input": "ЖК Олімп", "target": "<COMPLEX> ЖК Олімп </COMPLEX>"}
+{"input": "ЖК Гавань", "target": "<COMPLEX> ЖК Гавань </COMPLEX>"}
+{"input": "Православна", "target": "<STREET> Православна </STREET> <TYPE> набережна </TYPE>"}
+{"input": "під'їзд 2, квартира 177 буд. 17, Літкє вулиця", "target": "<CITY> Привілля </CITY> <STREET> Літкє </STREET> <TYPE> вулиця </TYPE> <BUILD> 17 </BUILD> <ENTRANCE> 2 </ENTRANCE> <ROOM> 177 </ROOM>"}
+{"input": "провулок Ольги кобилянської", "target": "<OBLAST> Харківська область </OBLAST> <STREET> Ольги кобилянської </STREET> <TYPE> провулок </TYPE>"}
+{"input": "оф. 98, будинок 88 корп. 2 Шевченка площа район Осокорки", "target": "<CITY> Тульчин </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Шевченка </STREET> <TYPE> площа </TYPE> <BUILD> 88 </BUILD> <CORP> 2 </CORP> <ROOM> 98 </ROOM>"}
+{"input": "38 Трачів вулиця, Justin", "target": "<STREET> Трачів </STREET> <TYPE> вулиця </TYPE> <BUILD> 38 </BUILD> <PROVIDER> Justin </PROVIDER>"}
+{"input": "провулок Нагорного, (demo), будинок 8", "target": "<STREET> Нагорного </STREET> <TYPE> провулок </TYPE> <BUILD> 8 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "квартира 94, вулиця Виноградська, будинок 117", "target": "<CITY> Калинівка </CITY> <STREET> Виноградська </STREET> <TYPE> вулиця </TYPE> <BUILD> 117 </BUILD> <ROOM> 94 </ROOM>"}
+{"input": "будинок 6А, вулиця Малишка андрія, п. 4, 30138", "target": "<ZIP> 30138 </ZIP> <CITY> Олишівка </CITY> <STREET> Малишка андрія </STREET> <TYPE> вулиця </TYPE> <BUILD> 6А </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "ЖК Парк, 73733, Краєвидний", "target": "<ZIP> 73733 </ZIP> <STREET> Краєвидний </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Парк </COMPLEX>"}
+{"input": "провулок Довгополого, 34В п. 2, ЖК Гавань", "target": "<CITY> Володимирівка </CITY> <STREET> Довгополого </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Гавань </COMPLEX> <BUILD> 34В </BUILD> <ENTRANCE> 2 </ENTRANCE>"}
+{"input": "площа Молодёжная дь, ст. м. Турбоатом, Укрпошта кв. 51, будинок 3", "target": "<STREET> Молодёжная дь </STREET> <TYPE> площа </TYPE> <BUILD> 3 </BUILD> <ROOM> 51 </ROOM> <PROVIDER> Укрпошта </PROVIDER> <POI> ст. м. Турбоатом </POI>"}
+{"input": "Нова Пошта (Відділення) буд. 52 2-й нижньогиївський узвіз", "target": "<STREET> 2-й нижньогиївський </STREET> <TYPE> узвіз </TYPE> <BUILD> 52 </BUILD> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE>"}
+{"input": "140/А, Селянський, р-н Солом'янка, 17 поверх", "target": "<DISTRICT> Солом'янка </DISTRICT> <STREET> Селянський </STREET> <TYPE> узвіз </TYPE> <BUILD> 140 </BUILD> <CORP> А </CORP> <FLOOR> 17 </FLOOR>"}
+{"input": "", "target": "<CITY> Введенка </CITY>"}
+{"input": "", "target": "<CITY> Слобожанське </CITY>"}
+{"input": "Паромний провулок, будинок 109", "target": "<OBLAST> Львівська область </OBLAST> <STREET> Паромний </STREET> <TYPE> провулок </TYPE> <BUILD> 109 </BUILD>"}
+{"input": "Гарбузинський провулок, буд. 126", "target": "<STREET> Гарбузинський </STREET> <TYPE> провулок </TYPE> <BUILD> 126 </BUILD>"}
+{"input": "30, Декоративный бульвар квартира 71", "target": "<STREET> Декоративный </STREET> <TYPE> бульвар </TYPE> <BUILD> 30 </BUILD> <ROOM> 71 </ROOM>"}
+{"input": "Лопатинська, будинок 52, домофон 1554", "target": "<STREET> Лопатинська </STREET> <TYPE> набережна </TYPE> <BUILD> 52 </BUILD> <CODE> 1554 </CODE>"}
+{"input": "кв. 35, узвіз Селянський №116, ЖК Львівський", "target": "<CITY> Неліпівка </CITY> <STREET> Селянський </STREET> <TYPE> узвіз </TYPE> <COMPLEX> ЖК Львівський </COMPLEX> <BUILD> 116 </BUILD> <ROOM> 35 </ROOM>"}
+{"input": "домофон 4532, Івана франка, оф. 160, №78", "target": "<CITY> Запоріжжя </CITY> <STREET> Івана франка </STREET> <TYPE> вулиця </TYPE> <BUILD> 78 </BUILD> <ROOM> 160 </ROOM> <CODE> 4532 </CODE>"}
+{"input": "провулок Івана дудка буд. 45/1", "target": "<CITY> Новоселиця </CITY> <STREET> Івана дудка </STREET> <TYPE> провулок </TYPE> <BUILD> 45/1 </BUILD>"}
+{"input": "21761, Литовський проспект, №112, п. 5, Оболонь", "target": "<ZIP> 21761 </ZIP> <OBLAST> Київська область </OBLAST> <CITY> Дебальцеве </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Литовський </STREET> <TYPE> проспект </TYPE> <BUILD> 112 </BUILD> <ENTRANCE> 5 </ENTRANCE>"}
+{"input": "буд. 109, (demo), Героїв ато проспект", "target": "<STREET> Героїв ато </STREET> <TYPE> проспект </TYPE> <BUILD> 109 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "будинок 38/Б, Поділ, Івана воробʼя вулиця", "target": "<CITY> Новогригорівка </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Івана воробʼя </STREET> <TYPE> вулиця </TYPE> <BUILD> 38 </BUILD> <CORP> Б </CORP>"}
+{"input": "квартира 163, Разіна провулок буд. 55", "target": "<CITY> Соснівка </CITY> <STREET> Разіна </STREET> <TYPE> провулок </TYPE> <BUILD> 55 </BUILD> <ROOM> 163 </ROOM>"}
+{"input": "", "target": "<CITY> Бердянськ </CITY>"}
+{"input": "Яценкова, 89965, буд. 52", "target": "<ZIP> 89965 </ZIP> <STREET> Яценкова </STREET> <TYPE> вулиця </TYPE> <BUILD> 52 </BUILD>"}
+{"input": "", "target": "<OBLAST> Кіровоградська область </OBLAST> <CITY> Новодар’ївка </CITY>"}
+{"input": "Кловська площа, 19809", "target": "<ZIP> 19809 </ZIP> <CITY> Нова Каховка </CITY> <STREET> Кловська </STREET> <TYPE> площа </TYPE>"}
+{"input": "р-н Виноградар, Rozetka №188, (demo), Василя сухомлинського провулок", "target": "<DISTRICT> Виноградар </DISTRICT> <STREET> Василя сухомлинського </STREET> <TYPE> провулок </TYPE> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 188 </BRANCH_ID> <NOTE> demo </NOTE>"}
+{"input": "Черняка квартира 130, буд. 97/2", "target": "<STREET> Черняка </STREET> <TYPE> бульвар </TYPE> <BUILD> 97/2 </BUILD> <ROOM> 130 </ROOM>"}
+{"input": "", "target": "<CITY> Липова Долина </CITY>"}
+{"input": "р-н Солом'янка, вулиця Бічна центральна будинок 52", "target": "<CITY> Покровське </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Бічна центральна </STREET> <TYPE> вулиця </TYPE> <BUILD> 52 </BUILD>"}
+{"input": "вулиця Писарева буд. 46, кв. 100, поверх 11", "target": "<CITY> Перемишляни </CITY> <STREET> Писарева </STREET> <TYPE> вулиця </TYPE> <BUILD> 46 </BUILD> <FLOOR> 11 </FLOOR> <ROOM> 100 </ROOM>"}
+{"input": "провулок Цукровий, Rozetka (Пункт видачі) №120, №60", "target": "<CITY> Торчин </CITY> <STREET> Цукровий </STREET> <TYPE> провулок </TYPE> <BUILD> 60 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE> <BRANCH_ID> 120 </BRANCH_ID>"}
+{"input": "вулиця Провулок героїв рятуьників 72", "target": "<STREET> Провулок героїв рятуьників </STREET> <TYPE> вулиця </TYPE> <BUILD> 72 </BUILD>"}
+{"input": "будинок 11В кв 73, провулок Урицького", "target": "<CITY> Олександрівка </CITY> <STREET> Урицького </STREET> <TYPE> провулок </TYPE> <BUILD> 11В </BUILD> <ROOM> 73 </ROOM>"}
+{"input": "буд. 73, вулиця Легендарна", "target": "<CITY> Капітанівка </CITY> <STREET> Легендарна </STREET> <TYPE> вулиця </TYPE> <BUILD> 73 </BUILD>"}
+{"input": "буд. 97, вулиця Замглайська поверх 13, Нова Пошта (Парцел) №197 оф. 134", "target": "<CITY> Красна Гора </CITY> <STREET> Замглайська </STREET> <TYPE> вулиця </TYPE> <BUILD> 97 </BUILD> <FLOOR> 13 </FLOOR> <ROOM> 134 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE> <BRANCH_ID> 197 </BRANCH_ID>"}
+{"input": "№41-1, Оболонь кв 71, В.", "target": "<DISTRICT> Оболонь </DISTRICT> <STREET> В. </STREET> <TYPE> набережна </TYPE> <BUILD> 41 </BUILD> <CORP> 1 </CORP> <ROOM> 71 </ROOM>"}
+{"input": "№100, узвіз Зарубинецький район Поділ кв 84", "target": "<DISTRICT> Поділ </DISTRICT> <STREET> Зарубинецький </STREET> <TYPE> узвіз </TYPE> <BUILD> 100 </BUILD> <ROOM> 84 </ROOM>"}
+{"input": "будинок 56, Красносельского домофон 2219", "target": "<OBLAST> Хмельницька область </OBLAST> <CITY> Калуш </CITY> <STREET> Красносельского </STREET> <TYPE> проспект </TYPE> <BUILD> 56 </BUILD> <CODE> 2219 </CODE>"}
+{"input": "4, Rozetka (Філія) №271, Новгородського", "target": "<CITY> Красноїльськ </CITY> <STREET> Новгородського </STREET> <TYPE> вулиця </TYPE> <BUILD> 4 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE> <BRANCH_ID> 271 </BRANCH_ID>"}
+{"input": "район Печерськ площа Дь куйбышева, будинок 35", "target": "<CITY> Манченки </CITY> <DISTRICT> Печерськ </DISTRICT> <STREET> Дь куйбышева </STREET> <TYPE> площа </TYPE> <BUILD> 35 </BUILD>"}
+{"input": "Ювілейний", "target": "<CITY> Веселе </CITY> <STREET> Ювілейний </STREET> <TYPE> провулок </TYPE> <CORP> 1 </CORP>"}
+{"input": "(demo) площа Польова", "target": "<CITY> Прудянка </CITY> <STREET> Польова </STREET> <TYPE> площа </TYPE> <NOTE> demo </NOTE>"}
+{"input": "Rozetka (Пункт видачі) №272 Вивозовий провулок будинок 84", "target": "<CITY> Прудянка </CITY> <STREET> Вивозовий </STREET> <TYPE> провулок </TYPE> <BUILD> 84 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE> <BRANCH_ID> 272 </BRANCH_ID>"}
+{"input": "провулок Графа ілінського п. 5, 41868 №42В квартира 176", "target": "<ZIP> 41868 </ZIP> <CITY> Заболотів </CITY> <STREET> Графа ілінського </STREET> <TYPE> провулок </TYPE> <BUILD> 42В </BUILD> <ENTRANCE> 5 </ENTRANCE> <ROOM> 176 </ROOM>"}
+{"input": "Железнодорожного транспорта, 81691 141", "target": "<ZIP> 81691 </ZIP> <CITY> Комишуваха </CITY> <STREET> Железнодорожного транспорта </STREET> <TYPE> бульвар </TYPE> <BUILD> 141 </BUILD>"}
+{"input": "провулок Литовський район Оболонь, ЖК Преміум, буд. 64", "target": "<OBLAST> Львівська область </OBLAST> <DISTRICT> Оболонь </DISTRICT> <STREET> Литовський </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 64 </BUILD>"}
+{"input": "139 Василя порика проспект", "target": "<CITY> Сатанів </CITY> <STREET> Василя порика </STREET> <TYPE> проспект </TYPE> <BUILD> 139 </BUILD>"}
+{"input": "Козака хороша вулиця Позняки, кв 113, будинок 45А", "target": "<DISTRICT> Позняки </DISTRICT> <STREET> Козака хороша </STREET> <TYPE> вулиця </TYPE> <BUILD> 45А </BUILD> <ROOM> 113 </ROOM>"}
+{"input": "Віталія філоненка вулиця, оф. 12, №69", "target": "<CITY> Вороновиця </CITY> <STREET> Віталія філоненка </STREET> <TYPE> вулиця </TYPE> <BUILD> 69 </BUILD> <ROOM> 12 </ROOM>"}
+{"input": "район Печерськ буд. 39, під'їзд 3, квартира 85 вулиця Васильківська", "target": "<CITY> Каланчак </CITY> <DISTRICT> Печерськ </DISTRICT> <STREET> Васильківська </STREET> <TYPE> вулиця </TYPE> <BUILD> 39 </BUILD> <ENTRANCE> 3 </ENTRANCE> <ROOM> 85 </ROOM>"}
+{"input": "будинок 117, Тараса вислоцького вулиця", "target": "<CITY> Новый Свет </CITY> <STREET> Тараса вислоцького </STREET> <TYPE> вулиця </TYPE> <BUILD> 117 </BUILD>"}
+{"input": "вулиця Братів героїв, р-н Осокорки, під'їзд 4 кв 91, 3 36559", "target": "<ZIP> 36559 </ZIP> <CITY> Балаклія </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Братів героїв </STREET> <TYPE> вулиця </TYPE> <BUILD> 3 </BUILD> <ENTRANCE> 4 </ENTRANCE> <ROOM> 91 </ROOM>"}
+{"input": "Іртишський, 48242 134", "target": "<ZIP> 48242 </ZIP> <STREET> Іртишський </STREET> <TYPE> провулок </TYPE> <BUILD> 134 </BUILD>"}
+{"input": "Rozetka (Поштомат) №239, 44, Кузнецова, ЖК Парк", "target": "<OBLAST> Дніпропетровська область </OBLAST> <STREET> Кузнецова </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Парк </COMPLEX> <BUILD> 44 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE> <BRANCH_ID> 239 </BRANCH_ID>"}
+{"input": "95 Нова Пошта №250, квартира 153 провулок Будкевича", "target": "<CITY> Кальміуське </CITY> <STREET> Будкевича </STREET> <TYPE> провулок </TYPE> <BUILD> 95 </BUILD> <ROOM> 153 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 250 </BRANCH_ID>"}
+{"input": "Укрпошта (Каса) №85, буд. 45, 62358, Шахтарської слави бульвар", "target": "<ZIP> 62358 </ZIP> <CITY> Нижнегорский </CITY> <STREET> Шахтарської слави </STREET> <TYPE> бульвар </TYPE> <BUILD> 45 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 85 </BRANCH_ID>"}
+{"input": "Захаряшівська будинок 79", "target": "<CITY> Воловець </CITY> <STREET> Захаряшівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 79 </BUILD>"}
+{"input": "провулок Вербиний, 96797, №13, ЖК Парк", "target": "<ZIP> 96797 </ZIP> <CITY> Городок </CITY> <STREET> Вербиний </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Парк </COMPLEX> <BUILD> 13 </BUILD>"}
+{"input": "будинок 61, Івана підкови", "target": "<CITY> Одеса </CITY> <STREET> Івана підкови </STREET> <TYPE> провулок </TYPE> <BUILD> 61 </BUILD>"}
+{"input": "ЖК Гавань 2-ий  мічуріна, Виноградар квартира 15, буд. 67", "target": "<CITY> Комишівка </CITY> <DISTRICT> Виноградар </DISTRICT> <STREET> 2-ий  мічуріна </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Гавань </COMPLEX> <BUILD> 67 </BUILD> <ROOM> 15 </ROOM>"}
+{"input": "34 Укрпошта (Парцел) №266, Лесі українки площа", "target": "<OBLAST> Полтавська область </OBLAST> <CITY> Турбів </CITY> <STREET> Лесі українки </STREET> <TYPE> площа </TYPE> <BUILD> 34 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE> <BRANCH_ID> 266 </BRANCH_ID>"}
+{"input": "Троєщина, 29719", "target": "<ZIP> 29719 </ZIP> <CITY> Хотінь </CITY> <DISTRICT> Троєщина </DISTRICT>"}
+{"input": "Піонерів проспект, будинок 45, кв 103", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Поморяни </CITY> <STREET> Піонерів </STREET> <TYPE> проспект </TYPE> <BUILD> 45 </BUILD> <ROOM> 103 </ROOM>"}
+{"input": "Снайперський провулок р-н Оболонь №77", "target": "<CITY> Хорол </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Снайперський </STREET> <TYPE> провулок </TYPE> <BUILD> 77 </BUILD>"}
+{"input": "Укрпошта №263 провулок Овражний будинок 65", "target": "<CITY> Комісарівка </CITY> <STREET> Овражний </STREET> <TYPE> провулок </TYPE> <BUILD> 65 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_ID> 263 </BRANCH_ID>"}
+{"input": "Костомарівська буд. 79, (demo)", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Нова Ушиця </CITY> <STREET> Костомарівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 79 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "кв 2, поверх 7, 53569, буд. 62, Барболіна вулиця", "target": "<ZIP> 53569 </ZIP> <CITY> Підгородне </CITY> <STREET> Барболіна </STREET> <TYPE> вулиця </TYPE> <BUILD> 62 </BUILD> <FLOOR> 7 </FLOOR> <ROOM> 2 </ROOM>"}
+{"input": "Justin (Пункт видачі) №110, Тінистий, №79", "target": "<STREET> Тінистий </STREET> <TYPE> провулок </TYPE> <BUILD> 79 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE> <BRANCH_ID> 110 </BRANCH_ID>"}
+{"input": "94388, №93, оф. 176, р-н Осокорки Глінки", "target": "<ZIP> 94388 </ZIP> <CITY> Тетіїв </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Глінки </STREET> <TYPE> провулок </TYPE> <BUILD> 93 </BUILD> <ROOM> 176 </ROOM>"}
+{"input": "№10, домофон 223, Верхній степовий, ЖК Центр квартира 162", "target": "<STREET> Верхній степовий </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Центр </COMPLEX> <BUILD> 10 </BUILD> <ROOM> 162 </ROOM> <CODE> 223 </CODE>"}
+{"input": "Ногайський провулок, ЖК Комфорт Таун, Укрпошта (Парцел) №202, буд. 85", "target": "<CITY> Чернелиця </CITY> <STREET> Ногайський </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Комфорт Таун </COMPLEX> <BUILD> 85 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE> <BRANCH_ID> 202 </BRANCH_ID>"}
+{"input": "Сучасний, кв. 154 буд. 70", "target": "<CITY> Покровське </CITY> <STREET> Сучасний </STREET> <TYPE> провулок </TYPE> <BUILD> 70 </BUILD> <ROOM> 154 </ROOM>"}
+{"input": "Каховський провулок", "target": "<CITY> Воронове </CITY> <STREET> Каховський </STREET> <TYPE> провулок </TYPE>"}
+{"input": "квартира 3, №94, вулиця Ліпецька", "target": "<CITY> Сіверськ </CITY> <STREET> Ліпецька </STREET> <TYPE> вулиця </TYPE> <BUILD> 94 </BUILD> <ROOM> 3 </ROOM>"}
+{"input": "буд. 13, кв 13 2-й  іллі ріпина провулок", "target": "<STREET> 2-й  іллі ріпина </STREET> <TYPE> провулок </TYPE> <BUILD> 13 </BUILD> <ROOM> 13 </ROOM>"}
+{"input": "10 проспект Свободи", "target": "<CITY> Арциз </CITY> <STREET> Свободи </STREET> <TYPE> проспект </TYPE> <BUILD> 10 </BUILD>"}
+{"input": "ст. м. Академмістечко, п. 4 №5, Адмирала перелешина я набережна, кв. 84", "target": "<CITY> Війтівці </CITY> <STREET> Адмирала перелешина я </STREET> <TYPE> набережна </TYPE> <BUILD> 5 </BUILD> <ENTRANCE> 4 </ENTRANCE> <ROOM> 84 </ROOM> <POI> ст. м. Академмістечко </POI>"}
+{"input": "Біянська набережна", "target": "<CITY> Ланівці </CITY> <STREET> Біянська </STREET> <TYPE> набережна </TYPE>"}
+{"input": "", "target": "<OBLAST> Запорізька область </OBLAST>"}
+{"input": "69, Мороховецька", "target": "<STREET> Мороховецька </STREET> <TYPE> набережна </TYPE> <BUILD> 69 </BUILD>"}
+{"input": "Ленина бульвар, 71637, №143, квартира 120, район Осокорки", "target": "<ZIP> 71637 </ZIP> <DISTRICT> Осокорки </DISTRICT> <STREET> Ленина </STREET> <TYPE> бульвар </TYPE> <BUILD> 143 </BUILD> <ROOM> 120 </ROOM>"}
+{"input": "оф. 31, Дирижабельна, буд. 46", "target": "<OBLAST> Дніпропетровська область </OBLAST> <STREET> Дирижабельна </STREET> <TYPE> вулиця </TYPE> <BUILD> 46 </BUILD> <ROOM> 31 </ROOM>"}
+{"input": "домофон 9203, ст. м. Лісова, 1, квартира 118, Кодацька площа, під'їзд 4", "target": "<CITY> Бражине </CITY> <STREET> Кодацька </STREET> <TYPE> площа </TYPE> <BUILD> 1 </BUILD> <ENTRANCE> 4 </ENTRANCE> <ROOM> 118 </ROOM> <CODE> 9203 </CODE> <POI> ст. м. Лісова </POI>"}
+{"input": "66475, район Виноградар, №142, Героїв крут, 12 поверх", "target": "<ZIP> 66475 </ZIP> <DISTRICT> Виноградар </DISTRICT> <STREET> Героїв крут </STREET> <TYPE> площа </TYPE> <BUILD> 142 </BUILD> <FLOOR> 12 </FLOOR>"}
+{"input": "провулок Дібровний, буд. 18 ТРЦ River Mall, 68922", "target": "<ZIP> 68922 </ZIP> <CITY> Курилівка </CITY> <STREET> Дібровний </STREET> <TYPE> провулок </TYPE> <BUILD> 18 </BUILD> <POI> ТРЦ River Mall </POI>"}
+{"input": "оф. 150 63 вулиця Альпіністів", "target": "<CITY> Коротич </CITY> <STREET> Альпіністів </STREET> <TYPE> вулиця </TYPE> <BUILD> 63 </BUILD> <ROOM> 150 </ROOM>"}
+{"input": "оф. 182, №109, Бориса шарварка бульвар, р-н Оболонь", "target": "<DISTRICT> Оболонь </DISTRICT> <STREET> Бориса шарварка </STREET> <TYPE> бульвар </TYPE> <BUILD> 109 </BUILD> <ROOM> 182 </ROOM>"}
+{"input": "(demo), Justin (Поштомат) №239 Онуфріївський провулок, буд. 69", "target": "<STREET> Онуфріївський </STREET> <TYPE> провулок </TYPE> <BUILD> 69 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE> <BRANCH_ID> 239 </BRANCH_ID> <NOTE> demo </NOTE>"}
+{"input": "Репʼяхів яр", "target": "<CITY> Горохів </CITY> <STREET> Репʼяхів яр </STREET> <TYPE> узвіз </TYPE>"}
+{"input": "", "target": "<CITY> Світловодськ </CITY>"}
+{"input": "№137, р-н Оболонь, кв. 146 під'їзд 3, провулок 2-й червоної", "target": "<CITY> Николаевка </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> 2-й червоної </STREET> <TYPE> провулок </TYPE> <BUILD> 137 </BUILD> <ENTRANCE> 3 </ENTRANCE> <ROOM> 146 </ROOM>"}
+{"input": "будинок 68, під'їзд 5, (demo), 2-й  ширшова провулок", "target": "<CITY> Умань </CITY> <STREET> 2-й  ширшова </STREET> <TYPE> провулок </TYPE> <BUILD> 68 </BUILD> <ENTRANCE> 5 </ENTRANCE> <NOTE> demo </NOTE>"}
+{"input": "20, Піхотний провулок", "target": "<CITY> Аграрное </CITY> <STREET> Піхотний </STREET> <TYPE> провулок </TYPE> <BUILD> 20 </BUILD>"}
+{"input": "Правденко провулок, 42А", "target": "<STREET> Правденко </STREET> <TYPE> провулок </TYPE> <BUILD> 42А </BUILD>"}
+{"input": "", "target": "<CITY> Нова Ушиця </CITY>"}
+{"input": "", "target": ""}
+{"input": "код 2176, 13 поверх, будинок 13 район Троєщина узвіз Ланжеронівський", "target": "<CITY> Снігурівка </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Ланжеронівський </STREET> <TYPE> узвіз </TYPE> <BUILD> 13 </BUILD> <FLOOR> 13 </FLOOR> <CODE> 2176 </CODE>"}
+{"input": "кв. 112 буд. 42, площа Авіації", "target": "<CITY> Войковський </CITY> <STREET> Авіації </STREET> <TYPE> площа </TYPE> <BUILD> 42 </BUILD> <ROOM> 112 </ROOM>"}
+{"input": "будинок 119 Красногвардійський, р-н Поділ", "target": "<CITY> Благодатне </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Красногвардійський </STREET> <TYPE> проспект </TYPE> <BUILD> 119 </BUILD>"}
+{"input": "Поділ, буд. 62 площа Грецька", "target": "<DISTRICT> Поділ </DISTRICT> <STREET> Грецька </STREET> <TYPE> площа </TYPE> <BUILD> 62 </BUILD>"}
+{"input": "Романтична набережна буд. 44", "target": "<CITY> Магерів </CITY> <STREET> Романтична </STREET> <TYPE> набережна </TYPE> <BUILD> 44 </BUILD>"}
+{"input": "Білопільський провулок, ЖК Преміум 125, кв 16", "target": "<CITY> Павлівка </CITY> <STREET> Білопільський </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 125 </BUILD> <ROOM> 16 </ROOM>"}
+{"input": "(demo), Осокорки", "target": "<CITY> Олександрія </CITY> <DISTRICT> Осокорки </DISTRICT> <NOTE> demo </NOTE>"}
+{"input": "1-й  зелінського провулок, №116 р-н Виноградар, ЖК Комфорт Таун", "target": "<CITY> Залізничне </CITY> <DISTRICT> Виноградар </DISTRICT> <STREET> 1-й  зелінського </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Комфорт Таун </COMPLEX> <BUILD> 116 </BUILD>"}
+{"input": "провулок Маркшейдерський, будинок 84, поверх 17", "target": "<CITY> Люботин </CITY> <STREET> Маркшейдерський </STREET> <TYPE> провулок </TYPE> <BUILD> 84 </BUILD> <FLOOR> 17 </FLOOR>"}
+{"input": "ЖК Центр", "target": "<CITY> Врубівка </CITY> <COMPLEX> ЖК Центр </COMPLEX>"}
+{"input": "буд. 42/1 вулиця Євгена коновальця кв 97", "target": "<CITY> Базалія </CITY> <STREET> Євгена коновальця </STREET> <TYPE> вулиця </TYPE> <BUILD> 42/1 </BUILD> <ROOM> 97 </ROOM>"}
+{"input": "", "target": "<CITY> Нижні Сірогози </CITY>"}
+{"input": "№10, вулиця Волі, 7 поверх", "target": "<CITY> Петропавлівка </CITY> <STREET> Волі </STREET> <TYPE> вулиця </TYPE> <BUILD> 10 </BUILD> <FLOOR> 7 </FLOOR>"}
+{"input": "", "target": "<CITY> Бабаї </CITY>"}
+{"input": "32269, р-н Солом'янка Justin №60", "target": "<ZIP> 32269 </ZIP> <CITY> Дубно </CITY> <DISTRICT> Солом'янка </DISTRICT> <PROVIDER> Justin </PROVIDER> <BRANCH_ID> 60 </BRANCH_ID>"}
+{"input": "Генерала острякова, будинок 28, кв. 142", "target": "<CITY> Городище </CITY> <STREET> Генерала острякова </STREET> <TYPE> проспект </TYPE> <BUILD> 28 </BUILD> <ROOM> 142 </ROOM>"}
+{"input": "кв. 22, буд. 17 Босфорская дь площа", "target": "<CITY> Ков’яги </CITY> <STREET> Босфорская дь </STREET> <TYPE> площа </TYPE> <BUILD> 17 </BUILD> <ROOM> 22 </ROOM>"}
+{"input": "офіс 90, поверх 17, 63337 Шевченка, Троєщина, буд. 18, Justin №27", "target": "<ZIP> 63337 </ZIP> <CITY> Куйбышево </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Шевченка </STREET> <TYPE> бульвар </TYPE> <BUILD> 18 </BUILD> <FLOOR> 17 </FLOOR> <ROOM> 90 </ROOM> <PROVIDER> Justin </PROVIDER> <BRANCH_ID> 27 </BRANCH_ID>"}
+{"input": "71587, провулок Заярний, буд. 40, кв 146", "target": "<ZIP> 71587 </ZIP> <CITY> Гаспра </CITY> <STREET> Заярний </STREET> <TYPE> провулок </TYPE> <BUILD> 40 </BUILD> <ROOM> 146 </ROOM>"}
+{"input": "провулок Річковий", "target": "<STREET> Річковий </STREET> <TYPE> провулок </TYPE>"}
+{"input": "домофон 6417, Олександра баховця, Justin (Парцел) №110, Осокорки, 51", "target": "<CITY> Краснодарський </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Олександра баховця </STREET> <TYPE> вулиця </TYPE> <BUILD> 51 </BUILD> <CODE> 6417 </CODE> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE> <BRANCH_ID> 110 </BRANCH_ID>"}
+{"input": "узвіз Віктора скаржинського, 5", "target": "<CITY> Божедарівка </CITY> <STREET> Віктора скаржинського </STREET> <TYPE> узвіз </TYPE> <BUILD> 5 </BUILD>"}
+{"input": "Rozetka (Філія) №76", "target": "<PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE> <BRANCH_ID> 76 </BRANCH_ID>"}
+{"input": "(demo) 93981 набережна Іванівська", "target": "<ZIP> 93981 </ZIP> <OBLAST> Полтавська область </OBLAST> <CITY> Хорошів </CITY> <STREET> Іванівська </STREET> <TYPE> набережна </TYPE> <CORP> Б </CORP> <NOTE> demo </NOTE>"}
+{"input": "Чорновола буд. 117", "target": "<CITY> Макошине </CITY> <STREET> Чорновола </STREET> <TYPE> бульвар </TYPE> <BUILD> 117 </BUILD>"}
+{"input": "Ліньовський Троєщина, будинок 75", "target": "<DISTRICT> Троєщина </DISTRICT> <STREET> Ліньовський </STREET> <TYPE> провулок </TYPE> <BUILD> 75 </BUILD>"}
+{"input": "", "target": ""}
+{"input": "Адмирала перелешина я, ЖК Преміум", "target": "<OBLAST> Кіровоградська область </OBLAST> <CITY> Войковський </CITY> <STREET> Адмирала перелешина я </STREET> <TYPE> набережна </TYPE> <COMPLEX> ЖК Преміум </COMPLEX>"}
+{"input": "№46, Шевченка бульвар", "target": "<CITY> Партенит </CITY> <STREET> Шевченка </STREET> <TYPE> бульвар </TYPE> <BUILD> 46 </BUILD>"}
+{"input": "будинок 101А корп. 1, площа Українська ЖК Центр", "target": "<OBLAST> Київська область </OBLAST> <STREET> Українська </STREET> <TYPE> площа </TYPE> <COMPLEX> ЖК Центр </COMPLEX> <BUILD> 101А </BUILD> <CORP> 1 </CORP>"}
+{"input": "буд. 83, Оболонь, 60175 ЖК Львівський, провулок 1-й  зайкевича, кв. 96", "target": "<ZIP> 60175 </ZIP> <DISTRICT> Оболонь </DISTRICT> <STREET> 1-й  зайкевича </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Львівський </COMPLEX> <BUILD> 83 </BUILD> <ROOM> 96 </ROOM>"}
+{"input": "Поштовий узвіз 40, код 548", "target": "<CITY> Красноріченське </CITY> <STREET> Поштовий </STREET> <TYPE> узвіз </TYPE> <BUILD> 40 </BUILD> <CODE> 548 </CODE>"}
+{"input": "Вулицzя ЖК Гавань, №56", "target": "<CITY> Ореанда </CITY> <STREET> Вулицzя </STREET> <TYPE> набережна </TYPE> <COMPLEX> ЖК Гавань </COMPLEX> <BUILD> 56 </BUILD>"}
+{"input": "Єрмилівський, 7 поверх, №141, ЖК Центр", "target": "<OBLAST> Дніпропетровська область </OBLAST> <CITY> Дробишеве </CITY> <STREET> Єрмилівський </STREET> <TYPE> узвіз </TYPE> <COMPLEX> ЖК Центр </COMPLEX> <BUILD> 141 </BUILD> <FLOOR> 7 </FLOOR>"}
+{"input": "Укрпошта (Пункт видачі), ЖК Преміум ст. м. Університет, Меотиди бульвар будинок 139", "target": "<CITY> Хуст </CITY> <STREET> Меотиди </STREET> <TYPE> бульвар </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 139 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE> <POI> ст. м. Університет </POI>"}
+{"input": "1-й тупик посульський узвіз, кв. 30, №58, Печерськ", "target": "<DISTRICT> Печерськ </DISTRICT> <STREET> 1-й тупик посульський </STREET> <TYPE> узвіз </TYPE> <BUILD> 58 </BUILD> <ROOM> 30 </ROOM>"}
+{"input": "буд. 76 кв. 153, (demo), Перемоги", "target": "<CITY> Прип’ять </CITY> <STREET> Перемоги </STREET> <TYPE> площа </TYPE> <BUILD> 76 </BUILD> <ROOM> 153 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "№99 77785 Пʼятанчука провулок, кв. 14", "target": "<ZIP> 77785 </ZIP> <CITY> Радомишль </CITY> <STREET> Пʼятанчука </STREET> <TYPE> провулок </TYPE> <BUILD> 99 </BUILD> <ROOM> 14 </ROOM>"}
+{"input": "провулок Абрамцева", "target": "<CITY> Голоби </CITY> <STREET> Абрамцева </STREET> <TYPE> провулок </TYPE>"}
+{"input": "№75 провулок Архітектора добровольського", "target": "<CITY> Верхній Нагольчик </CITY> <STREET> Архітектора добровольського </STREET> <TYPE> провулок </TYPE> <BUILD> 75 </BUILD>"}
+{"input": "квартира 110 Шухляєва буд. 93, 70924", "target": "<ZIP> 70924 </ZIP> <CITY> Берегове </CITY> <STREET> Шухляєва </STREET> <TYPE> площа </TYPE> <BUILD> 93 </BUILD> <ROOM> 110 </ROOM>"}
+{"input": "", "target": "<CITY> Донецький </CITY>"}
+{"input": "буд. 9 під'їзд 4, проспект Миколи бажана, офіс 65", "target": "<CITY> Пісківка </CITY> <STREET> Миколи бажана </STREET> <TYPE> проспект </TYPE> <BUILD> 9 </BUILD> <ENTRANCE> 4 </ENTRANCE> <ROOM> 65 </ROOM>"}
+{"input": "Оболонська площа Поділ, №129", "target": "<CITY> Вишневе </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Оболонська </STREET> <TYPE> площа </TYPE> <BUILD> 129 </BUILD>"}
+{"input": "Футбольний провулок домофон 9282, 39", "target": "<STREET> Футбольний </STREET> <TYPE> провулок </TYPE> <BUILD> 39 </BUILD> <CODE> 9282 </CODE>"}
+{"input": "Дубіївський, будинок 48А", "target": "<CITY> Новоайдар </CITY> <STREET> Дубіївський </STREET> <TYPE> узвіз </TYPE> <BUILD> 48А </BUILD>"}
+{"input": "", "target": "<OBLAST> Запорізька область </OBLAST> <CITY> Кам’яне </CITY>"}
+{"input": "", "target": "<CITY> Зеленівка </CITY>"}
+{"input": "під'їзд 4, будинок 31, 8-го вересня вулиця", "target": "<STREET> 8-го вересня </STREET> <TYPE> вулиця </TYPE> <BUILD> 31 </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "29534", "target": "<ZIP> 29534 </ZIP> <CITY> Миколаїв </CITY>"}
+{"input": "Поділ, 52, Мандриківський", "target": "<CITY> Пустомити </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Мандриківський </STREET> <TYPE> узвіз </TYPE> <BUILD> 52 </BUILD>"}
+{"input": "Михайлівський проспект", "target": "<STREET> Михайлівський </STREET> <TYPE> проспект </TYPE>"}
+{"input": "вулиця Яланецька, Укрпошта (Відділення) Солом'янка", "target": "<CITY> Ливадия </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Яланецька </STREET> <TYPE> вулиця </TYPE> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE>"}
+{"input": "будинок 55-1, кв 101 Прокоф'єва проспект", "target": "<CITY> Шевченкове </CITY> <STREET> Прокоф'єва </STREET> <TYPE> проспект </TYPE> <BUILD> 55 </BUILD> <CORP> 1 </CORP> <ROOM> 101 </ROOM>"}
+{"input": "кв. 146, домофон 6464, Мороховецька набережна, №19", "target": "<CITY> Вергулівка </CITY> <STREET> Мороховецька </STREET> <TYPE> набережна </TYPE> <BUILD> 19 </BUILD> <ROOM> 146 </ROOM> <CODE> 6464 </CODE>"}
+{"input": "вулиця Курочкіна гора", "target": "<OBLAST> Хмельницька область </OBLAST> <CITY> Георгіївка </CITY> <STREET> Курочкіна гора </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "№68 р-н Позняки, квартира 120 Академіка тарле", "target": "<DISTRICT> Позняки </DISTRICT> <STREET> Академіка тарле </STREET> <TYPE> вулиця </TYPE> <BUILD> 68 </BUILD> <ROOM> 120 </ROOM>"}
+{"input": "43971, Православна набережна район Осокорки 118-А, оф. 56", "target": "<ZIP> 43971 </ZIP> <CITY> Красятичі </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Православна </STREET> <TYPE> набережна </TYPE> <BUILD> 118 </BUILD> <CORP> А </CORP> <ROOM> 56 </ROOM>"}
+{"input": "", "target": "<CITY> Зимогір’я </CITY>"}
+{"input": "Моторного вулиця", "target": "<STREET> Моторного </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "№31, провулок 4-й майський", "target": "<OBLAST> Харківська область </OBLAST> <CITY> Охтирка </CITY> <STREET> 4-й майський </STREET> <TYPE> провулок </TYPE> <BUILD> 31 </BUILD>"}
+{"input": "Rozetka (Пункт видачі), 21 р-н Оболонь, Онуфрієнка провулок", "target": "<DISTRICT> Оболонь </DISTRICT> <STREET> Онуфрієнка </STREET> <TYPE> провулок </TYPE> <BUILD> 21 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE>"}
+{"input": "Укрпошта (Каса) №33, кв 140 11 Солом'янка, Володимира мономаха провулок", "target": "<CITY> Новогродівка </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Володимира мономаха </STREET> <TYPE> провулок </TYPE> <BUILD> 11 </BUILD> <ROOM> 140 </ROOM> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 33 </BRANCH_ID>"}
+{"input": "№53 Rozetka Зенітна вулиця, домофон 8673, кв. 51, поверх 15", "target": "<STREET> Зенітна </STREET> <TYPE> вулиця </TYPE> <BUILD> 53 </BUILD> <FLOOR> 15 </FLOOR> <ROOM> 51 </ROOM> <CODE> 8673 </CODE> <PROVIDER> Rozetka </PROVIDER>"}
+{"input": "№89, Ашхабадський провулок", "target": "<CITY> Сєвєродонецьк </CITY> <STREET> Ашхабадський </STREET> <TYPE> провулок </TYPE> <BUILD> 89 </BUILD>"}
+{"input": "103, вулиця Штефан-воде кв. 47", "target": "<CITY> Добрянка </CITY> <STREET> Штефан-воде </STREET> <TYPE> вулиця </TYPE> <BUILD> 103 </BUILD> <ROOM> 47 </ROOM>"}
+{"input": "вулиця Веремієвої №15", "target": "<CITY> Дунаївці </CITY> <STREET> Веремієвої </STREET> <TYPE> вулиця </TYPE> <BUILD> 15 </BUILD>"}
+{"input": "№117 бульвар Гетьмана сагайдачного Укрпошта (Філія)", "target": "<CITY> Лозно-Олександрівка </CITY> <STREET> Гетьмана сагайдачного </STREET> <TYPE> бульвар </TYPE> <BUILD> 117 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE>"}
+{"input": "ЖК Преміум, Людвіга свободи проспект, 115", "target": "<OBLAST> Дніпропетровська область </OBLAST> <STREET> Людвіга свободи </STREET> <TYPE> проспект </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 115 </BUILD>"}
+{"input": "№110, Андріївський, 12 поверх", "target": "<CITY> Комишня </CITY> <STREET> Андріївський </STREET> <TYPE> узвіз </TYPE> <BUILD> 110 </BUILD> <FLOOR> 12 </FLOOR>"}
+{"input": "(demo), №8 Просяновський", "target": "<STREET> Просяновський </STREET> <TYPE> узвіз </TYPE> <BUILD> 8 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "Оболонська набережна, 4 поверх, квартира 35 10", "target": "<CITY> Петрівка </CITY> <STREET> Оболонська </STREET> <TYPE> набережна </TYPE> <BUILD> 10 </BUILD> <FLOOR> 4 </FLOOR> <ROOM> 35 </ROOM>"}
+{"input": "1-й камінний провулок, буд. 92", "target": "<CITY> Сад </CITY> <STREET> 1-й камінний </STREET> <TYPE> провулок </TYPE> <BUILD> 92 </BUILD>"}
+{"input": "", "target": "<CITY> Новояворівськ </CITY>"}
+{"input": "будинок 81, кв 191, Rozetka №194 Я", "target": "<CITY> Мельниця-Подільська </CITY> <STREET> Я </STREET> <TYPE> набережна </TYPE> <BUILD> 81 </BUILD> <ROOM> 191 </ROOM> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 194 </BRANCH_ID>"}
+{"input": "9 поверх будинок 23, вулиця Двадцять п’ята ЖК Олімп, оф. 24", "target": "<CITY> Антрацит </CITY> <STREET> Двадцять п’ята </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Олімп </COMPLEX> <BUILD> 23 </BUILD> <FLOOR> 9 </FLOOR> <ROOM> 24 </ROOM>"}
+{"input": "р-н Осокорки ЖК Львівський, проспект Трубників", "target": "<CITY> Великодолинське </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Трубників </STREET> <TYPE> проспект </TYPE> <COMPLEX> ЖК Львівський </COMPLEX>"}
+{"input": "п. 2 буд. 104 Данила галицького, ст. м. Лук'янівська Rozetka", "target": "<CITY> Верхівцеве </CITY> <STREET> Данила галицького </STREET> <TYPE> бульвар </TYPE> <BUILD> 104 </BUILD> <ENTRANCE> 2 </ENTRANCE> <PROVIDER> Rozetka </PROVIDER> <POI> ст. м. Лук'янівська </POI>"}
+{"input": "кв 101, площа Т. г. шевченка будинок 34", "target": "<STREET> Т. г. шевченка </STREET> <TYPE> площа </TYPE> <BUILD> 34 </BUILD> <ROOM> 101 </ROOM>"}
+{"input": "Нова Пошта", "target": "<CITY> Сокаль </CITY> <PROVIDER> Нова Пошта </PROVIDER>"}
+{"input": "квартира 24, 9, Димитрова провулок", "target": "<CITY> Корець </CITY> <STREET> Димитрова </STREET> <TYPE> провулок </TYPE> <BUILD> 9 </BUILD> <ROOM> 24 </ROOM>"}
+{"input": "провулок 1-й  піонтковського, кв. 163, 122 Rozetka (Відділення)", "target": "<CITY> Новоолександрівка </CITY> <STREET> 1-й  піонтковського </STREET> <TYPE> провулок </TYPE> <BUILD> 122 </BUILD> <ROOM> 163 </ROOM> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE>"}
+{"input": "п. 5, проспект Червоної калини 69", "target": "<CITY> Розсипне </CITY> <STREET> Червоної калини </STREET> <TYPE> проспект </TYPE> <BUILD> 69 </BUILD> <ENTRANCE> 5 </ENTRANCE>"}
+{"input": "набережна Я улица", "target": "<CITY> Алчевськ </CITY> <STREET> Я улица </STREET> <TYPE> набережна </TYPE>"}
+{"input": "", "target": "<CITY> Ізяслав </CITY>"}
+{"input": "вулиця Лекторська, кв. 126, буд. 71", "target": "<STREET> Лекторська </STREET> <TYPE> вулиця </TYPE> <BUILD> 71 </BUILD> <ROOM> 126 </ROOM>"}
+{"input": "Осокорки, вулиця Нова яблунева, №49 (demo)", "target": "<CITY> Безлюдівка </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Нова яблунева </STREET> <TYPE> вулиця </TYPE> <BUILD> 49 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "офіс 90, проспект Відродження, Виноградар буд. 145", "target": "<CITY> Полтава </CITY> <DISTRICT> Виноградар </DISTRICT> <STREET> Відродження </STREET> <TYPE> проспект </TYPE> <BUILD> 145 </BUILD> <ROOM> 90 </ROOM>"}
+{"input": "", "target": "<CITY> Теофіполь </CITY>"}
+{"input": "провулок Гната шила ЖК Гавань", "target": "<CITY> Новогродівка </CITY> <STREET> Гната шила </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Гавань </COMPLEX>"}
+{"input": "3, провулок Ясні зорі кв. 20, Justin", "target": "<CITY> Багерово </CITY> <STREET> Ясні зорі </STREET> <TYPE> провулок </TYPE> <BUILD> 3 </BUILD> <ROOM> 20 </ROOM> <PROVIDER> Justin </PROVIDER>"}
+{"input": "буд. 104, 87885, Спасо-преображенський", "target": "<ZIP> 87885 </ZIP> <STREET> Спасо-преображенський </STREET> <TYPE> провулок </TYPE> <BUILD> 104 </BUILD>"}
+{"input": "Марії химинець вулиця, будинок 93", "target": "<CITY> Есхар </CITY> <STREET> Марії химинець </STREET> <TYPE> вулиця </TYPE> <BUILD> 93 </BUILD>"}
+{"input": "Пасіканський, код 8234 49В поверх 20 р-н Оболонь", "target": "<CITY> Помічна </CITY> <DISTRICT> Оболонь </DISTRICT> <STREET> Пасіканський </STREET> <TYPE> провулок </TYPE> <BUILD> 49В </BUILD> <FLOOR> 20 </FLOOR> <CODE> 8234 </CODE>"}
+{"input": "Задорожній провулок, кв 33 №57", "target": "<CITY> Ялта </CITY> <STREET> Задорожній </STREET> <TYPE> провулок </TYPE> <BUILD> 57 </BUILD> <ROOM> 33 </ROOM>"}
+{"input": "Нова Пошта, №27Б, квартира 12 Вершинська", "target": "<CITY> Чернігівка </CITY> <STREET> Вершинська </STREET> <TYPE> вулиця </TYPE> <BUILD> 27Б </BUILD> <ROOM> 12 </ROOM> <PROVIDER> Нова Пошта </PROVIDER>"}
+{"input": "Полеглих комунарів вулиця, будинок 98", "target": "<CITY> Новоайдар </CITY> <STREET> Полеглих комунарів </STREET> <TYPE> вулиця </TYPE> <BUILD> 98 </BUILD>"}
+{"input": "2-й весняний буд. 85В, 26705, п. 4, Виноградар", "target": "<ZIP> 26705 </ZIP> <CITY> Вишнівець </CITY> <DISTRICT> Виноградар </DISTRICT> <STREET> 2-й весняний </STREET> <TYPE> провулок </TYPE> <BUILD> 85В </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "Укрпошта №115", "target": "<CITY> Брянка </CITY> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_ID> 115 </BRANCH_ID>"}
+{"input": "домофон 1628 №95, вулиця Ямська квартира 171", "target": "<CITY> Володимирець </CITY> <STREET> Ямська </STREET> <TYPE> вулиця </TYPE> <BUILD> 95 </BUILD> <ROOM> 171 </ROOM> <CODE> 1628 </CODE>"}
+{"input": "проспект Висоцького", "target": "<CITY> Станиця Луганська </CITY> <STREET> Висоцького </STREET> <TYPE> проспект </TYPE>"}
+{"input": "оф. 143, 5-й уманський провулок, 102, 61164", "target": "<ZIP> 61164 </ZIP> <STREET> 5-й уманський </STREET> <TYPE> провулок </TYPE> <BUILD> 102 </BUILD> <ROOM> 143 </ROOM>"}
+{"input": "узвіз Бурсацький, Троєщина, №31 під'їзд 1, кв. 70", "target": "<CITY> Залізці </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Бурсацький </STREET> <TYPE> узвіз </TYPE> <BUILD> 31 </BUILD> <ENTRANCE> 1 </ENTRANCE> <ROOM> 70 </ROOM>"}
+{"input": "буд. 24, Григорія зленка", "target": "<CITY> Дергачі </CITY> <STREET> Григорія зленка </STREET> <TYPE> вулиця </TYPE> <BUILD> 24 </BUILD>"}
+{"input": "Rozetka №221, будинок 44, Василя стуса", "target": "<CITY> Голованівськ </CITY> <STREET> Василя стуса </STREET> <TYPE> проспект </TYPE> <BUILD> 44 </BUILD> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 221 </BRANCH_ID>"}
+{"input": "район Осокорки", "target": "<CITY> Покотилівка </CITY> <DISTRICT> Осокорки </DISTRICT>"}
+{"input": "149, В. набережна", "target": "<CITY> Дубляни </CITY> <STREET> В. </STREET> <TYPE> набережна </TYPE> <BUILD> 149 </BUILD>"}
+{"input": "Вишневецького кв 126 №119Б", "target": "<CITY> Красноперекопск </CITY> <STREET> Вишневецького </STREET> <TYPE> бульвар </TYPE> <BUILD> 119Б </BUILD> <ROOM> 126 </ROOM>"}
+{"input": "поверх 1 №125, провулок 1-й  польової", "target": "<STREET> 1-й  польової </STREET> <TYPE> провулок </TYPE> <BUILD> 125 </BUILD> <FLOOR> 1 </FLOOR>"}
+{"input": "будинок 150, код 3267, провулок Озерний", "target": "<CITY> Запоріжжя </CITY> <STREET> Озерний </STREET> <TYPE> провулок </TYPE> <BUILD> 150 </BUILD> <CODE> 3267 </CODE>"}
+{"input": "кв. 47 1 поверх, 86 Старонетішинська вулиця", "target": "<CITY> Андріївка </CITY> <STREET> Старонетішинська </STREET> <TYPE> вулиця </TYPE> <BUILD> 86 </BUILD> <FLOOR> 1 </FLOOR> <ROOM> 47 </ROOM>"}
+{"input": "ЖК Львівський, будинок 26/2 (demo), Автоколонна", "target": "<STREET> Автоколонна </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Львівський </COMPLEX> <BUILD> 26/2 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "Укрпошта (Каса) №12, ст. м. Театральна, вулиця Лібкнехта кв. 127 28Б, (demo)", "target": "<CITY> Олександрівка </CITY> <STREET> Лібкнехта </STREET> <TYPE> вулиця </TYPE> <BUILD> 28Б </BUILD> <ROOM> 127 </ROOM> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 12 </BRANCH_ID> <POI> ст. м. Театральна </POI> <NOTE> demo </NOTE>"}
+{"input": "№147 Новий, поверх 9", "target": "<CITY> Божедарівка </CITY> <STREET> Новий </STREET> <TYPE> узвіз </TYPE> <BUILD> 147 </BUILD> <FLOOR> 9 </FLOOR>"}
+{"input": "буд. 29, площа Радянська, (demo) кв 45", "target": "<CITY> Летичів </CITY> <STREET> Радянська </STREET> <TYPE> площа </TYPE> <BUILD> 29 </BUILD> <ROOM> 45 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "кв. 168, буд. 14 бульвар Володимира висоцького", "target": "<STREET> Володимира висоцького </STREET> <TYPE> бульвар </TYPE> <BUILD> 14 </BUILD> <ROOM> 168 </ROOM>"}
+{"input": "(demo)", "target": "<CITY> Білопілля </CITY> <NOTE> demo </NOTE>"}
+{"input": "5-а сонячна вулиця буд. 23", "target": "<OBLAST> Одеська область </OBLAST> <CITY> Чорнобай </CITY> <STREET> 5-а сонячна </STREET> <TYPE> вулиця </TYPE> <BUILD> 23 </BUILD>"}
+{"input": "42, кв. 100, Королюка, домофон 6613, (demo), 32547", "target": "<ZIP> 32547 </ZIP> <CITY> Чемерівці </CITY> <STREET> Королюка </STREET> <TYPE> вулиця </TYPE> <BUILD> 42 </BUILD> <ROOM> 100 </ROOM> <CODE> 6613 </CODE> <NOTE> demo </NOTE>"}
+{"input": "Rozetka №188, р-н Виноградар", "target": "<CITY> Короп </CITY> <DISTRICT> Виноградар </DISTRICT> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 188 </BRANCH_ID>"}
+{"input": "", "target": "<CITY> Керамік </CITY>"}
+{"input": "1-й  ігоря костецького провулок, буд. 143, ЖК Гавань", "target": "<CITY> Макошине </CITY> <STREET> 1-й  ігоря костецького </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Гавань </COMPLEX> <BUILD> 143 </BUILD>"}
+{"input": "№13/1, (demo), ст. м. Святошин, узвіз Крутий", "target": "<OBLAST> Дніпропетровська область </OBLAST> <STREET> Крутий </STREET> <TYPE> узвіз </TYPE> <BUILD> 13 </BUILD> <CORP> 1 </CORP> <POI> ст. м. Святошин </POI> <NOTE> demo </NOTE>"}
+{"input": "Варварівський провулок будинок 63, оф. 122", "target": "<STREET> Варварівський </STREET> <TYPE> провулок </TYPE> <BUILD> 63 </BUILD> <ROOM> 122 </ROOM>"}
+{"input": "№136 п. 4, Карпівський узвіз, квартира 101", "target": "<CITY> Глеваха </CITY> <STREET> Карпівський </STREET> <TYPE> узвіз </TYPE> <BUILD> 136 </BUILD> <ENTRANCE> 4 </ENTRANCE> <ROOM> 101 </ROOM>"}
+{"input": "будинок 150, 86973, провулок Ракоський, (demo)", "target": "<ZIP> 86973 </ZIP> <CITY> Сімейкине </CITY> <STREET> Ракоський </STREET> <TYPE> провулок </TYPE> <BUILD> 150 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "16 поверх, Національного спротиву вулиця, будинок 78, район Печерськ", "target": "<CITY> Немішаєве </CITY> <DISTRICT> Печерськ </DISTRICT> <STREET> Національного спротиву </STREET> <TYPE> вулиця </TYPE> <BUILD> 78 </BUILD> <FLOOR> 16 </FLOOR>"}
+{"input": "провулок Князів сангушків", "target": "<CITY> Знам’янка Друга </CITY> <STREET> Князів сангушків </STREET> <TYPE> провулок </TYPE> <CORP> 2 </CORP>"}
+{"input": "", "target": "<CITY> Капітанівка </CITY>"}
+{"input": "буд. 68, Дьоміна провулок ТРЦ River Mall", "target": "<STREET> Дьоміна </STREET> <TYPE> провулок </TYPE> <BUILD> 68 </BUILD> <POI> ТРЦ River Mall </POI>"}
+{"input": "район Поділ, провулок 1-й мельничний, будинок 144, 77670, кв. 119", "target": "<ZIP> 77670 </ZIP> <CITY> Кальміуське </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> 1-й мельничний </STREET> <TYPE> провулок </TYPE> <BUILD> 144 </BUILD> <ROOM> 119 </ROOM>"}
+{"input": "будинок 129 Богоявленський провулок, кв. 132, код 1778", "target": "<STREET> Богоявленський </STREET> <TYPE> провулок </TYPE> <BUILD> 129 </BUILD> <ROOM> 132 </ROOM> <CODE> 1778 </CODE>"}
+{"input": "68691, площа Тараса григоровича шевченка, будинок 136", "target": "<ZIP> 68691 </ZIP> <STREET> Тараса григоровича шевченка </STREET> <TYPE> площа </TYPE> <BUILD> 136 </BUILD>"}
+{"input": "будинок 127 вулиця Бурлацька", "target": "<CITY> Бірки </CITY> <STREET> Бурлацька </STREET> <TYPE> вулиця </TYPE> <BUILD> 127 </BUILD>"}
+{"input": "Отамана приходька вулиця, 72А", "target": "<CITY> Мала Данилівка </CITY> <STREET> Отамана приходька </STREET> <TYPE> вулиця </TYPE> <BUILD> 72А </BUILD>"}
+{"input": "провулок Андрія шестакова, буд. 15, під'їзд 1, кв. 115", "target": "<CITY> Судова Вишня </CITY> <STREET> Андрія шестакова </STREET> <TYPE> провулок </TYPE> <BUILD> 15 </BUILD> <ENTRANCE> 1 </ENTRANCE> <ROOM> 115 </ROOM>"}
+{"input": "будинок 141, площа Джона леннона", "target": "<CITY> Черноморское </CITY> <STREET> Джона леннона </STREET> <TYPE> площа </TYPE> <BUILD> 141 </BUILD>"}
+{"input": "вулиця Конституційна, будинок 21, поверх 7", "target": "<STREET> Конституційна </STREET> <TYPE> вулиця </TYPE> <BUILD> 21 </BUILD> <FLOOR> 7 </FLOOR>"}
+{"input": "4, офіс 137, Justin (Пункт видачі), Грабовець вулиця", "target": "<STREET> Грабовець </STREET> <TYPE> вулиця </TYPE> <BUILD> 4 </BUILD> <ROOM> 137 </ROOM> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE>"}
+{"input": "140, UPG, Байдачанська вулиця оф. 186", "target": "<CITY> Високий </CITY> <STREET> Байдачанська </STREET> <TYPE> вулиця </TYPE> <BUILD> 140 </BUILD> <ROOM> 186 </ROOM> <POI> UPG </POI>"}
+{"input": "Загірна вулиця, р-н Троєщина Justin (Каса), №123", "target": "<DISTRICT> Троєщина </DISTRICT> <STREET> Загірна </STREET> <TYPE> вулиця </TYPE> <BUILD> 123 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE>"}
+{"input": "55371 квартира 126, 10 квітня вулиця, будинок 80 ЖК Львівський", "target": "<ZIP> 55371 </ZIP> <CITY> Ніжин </CITY> <STREET> 10 квітня </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Львівський </COMPLEX> <BUILD> 80 </BUILD> <ROOM> 126 </ROOM>"}
+{"input": "№85 квартира 77 Поділ, Лихонінська", "target": "<CITY> Лозно-Олександрівка </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Лихонінська </STREET> <TYPE> набережна </TYPE> <BUILD> 85 </BUILD> <ROOM> 77 </ROOM>"}
+{"input": "64141 63В Царина площа", "target": "<ZIP> 64141 </ZIP> <STREET> Царина </STREET> <TYPE> площа </TYPE> <BUILD> 63В </BUILD>"}
+{"input": "набережна Лихонінська домофон 2227, 28", "target": "<STREET> Лихонінська </STREET> <TYPE> набережна </TYPE> <BUILD> 28 </BUILD> <CODE> 2227 </CODE>"}
+{"input": "Солом'янка, 104 корп. Б, квартира 124, Солідарності провулок", "target": "<DISTRICT> Солом'янка </DISTRICT> <STREET> Солідарності </STREET> <TYPE> провулок </TYPE> <BUILD> 104 </BUILD> <CORP> Б </CORP> <ROOM> 124 </ROOM>"}
+{"input": "площа Кодацька, кв 168, 59203, під'їзд 4, буд. 109", "target": "<ZIP> 59203 </ZIP> <STREET> Кодацька </STREET> <TYPE> площа </TYPE> <BUILD> 109 </BUILD> <ENTRANCE> 4 </ENTRANCE> <ROOM> 168 </ROOM>"}
+{"input": "будинок 145, поверх 11, Братиславська", "target": "<STREET> Братиславська </STREET> <TYPE> вулиця </TYPE> <BUILD> 145 </BUILD> <FLOOR> 11 </FLOOR>"}
+{"input": "поверх 8 Стародубовська, буд. 98, кв 186", "target": "<CITY> Калинове </CITY> <STREET> Стародубовська </STREET> <TYPE> вулиця </TYPE> <BUILD> 98 </BUILD> <FLOOR> 8 </FLOOR> <ROOM> 186 </ROOM>"}
+{"input": "Якова дацюка вулиця, 17 поверх, код 2068, №103/1", "target": "<CITY> Благодатне </CITY> <STREET> Якова дацюка </STREET> <TYPE> вулиця </TYPE> <BUILD> 103/1 </BUILD> <FLOOR> 17 </FLOOR> <CODE> 2068 </CODE>"}
+{"input": "67, кв. 142, площа Вічева", "target": "<CITY> Гірницьке </CITY> <STREET> Вічева </STREET> <TYPE> площа </TYPE> <BUILD> 67 </BUILD> <ROOM> 142 </ROOM>"}
+{"input": "будинок 82, вулиця Західно-окружна, Justin №157, п. 4 р-н Виноградар", "target": "<CITY> Билбасівка </CITY> <DISTRICT> Виноградар </DISTRICT> <STREET> Західно-окружна </STREET> <TYPE> вулиця </TYPE> <BUILD> 82 </BUILD> <ENTRANCE> 4 </ENTRANCE> <PROVIDER> Justin </PROVIDER> <BRANCH_ID> 157 </BRANCH_ID>"}
+{"input": "Тополівська вулиця п. 3, ст. м. Вокзальна будинок 94", "target": "<STREET> Тополівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 94 </BUILD> <ENTRANCE> 3 </ENTRANCE> <POI> ст. м. Вокзальна </POI>"}
+{"input": "вулиця Ротонди буд. 76, Виноградар", "target": "<CITY> Научный </CITY> <DISTRICT> Виноградар </DISTRICT> <STREET> Ротонди </STREET> <TYPE> вулиця </TYPE> <BUILD> 76 </BUILD>"}
+{"input": "(demo)", "target": "<CITY> Рудки </CITY> <NOTE> demo </NOTE>"}
+{"input": "", "target": "<CITY> Слов’яносербськ </CITY>"}
+{"input": "будинок 81, провулок 1-й госпітальний оф. 83", "target": "<CITY> Щотове </CITY> <STREET> 1-й госпітальний </STREET> <TYPE> провулок </TYPE> <BUILD> 81 </BUILD> <ROOM> 83 </ROOM>"}
+{"input": "буд. 94, кв. 79 Тараса шевченка , о26171 вулиця", "target": "<CITY> Ямпіль </CITY> <STREET> Тараса шевченка , о26171 </STREET> <TYPE> вулиця </TYPE> <BUILD> 94 </BUILD> <ROOM> 79 </ROOM>"}
+{"input": "ст. м. Оболонь, Укрпошта (Пункт видачі) №125 16442", "target": "<ZIP> 16442 </ZIP> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE> <BRANCH_ID> 125 </BRANCH_ID> <POI> ст. м. Оболонь </POI>"}
+{"input": "кв 185, Ентузіастів буд. 5", "target": "<STREET> Ентузіастів </STREET> <TYPE> проспект </TYPE> <BUILD> 5 </BUILD> <ROOM> 185 </ROOM>"}
+{"input": "кв 71 п. 5, Пискунівський, будинок 148В, район Троєщина", "target": "<CITY> Чаплине </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Пискунівський </STREET> <TYPE> провулок </TYPE> <BUILD> 148В </BUILD> <ENTRANCE> 5 </ENTRANCE> <ROOM> 71 </ROOM>"}
+{"input": "125, п. 1 Воззʼєднання", "target": "<CITY> Гвардійське </CITY> <STREET> Воззʼєднання </STREET> <TYPE> площа </TYPE> <BUILD> 125 </BUILD> <ENTRANCE> 1 </ENTRANCE>"}
+{"input": "98, Укрпошта (Філія) №291, ЖК Олімп Волі", "target": "<OBLAST> Кіровоградська область </OBLAST> <CITY> Верхнячка </CITY> <STREET> Волі </STREET> <TYPE> проспект </TYPE> <COMPLEX> ЖК Олімп </COMPLEX> <BUILD> 98 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE> <BRANCH_ID> 291 </BRANCH_ID>"}
+{"input": "буд. 100, квартира 114, район Позняки, Аптечный", "target": "<CITY> Лихівка </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Аптечный </STREET> <TYPE> проспект </TYPE> <BUILD> 100 </BUILD> <ROOM> 114 </ROOM>"}
+{"input": "кв. 35, 103, Лазурського", "target": "<CITY> Білогір’я </CITY> <STREET> Лазурського </STREET> <TYPE> провулок </TYPE> <BUILD> 103 </BUILD> <ROOM> 35 </ROOM>"}
+{"input": "район Троєщина, 50 років жовтня проспект 100 квартира 112, 13 поверх", "target": "<CITY> Кролевець </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> 50 років жовтня </STREET> <TYPE> проспект </TYPE> <BUILD> 100 </BUILD> <FLOOR> 13 </FLOOR> <ROOM> 112 </ROOM>"}
+{"input": "р-н Виноградар", "target": "<OBLAST> Дніпропетровська область </OBLAST> <DISTRICT> Виноградар </DISTRICT>"}
+{"input": "5-й нижньогиївський будинок 115", "target": "<OBLAST> Дніпропетровська область </OBLAST> <STREET> 5-й нижньогиївський </STREET> <TYPE> узвіз </TYPE> <BUILD> 115 </BUILD>"}
+{"input": "Прияружний провулок 87873 86Б", "target": "<ZIP> 87873 </ZIP> <CITY> Бахчисарай </CITY> <STREET> Прияружний </STREET> <TYPE> провулок </TYPE> <BUILD> 86Б </BUILD>"}
+{"input": "Жовтневий, будинок 138", "target": "<CITY> Панютине </CITY> <STREET> Жовтневий </STREET> <TYPE> провулок </TYPE> <BUILD> 138 </BUILD>"}
+{"input": "Івана мазепи вулиця, 13 поверх, оф. 60, домофон 1829 ЖК Львівський, №29/1", "target": "<CITY> Керчь </CITY> <STREET> Івана мазепи </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Львівський </COMPLEX> <BUILD> 29 </BUILD> <CORP> 1 </CORP> <FLOOR> 13 </FLOOR> <ROOM> 60 </ROOM> <CODE> 1829 </CODE>"}
+{"input": "вулиця В. дубініна №116, домофон 1640", "target": "<CITY> Іларіонове </CITY> <STREET> В. дубініна </STREET> <TYPE> вулиця </TYPE> <BUILD> 116 </BUILD> <CODE> 1640 </CODE>"}
+{"input": "будинок 1, р-н Троєщина, ЖК Преміум, код 3901 94820, Затишний", "target": "<ZIP> 94820 </ZIP> <CITY> Копичинці </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Затишний </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 1 </BUILD> <CODE> 3901 </CODE>"}
+{"input": "Загребельного провулок будинок 66", "target": "<STREET> Загребельного </STREET> <TYPE> провулок </TYPE> <BUILD> 66 </BUILD>"}
+{"input": "квартира 186, проспект Молоді, 98, 84472, 3 поверх", "target": "<ZIP> 84472 </ZIP> <STREET> Молоді </STREET> <TYPE> проспект </TYPE> <BUILD> 98 </BUILD> <FLOOR> 3 </FLOOR> <ROOM> 186 </ROOM>"}
+{"input": "27, (demo), площа Базарна, квартира 189", "target": "<OBLAST> Кіровоградська область </OBLAST> <STREET> Базарна </STREET> <TYPE> площа </TYPE> <BUILD> 27 </BUILD> <ROOM> 189 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "106, проспект Металургів", "target": "<STREET> Металургів </STREET> <TYPE> проспект </TYPE> <BUILD> 106 </BUILD>"}
+{"input": "домофон 2826, №33, провулок Гожика Укрпошта (Відділення)", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Цибулів </CITY> <STREET> Гожика </STREET> <TYPE> провулок </TYPE> <BUILD> 33 </BUILD> <CODE> 2826 </CODE> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE>"}
+{"input": "(demo)", "target": "<CITY> Петрівка </CITY> <NOTE> demo </NOTE>"}
+{"input": "кв 78, Ірини шевченко вулиця, 79314, буд. 12 р-н Позняки", "target": "<ZIP> 79314 </ZIP> <CITY> Бородянка </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Ірини шевченко </STREET> <TYPE> вулиця </TYPE> <BUILD> 12 </BUILD> <ROOM> 78 </ROOM>"}
+{"input": "будинок 139, ЖК Олімп 67983, Межигірський узвіз", "target": "<ZIP> 67983 </ZIP> <CITY> Борівське </CITY> <STREET> Межигірський </STREET> <TYPE> узвіз </TYPE> <COMPLEX> ЖК Олімп </COMPLEX> <BUILD> 139 </BUILD>"}
+{"input": "кв. 81, (demo), 111, Університетський проспект", "target": "<CITY> Чаплинка </CITY> <STREET> Університетський </STREET> <TYPE> проспект </TYPE> <BUILD> 111 </BUILD> <ROOM> 81 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "провулок Новий", "target": "<CITY> Софіївка </CITY> <STREET> Новий </STREET> <TYPE> провулок </TYPE>"}
+{"input": "провулок 2-й  степанюка", "target": "<STREET> 2-й  степанюка </STREET> <TYPE> провулок </TYPE>"}
+{"input": "будинок 102, ЖК Ліквувально вулиця Гончарова, 28858", "target": "<ZIP> 28858 </ZIP> <STREET> Гончарова </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 102 </BUILD>"}
+{"input": "буд. 139/2 район Троєщина, квартира 80, Юрʼєва бульвар", "target": "<CITY> Вишневе </CITY> <DISTRICT> Троєщина </DISTRICT> <STREET> Юрʼєва </STREET> <TYPE> бульвар </TYPE> <BUILD> 139/2 </BUILD> <ROOM> 80 </ROOM>"}
+{"input": "Фора, Віктора павлова, 39 домофон 306, Виноградар", "target": "<DISTRICT> Виноградар </DISTRICT> <STREET> Віктора павлова </STREET> <TYPE> вулиця </TYPE> <BUILD> 39 </BUILD> <CODE> 306 </CODE> <POI> Фора </POI>"}
+{"input": "80, вулиця Північно-західна", "target": "<CITY> Лебедин </CITY> <STREET> Північно-західна </STREET> <TYPE> вулиця </TYPE> <BUILD> 80 </BUILD>"}
+{"input": "", "target": "<CITY> Київ </CITY>"}
+{"input": "Княгині ольги бульвар, код 2910, №117/Б", "target": "<CITY> Вільшани </CITY> <STREET> Княгині ольги </STREET> <TYPE> бульвар </TYPE> <BUILD> 117 </BUILD> <CORP> Б </CORP> <CODE> 2910 </CODE>"}
+{"input": "1-й бузький провулок, кв. 164 121В, ст. м. Дорогожичі", "target": "<CITY> Жовті Води </CITY> <STREET> 1-й бузький </STREET> <TYPE> провулок </TYPE> <BUILD> 121В </BUILD> <ROOM> 164 </ROOM> <POI> ст. м. Дорогожичі </POI>"}
+{"input": "17533", "target": "<ZIP> 17533 </ZIP> <CITY> Никита </CITY>"}
+{"input": "105, Бакинська вулиця", "target": "<CITY> Петрове </CITY> <STREET> Бакинська </STREET> <TYPE> вулиця </TYPE> <BUILD> 105 </BUILD>"}
+{"input": "Лопанська набережна, кв. 105 №135, ст. м. Південний вокзал", "target": "<OBLAST> Полтавська область </OBLAST> <CITY> Гути </CITY> <STREET> Лопанська </STREET> <TYPE> набережна </TYPE> <BUILD> 135 </BUILD> <ROOM> 105 </ROOM> <POI> ст. м. Південний вокзал </POI>"}
+{"input": "кв 33 вулиця Адама міцкевича 40276, буд. 116 поверх 8", "target": "<ZIP> 40276 </ZIP> <CITY> Соснівка </CITY> <STREET> Адама міцкевича </STREET> <TYPE> вулиця </TYPE> <BUILD> 116 </BUILD> <FLOOR> 8 </FLOOR> <ROOM> 33 </ROOM>"}
+{"input": "Іваницького 78, Нова Пошта (Пункт видачі) №192", "target": "<CITY> Печеніжин </CITY> <STREET> Іваницького </STREET> <TYPE> проспект </TYPE> <BUILD> 78 </BUILD> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE> <BRANCH_ID> 192 </BRANCH_ID>"}
+{"input": "№122 Нова Пошта (Парцел) №293 1-й бульварний, офіс 192", "target": "<CITY> Мала Данилівка </CITY> <STREET> 1-й бульварний </STREET> <TYPE> провулок </TYPE> <BUILD> 122 </BUILD> <ROOM> 192 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE> <BRANCH_ID> 293 </BRANCH_ID>"}
+{"input": "20 поверх, буд. 114 Укрпошта Фінський провулок", "target": "<CITY> Вільча </CITY> <STREET> Фінський </STREET> <TYPE> провулок </TYPE> <BUILD> 114 </BUILD> <FLOOR> 20 </FLOOR> <PROVIDER> Укрпошта </PROVIDER>"}
+{"input": "п. 4, будинок 77, вулиця Валерія гангана", "target": "<CITY> Гостомель </CITY> <STREET> Валерія гангана </STREET> <TYPE> вулиця </TYPE> <BUILD> 77 </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "провулок Івана нечуй-левицького, 7, Оболонь", "target": "<DISTRICT> Оболонь </DISTRICT> <STREET> Івана нечуй-левицького </STREET> <TYPE> провулок </TYPE> <BUILD> 7 </BUILD>"}
+{"input": "25, Смолокур вулиця 12 поверх, район Троєщина", "target": "<OBLAST> Дніпропетровська область </OBLAST> <DISTRICT> Троєщина </DISTRICT> <STREET> Смолокур </STREET> <TYPE> вулиця </TYPE> <BUILD> 25 </BUILD> <FLOOR> 12 </FLOOR>"}
+{"input": "будинок 102-1 Степана турчака вулиця", "target": "<CITY> Перечин </CITY> <STREET> Степана турчака </STREET> <TYPE> вулиця </TYPE> <BUILD> 102 </BUILD> <CORP> 1 </CORP>"}
+{"input": "Олега новохатнього", "target": "<STREET> Олега новохатнього </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "Героїв армії унр, будинок 135В", "target": "<CITY> Дмитрівка </CITY> <STREET> Героїв армії унр </STREET> <TYPE> вулиця </TYPE> <BUILD> 135В </BUILD>"}
+{"input": "№60, Михайла остроградського, 16 поверх домофон 5387", "target": "<CITY> Нікольське </CITY> <STREET> Михайла остроградського </STREET> <TYPE> вулиця </TYPE> <BUILD> 60 </BUILD> <FLOOR> 16 </FLOOR> <CODE> 5387 </CODE>"}
+{"input": "провулок Шоріна №77", "target": "<CITY> Кринички </CITY> <STREET> Шоріна </STREET> <TYPE> провулок </TYPE> <BUILD> 77 </BUILD>"}
+{"input": "Аграрна площа, №4", "target": "<CITY> Люботин </CITY> <STREET> Аграрна </STREET> <TYPE> площа </TYPE> <BUILD> 4 </BUILD>"}
+{"input": "Турбінний, буд. 5", "target": "<STREET> Турбінний </STREET> <TYPE> узвіз </TYPE> <BUILD> 5 </BUILD>"}
+{"input": "100, вулиця Коксохімівська офіс 116", "target": "<CITY> Хирів </CITY> <STREET> Коксохімівська </STREET> <TYPE> вулиця </TYPE> <BUILD> 100 </BUILD> <ROOM> 116 </ROOM>"}
+{"input": "квартира 20 Миру бульвар, 61", "target": "<OBLAST> Запорізька область </OBLAST> <STREET> Миру </STREET> <TYPE> бульвар </TYPE> <BUILD> 61 </BUILD> <ROOM> 20 </ROOM>"}
+{"input": "Кожушко", "target": "<CITY> Васищеве </CITY> <STREET> Кожушко </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "88, Молодих шахтарів", "target": "<STREET> Молодих шахтарів </STREET> <TYPE> вулиця </TYPE> <BUILD> 88 </BUILD>"}
+{"input": "", "target": "<CITY> Николаевка </CITY>"}
+{"input": "п. 1, Justin (Пункт видачі) №157, провулок Артезіанський, район Осокорки, буд. 50", "target": "<CITY> Єлизаветградка </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Артезіанський </STREET> <TYPE> провулок </TYPE> <BUILD> 50 </BUILD> <ENTRANCE> 1 </ENTRANCE> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE> <BRANCH_ID> 157 </BRANCH_ID>"}
+{"input": "(demo), Карантинний узвіз", "target": "<STREET> Карантинний </STREET> <TYPE> узвіз </TYPE> <NOTE> demo </NOTE>"}
+{"input": "Бережний, Солом'янка, Rozetka (Пункт видачі)", "target": "<DISTRICT> Солом'янка </DISTRICT> <STREET> Бережний </STREET> <TYPE> провулок </TYPE> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE>"}
+{"input": "Замковий узвіз, р-н Осокорки, квартира 10, 79В", "target": "<CITY> Старокостянтинів </CITY> <DISTRICT> Осокорки </DISTRICT> <STREET> Замковий </STREET> <TYPE> узвіз </TYPE> <BUILD> 79В </BUILD> <ROOM> 10 </ROOM>"}
+{"input": "район Виноградар, проспект Античный, 71517, №41", "target": "<ZIP> 71517 </ZIP> <CITY> Цукурине </CITY> <DISTRICT> Виноградар </DISTRICT> <STREET> Античный </STREET> <TYPE> проспект </TYPE> <BUILD> 41 </BUILD>"}
+{"input": "Виноградар", "target": "<DISTRICT> Виноградар </DISTRICT>"}
+{"input": "Виноградар, поверх 10, кв. 9, 66, Нова Пошта (Поштомат), Зимовний", "target": "<CITY> Шкло </CITY> <DISTRICT> Виноградар </DISTRICT> <STREET> Зимовний </STREET> <TYPE> провулок </TYPE> <BUILD> 66 </BUILD> <FLOOR> 10 </FLOOR> <ROOM> 9 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE>"}
+{"input": "Лопатинська, будинок 125, п. 3, ст. м. Заводська, Поділ", "target": "<CITY> Львів </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Лопатинська </STREET> <TYPE> набережна </TYPE> <BUILD> 125 </BUILD> <ENTRANCE> 3 </ENTRANCE> <POI> ст. м. Заводська </POI>"}
+{"input": "85538 Соборна площа Солом'янка №39, ЖК Львівський", "target": "<ZIP> 85538 </ZIP> <CITY> Дебальцеве </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Соборна </STREET> <TYPE> площа </TYPE> <COMPLEX> ЖК Львівський </COMPLEX> <BUILD> 39 </BUILD>"}
+{"input": "Запоріжський, Justin (Пункт видачі) №71, №44", "target": "<STREET> Запоріжський </STREET> <TYPE> провулок </TYPE> <BUILD> 44 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Пункт видачі </BRANCH_TYPE> <BRANCH_ID> 71 </BRANCH_ID>"}
+{"input": "площа Поштова, кв. 89, 150 р-н Солом'янка", "target": "<DISTRICT> Солом'янка </DISTRICT> <STREET> Поштова </STREET> <TYPE> площа </TYPE> <BUILD> 150 </BUILD> <ROOM> 89 </ROOM>"}
+{"input": "п. 4, Олександра баховця вулиця буд. 24", "target": "<CITY> Гоголеве </CITY> <STREET> Олександра баховця </STREET> <TYPE> вулиця </TYPE> <BUILD> 24 </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "Григоренка Укрпошта (Відділення) №252, 57", "target": "<CITY> Десна </CITY> <STREET> Григоренка </STREET> <TYPE> вулиця </TYPE> <BUILD> 57 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE> <BRANCH_ID> 252 </BRANCH_ID>"}
+{"input": "Укрпошта №262 Петра чаговця", "target": "<CITY> Стара Ушиця </CITY> <STREET> Петра чаговця </STREET> <TYPE> провулок </TYPE> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_ID> 262 </BRANCH_ID>"}
+{"input": "Колонія вулиця", "target": "<CITY> Лохвиця </CITY> <STREET> Колонія </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "кв. 164, буд. 80, р-н Печерськ Ім. казмирука площа", "target": "<CITY> Гвіздець </CITY> <DISTRICT> Печерськ </DISTRICT> <STREET> Ім. казмирука </STREET> <TYPE> площа </TYPE> <BUILD> 80 </BUILD> <ROOM> 164 </ROOM>"}
+{"input": "кв 81, будинок 139Б, Шашкевича", "target": "<STREET> Шашкевича </STREET> <TYPE> вулиця </TYPE> <BUILD> 139Б </BUILD> <ROOM> 81 </ROOM>"}
+{"input": "Justin (Філія)", "target": "<CITY> Азовское </CITY> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Філія </BRANCH_TYPE>"}
+{"input": "провулок Мучний, (demo)", "target": "<STREET> Мучний </STREET> <TYPE> провулок </TYPE> <NOTE> demo </NOTE>"}
+{"input": "кв 56, Бочковича провулок, буд. 72/2", "target": "<CITY> Балахівка </CITY> <STREET> Бочковича </STREET> <TYPE> провулок </TYPE> <BUILD> 72/2 </BUILD> <ROOM> 56 </ROOM>"}
+{"input": "буд. 55, Міська", "target": "<CITY> Инкерман </CITY> <STREET> Міська </STREET> <TYPE> набережна </TYPE> <BUILD> 55 </BUILD>"}
+{"input": "53853, Коробочка вулиця, будинок 37, квартира 77", "target": "<ZIP> 53853 </ZIP> <CITY> Нова Прага </CITY> <STREET> Коробочка </STREET> <TYPE> вулиця </TYPE> <BUILD> 37 </BUILD> <ROOM> 77 </ROOM>"}
+{"input": "Луки капікраяна набережна, 76 56396 ЖК Преміум, р-н Поділ", "target": "<ZIP> 56396 </ZIP> <CITY> Микулинці </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Луки капікраяна </STREET> <TYPE> набережна </TYPE> <COMPLEX> ЖК Преміум </COMPLEX> <BUILD> 76 </BUILD>"}
+{"input": "", "target": "<CITY> Новоолександрівка </CITY>"}
+{"input": "№96, кв 80, 2-й моторний", "target": "<CITY> Дебальцеве </CITY> <STREET> 2-й моторний </STREET> <TYPE> провулок </TYPE> <BUILD> 96 </BUILD> <ROOM> 80 </ROOM>"}
+{"input": "3-тя поперечна, будинок 133", "target": "<STREET> 3-тя поперечна </STREET> <TYPE> вулиця </TYPE> <BUILD> 133 </BUILD>"}
+{"input": "кв 127, будинок 46, Укрпошта, (demo), проспект Святих кирила та мефодія", "target": "<CITY> Наркевичі </CITY> <STREET> Святих кирила та мефодія </STREET> <TYPE> проспект </TYPE> <BUILD> 46 </BUILD> <ROOM> 127 </ROOM> <PROVIDER> Укрпошта </PROVIDER> <NOTE> demo </NOTE>"}
+{"input": "52, Софієвський провулок", "target": "<OBLAST> Кіровоградська область </OBLAST> <CITY> Ізяслав </CITY> <STREET> Софієвський </STREET> <TYPE> провулок </TYPE> <BUILD> 52 </BUILD>"}
+{"input": "", "target": ""}
+{"input": "", "target": "<CITY> Рені </CITY>"}
+{"input": "Орбітний провулок 86В", "target": "<CITY> Житомир </CITY> <STREET> Орбітний </STREET> <TYPE> провулок </TYPE> <BUILD> 86В </BUILD>"}
+{"input": "вулиця Міхая томаша, 46290", "target": "<ZIP> 46290 </ZIP> <STREET> Міхая томаша </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "Леруа Мерлен, (demo), 75679, Успенська будинок 99", "target": "<ZIP> 75679 </ZIP> <STREET> Успенська </STREET> <TYPE> площа </TYPE> <BUILD> 99 </BUILD> <POI> Леруа Мерлен </POI> <NOTE> demo </NOTE>"}
+{"input": "97199, р-н Оболонь", "target": "<ZIP> 97199 </ZIP> <OBLAST> Харківська область </OBLAST> <DISTRICT> Оболонь </DISTRICT>"}
+{"input": "буд. 13, кв 160, провулок 8 березня", "target": "<STREET> 8 березня </STREET> <TYPE> провулок </TYPE> <BUILD> 13 </BUILD> <ROOM> 160 </ROOM>"}
+{"input": "", "target": ""}
+{"input": "ст. м. Турбоатом провулок Горовий, 37596, будинок 102", "target": "<ZIP> 37596 </ZIP> <OBLAST> Дніпропетровська область </OBLAST> <CITY> Шевченкове </CITY> <STREET> Горовий </STREET> <TYPE> провулок </TYPE> <BUILD> 102 </BUILD> <POI> ст. м. Турбоатом </POI>"}
+{"input": "№89, 37291, Князя вітовта", "target": "<ZIP> 37291 </ZIP> <STREET> Князя вітовта </STREET> <TYPE> вулиця </TYPE> <BUILD> 89 </BUILD>"}
+{"input": "1-й ярмарковий будинок 32/1", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Комишівка </CITY> <STREET> 1-й ярмарковий </STREET> <TYPE> провулок </TYPE> <BUILD> 32/1 </BUILD>"}
+{"input": "Левка боровиковського вулиця, 14962, будинок 4/1", "target": "<ZIP> 14962 </ZIP> <CITY> Новогуйвинське </CITY> <STREET> Левка боровиковського </STREET> <TYPE> вулиця </TYPE> <BUILD> 4/1 </BUILD>"}
+{"input": "№18, вулиця Тернопільська бічна", "target": "<STREET> Тернопільська бічна </STREET> <TYPE> вулиця </TYPE> <BUILD> 18 </BUILD>"}
+{"input": "набережна Православна, 10514, Укрпошта (Відділення), буд. 95 кв. 35", "target": "<ZIP> 10514 </ZIP> <CITY> Мар’ївка </CITY> <STREET> Православна </STREET> <TYPE> набережна </TYPE> <BUILD> 95 </BUILD> <ROOM> 35 </ROOM> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE>"}
+{"input": "№133, Позняки, кв 82 узвіз Козацький", "target": "<CITY> Великий Березний </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Козацький </STREET> <TYPE> узвіз </TYPE> <BUILD> 133 </BUILD> <ROOM> 82 </ROOM>"}
+{"input": "офіс 69, Короткий провулок, код 6420 53, р-н Солом'янка", "target": "<DISTRICT> Солом'янка </DISTRICT> <STREET> Короткий </STREET> <TYPE> провулок </TYPE> <BUILD> 53 </BUILD> <ROOM> 69 </ROOM> <CODE> 6420 </CODE>"}
+{"input": "№145 Середня вулиця", "target": "<STREET> Середня </STREET> <TYPE> вулиця </TYPE> <BUILD> 145 </BUILD>"}
+{"input": "", "target": "<CITY> Тростянець </CITY>"}
+{"input": "Івана франка Укрпошта (Каса) №265, 64/2 корп. 2", "target": "<OBLAST> Полтавська область </OBLAST> <CITY> Короп </CITY> <STREET> Івана франка </STREET> <TYPE> площа </TYPE> <BUILD> 64/2 </BUILD> <CORP> 2 </CORP> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 265 </BRANCH_ID>"}
+{"input": "провулок Кутський, будинок 94", "target": "<CITY> Центральний </CITY> <STREET> Кутський </STREET> <TYPE> провулок </TYPE> <BUILD> 94 </BUILD>"}
+{"input": "під'їзд 1 №141, ЖК Львівський Мрій бульвар", "target": "<CITY> Демидівка </CITY> <STREET> Мрій </STREET> <TYPE> бульвар </TYPE> <COMPLEX> ЖК Львівський </COMPLEX> <BUILD> 141 </BUILD> <ENTRANCE> 1 </ENTRANCE>"}
+{"input": "№106, Кагатна вулиця", "target": "<CITY> Мар’їнка </CITY> <STREET> Кагатна </STREET> <TYPE> вулиця </TYPE> <BUILD> 106 </BUILD>"}
+{"input": "Ілліча 91714, кв. 145, буд. 52Б, Rozetka №33", "target": "<ZIP> 91714 </ZIP> <STREET> Ілліча </STREET> <TYPE> бульвар </TYPE> <BUILD> 52Б </BUILD> <ROOM> 145 </ROOM> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 33 </BRANCH_ID>"}
+{"input": "", "target": "<CITY> Ленино </CITY>"}
+{"input": "19, Шахтарська", "target": "<CITY> Шалигине </CITY> <STREET> Шахтарська </STREET> <TYPE> площа </TYPE> <BUILD> 19 </BUILD>"}
+{"input": "будинок 62, Визволителів бульвар", "target": "<STREET> Визволителів </STREET> <TYPE> бульвар </TYPE> <BUILD> 62 </BUILD>"}
+{"input": "№62, ЖК Центр, провулок Петра чаговця", "target": "<CITY> Новотроїцьке </CITY> <STREET> Петра чаговця </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Центр </COMPLEX> <BUILD> 62 </BUILD>"}
+{"input": "поверх 2, Печерськ, 61, Олександра довженка бульвар", "target": "<DISTRICT> Печерськ </DISTRICT> <STREET> Олександра довженка </STREET> <TYPE> бульвар </TYPE> <BUILD> 61 </BUILD> <FLOOR> 2 </FLOOR>"}
+{"input": "вулиця Олександра пустового код 7358, кв 26 №26", "target": "<OBLAST> Хмельницька область </OBLAST> <CITY> Виноградів </CITY> <STREET> Олександра пустового </STREET> <TYPE> вулиця </TYPE> <BUILD> 26 </BUILD> <ROOM> 26 </ROOM> <CODE> 7358 </CODE>"}
+{"input": "№75, Довга нива", "target": "<CITY> Станиця Луганська </CITY> <STREET> Довга нива </STREET> <TYPE> провулок </TYPE> <BUILD> 75 </BUILD>"}
+{"input": "№146, площа Трибуни героїв", "target": "<STREET> Трибуни героїв </STREET> <TYPE> площа </TYPE> <BUILD> 146 </BUILD>"}
+{"input": "№3, район Печерськ, Марії приймаченко, кв. 45", "target": "<CITY> Прилуки </CITY> <DISTRICT> Печерськ </DISTRICT> <STREET> Марії приймаченко </STREET> <TYPE> бульвар </TYPE> <BUILD> 3 </BUILD> <ROOM> 45 </ROOM>"}
+{"input": "ст. м. Мінська №22 Підлісна", "target": "<CITY> Кирнасівка </CITY> <STREET> Підлісна </STREET> <TYPE> площа </TYPE> <BUILD> 22 </BUILD> <POI> ст. м. Мінська </POI>"}
+{"input": "Ольги басараб, будинок 92 квартира 116", "target": "<CITY> Вороновиця </CITY> <STREET> Ольги басараб </STREET> <TYPE> провулок </TYPE> <BUILD> 92 </BUILD> <ROOM> 116 </ROOM>"}
+{"input": "будинок 146 Київська площа", "target": "<STREET> Київська </STREET> <TYPE> площа </TYPE> <BUILD> 146 </BUILD>"}
+{"input": "", "target": "<CITY> Чорнобай </CITY>"}
+{"input": "поверх 10, №134, площа Миру", "target": "<CITY> Глеваха </CITY> <STREET> Миру </STREET> <TYPE> площа </TYPE> <BUILD> 134 </BUILD> <FLOOR> 10 </FLOOR>"}
+{"input": "буд. 67, кв 8 Юних ленінців вулиця", "target": "<CITY> Молодёжное </CITY> <STREET> Юних ленінців </STREET> <TYPE> вулиця </TYPE> <BUILD> 67 </BUILD> <ROOM> 8 </ROOM>"}
+{"input": "Кам’янсько-дніпровська", "target": "<STREET> Кам’янсько-дніпровська </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "Бакинських комісарів площа, Нова Пошта №96, 110 кв 181", "target": "<CITY> Бірки </CITY> <STREET> Бакинських комісарів </STREET> <TYPE> площа </TYPE> <BUILD> 110 </BUILD> <ROOM> 181 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 96 </BRANCH_ID>"}
+{"input": "13/2, узвіз Підзамецький", "target": "<CITY> Ливадия </CITY> <STREET> Підзамецький </STREET> <TYPE> узвіз </TYPE> <BUILD> 13/2 </BUILD>"}
+{"input": "будинок 114, Троєщина, Кошовий, кв. 51", "target": "<DISTRICT> Троєщина </DISTRICT> <STREET> Кошовий </STREET> <TYPE> узвіз </TYPE> <BUILD> 114 </BUILD> <ROOM> 51 </ROOM>"}
+{"input": "провулок 1-й  немирівське шосе, 78 р-н Позняки", "target": "<CITY> Брацлав </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> 1-й  немирівське шосе </STREET> <TYPE> провулок </TYPE> <BUILD> 78 </BUILD>"}
+{"input": "ЖК Преміум район Осокорки", "target": "<CITY> Городок </CITY> <DISTRICT> Осокорки </DISTRICT> <COMPLEX> ЖК Преміум </COMPLEX>"}
+{"input": "кв 33, провулок Бункерний, буд. 26", "target": "<CITY> Демидівка </CITY> <STREET> Бункерний </STREET> <TYPE> провулок </TYPE> <BUILD> 26 </BUILD> <ROOM> 33 </ROOM>"}
+{"input": "буд. 65, Францисканська, 16 поверх", "target": "<CITY> Улянівка </CITY> <STREET> Францисканська </STREET> <TYPE> вулиця </TYPE> <BUILD> 65 </BUILD> <FLOOR> 16 </FLOOR>"}
+{"input": "", "target": "<CITY> Верхньоторецьке </CITY>"}
+{"input": "37199 провулок 1-й  піонтковського", "target": "<ZIP> 37199 </ZIP> <CITY> Луганськ </CITY> <STREET> 1-й  піонтковського </STREET> <TYPE> провулок </TYPE>"}
+{"input": "№47, Дюли ійєша", "target": "<CITY> Нові Санжари </CITY> <STREET> Дюли ійєша </STREET> <TYPE> бульвар </TYPE> <BUILD> 47 </BUILD>"}
+{"input": "118, Будівельний бульвар", "target": "<CITY> Брацлав </CITY> <STREET> Будівельний </STREET> <TYPE> бульвар </TYPE> <BUILD> 118 </BUILD>"}
+{"input": "№65, 4-й  аріадни стебельської", "target": "<OBLAST> Полтавська область </OBLAST> <CITY> Ямпіль </CITY> <STREET> 4-й  аріадни стебельської </STREET> <TYPE> провулок </TYPE> <BUILD> 65 </BUILD>"}
+{"input": "", "target": "<CITY> Комишани </CITY>"}
+{"input": "під'їзд 4, Яроцького, №94В", "target": "<CITY> Карлівка </CITY> <STREET> Яроцького </STREET> <TYPE> провулок </TYPE> <BUILD> 94В </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "№135 79363 Укрпошта, Італійський", "target": "<ZIP> 79363 </ZIP> <CITY> Воловець </CITY> <STREET> Італійський </STREET> <TYPE> бульвар </TYPE> <BUILD> 135 </BUILD> <PROVIDER> Укрпошта </PROVIDER>"}
+{"input": "ст. м. Дарниця, №128, квартира 184 Паркова площа", "target": "<CITY> Комишуваха </CITY> <STREET> Паркова </STREET> <TYPE> площа </TYPE> <BUILD> 128 </BUILD> <ROOM> 184 </ROOM> <POI> ст. м. Дарниця </POI>"}
+{"input": "", "target": "<CITY> Новгородка </CITY>"}
+{"input": "Justin (Відділення), Зарічний провулок, будинок 106", "target": "<OBLAST> Запорізька область </OBLAST> <STREET> Зарічний </STREET> <TYPE> провулок </TYPE> <BUILD> 106 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Відділення </BRANCH_TYPE>"}
+{"input": "вулиця Новорозсошанська", "target": "<STREET> Новорозсошанська </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "будинок 38, квартира 104, набережна Словʼянська", "target": "<STREET> Словʼянська </STREET> <TYPE> набережна </TYPE> <BUILD> 38 </BUILD> <ROOM> 104 </ROOM>"}
+{"input": "№54, бульвар Дмитра антоновича", "target": "<CITY> Диканька </CITY> <STREET> Дмитра антоновича </STREET> <TYPE> бульвар </TYPE> <BUILD> 54 </BUILD>"}
+{"input": "код 6171 Московська вулиця, 82, 7 поверх, 27419", "target": "<ZIP> 27419 </ZIP> <CITY> Надвірна </CITY> <STREET> Московська </STREET> <TYPE> вулиця </TYPE> <BUILD> 82 </BUILD> <FLOOR> 7 </FLOOR> <CODE> 6171 </CODE>"}
+{"input": "Героїв національної гвардії україни, кв. 199 42", "target": "<STREET> Героїв національної гвардії україни </STREET> <TYPE> проспект </TYPE> <BUILD> 42 </BUILD> <ROOM> 199 </ROOM>"}
+{"input": "", "target": "<OBLAST> Полтавська область </OBLAST> <CITY> Солотвин </CITY>"}
+{"input": "(demo), 53165, район Осокорки", "target": "<ZIP> 53165 </ZIP> <DISTRICT> Осокорки </DISTRICT> <NOTE> demo </NOTE>"}
+{"input": "буд. 130, 1-й соляний, офіс 169", "target": "<STREET> 1-й соляний </STREET> <TYPE> провулок </TYPE> <BUILD> 130 </BUILD> <ROOM> 169 </ROOM>"}
+{"input": "ст. м. Виставковий центр, ЖК Львівський", "target": "<CITY> Немирів </CITY> <COMPLEX> ЖК Львівський </COMPLEX> <CORP> 1 </CORP> <POI> ст. м. Виставковий центр </POI>"}
+{"input": "", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Біле </CITY>"}
+{"input": "", "target": "<CITY> Октябрьское </CITY>"}
+{"input": "р-н Виноградар, №114, Московская дь, оф. 178", "target": "<DISTRICT> Виноградар </DISTRICT> <STREET> Московская дь </STREET> <TYPE> площа </TYPE> <BUILD> 114 </BUILD> <ROOM> 178 </ROOM>"}
+{"input": "офіс 13 (demo), Justin (Парцел) №100 18211, провулок Трудівників №36, ЖК Ліквувально", "target": "<ZIP> 18211 </ZIP> <CITY> Ломуватка </CITY> <STREET> Трудівників </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 36 </BUILD> <ROOM> 13 </ROOM> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Парцел </BRANCH_TYPE> <BRANCH_ID> 100 </BRANCH_ID> <NOTE> demo </NOTE>"}
+{"input": "буд. 147, Граничний провулок, кв. 3", "target": "<CITY> Берестечко </CITY> <STREET> Граничний </STREET> <TYPE> провулок </TYPE> <BUILD> 147 </BUILD> <ROOM> 3 </ROOM>"}
+{"input": "Солом'янка", "target": "<CITY> Баришівка </CITY> <DISTRICT> Солом'янка </DISTRICT>"}
+{"input": "вулиця Героїв нацгвардії, 114", "target": "<CITY> Андріївка </CITY> <STREET> Героїв нацгвардії </STREET> <TYPE> вулиця </TYPE> <BUILD> 114 </BUILD>"}
+{"input": "", "target": "<CITY> Ізяслав </CITY>"}
+{"input": "2-й яснополянський, буд. 63", "target": "<STREET> 2-й яснополянський </STREET> <TYPE> провулок </TYPE> <BUILD> 63 </BUILD>"}
+{"input": "15838, квартира 70 Томаша есе, будинок 52", "target": "<ZIP> 15838 </ZIP> <CITY> Велика Димерка </CITY> <STREET> Томаша есе </STREET> <TYPE> площа </TYPE> <BUILD> 52 </BUILD> <ROOM> 70 </ROOM>"}
+{"input": "будинок 38, кв. 196 провулок Олександра білаша", "target": "<STREET> Олександра білаша </STREET> <TYPE> провулок </TYPE> <BUILD> 38 </BUILD> <ROOM> 196 </ROOM>"}
+{"input": "Нені, буд. 8 ЖК Ліквувально (demo)", "target": "<CITY> Хоростків </CITY> <STREET> Нені </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 8 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "будинок 18, кв 142, Загрязнянська", "target": "<CITY> Великий Лог </CITY> <STREET> Загрязнянська </STREET> <TYPE> вулиця </TYPE> <BUILD> 18 </BUILD> <ROOM> 142 </ROOM>"}
+{"input": "квартира 139 №87 70577, Varus, 5-й кременецький", "target": "<ZIP> 70577 </ZIP> <STREET> 5-й кременецький </STREET> <TYPE> провулок </TYPE> <BUILD> 87 </BUILD> <ROOM> 139 </ROOM> <POI> Varus </POI>"}
+{"input": "71, Воробʼївська", "target": "<STREET> Воробʼївська </STREET> <TYPE> набережна </TYPE> <BUILD> 71 </BUILD>"}
+{"input": "39915, Житомирська вулиця", "target": "<ZIP> 39915 </ZIP> <CITY> Ковель </CITY> <STREET> Житомирська </STREET> <TYPE> вулиця </TYPE>"}
+{"input": "Іваниківська вулиця кв 141, (demo), 123 ЖК Олімп", "target": "<OBLAST> Одеська область </OBLAST> <CITY> Деражня </CITY> <STREET> Іваниківська </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Олімп </COMPLEX> <BUILD> 123 </BUILD> <ROOM> 141 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "ЖК Гавань, будинок 137, провулок Радомський", "target": "<CITY> Нова Водолага </CITY> <STREET> Радомський </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Гавань </COMPLEX> <BUILD> 137 </BUILD>"}
+{"input": "бульвар Юності, №23, поверх 18, квартира 72", "target": "<OBLAST> Харківська область </OBLAST> <STREET> Юності </STREET> <TYPE> бульвар </TYPE> <BUILD> 23 </BUILD> <FLOOR> 18 </FLOOR> <ROOM> 72 </ROOM>"}
+{"input": "47637, ЖК Комфорт Таун, під'їзд 4, буд. 87 Святослава ріхтера вулиця", "target": "<ZIP> 47637 </ZIP> <STREET> Святослава ріхтера </STREET> <TYPE> вулиця </TYPE> <COMPLEX> ЖК Комфорт Таун </COMPLEX> <BUILD> 87 </BUILD> <ENTRANCE> 4 </ENTRANCE>"}
+{"input": "Єгорова 12 поверх, буд. 69, 65961, ст. м. Палац спорту", "target": "<ZIP> 65961 </ZIP> <STREET> Єгорова </STREET> <TYPE> вулиця </TYPE> <BUILD> 69 </BUILD> <FLOOR> 12 </FLOOR> <POI> ст. м. Палац спорту </POI>"}
+{"input": "ст. м. Звіринецька", "target": "<CITY> Белогорск </CITY> <POI> ст. м. Звіринецька </POI>"}
+{"input": "Укрпошта №161 №39, Глібова провулок", "target": "<CITY> Дубове </CITY> <STREET> Глібова </STREET> <TYPE> провулок </TYPE> <BUILD> 39 </BUILD> <PROVIDER> Укрпошта </PROVIDER> <BRANCH_ID> 161 </BRANCH_ID>"}
+{"input": "ЖК Львівський будинок 147, бульвар Нерсісянський", "target": "<CITY> Корсунь-Шевченківський </CITY> <STREET> Нерсісянський </STREET> <TYPE> бульвар </TYPE> <COMPLEX> ЖК Львівський </COMPLEX> <BUILD> 147 </BUILD>"}
+{"input": "квартира 153 Замедянського, 90", "target": "<STREET> Замедянського </STREET> <TYPE> вулиця </TYPE> <BUILD> 90 </BUILD> <ROOM> 153 </ROOM>"}
+{"input": "Ново-баварський проспект, 19", "target": "<CITY> Монастириська </CITY> <STREET> Ново-баварський </STREET> <TYPE> проспект </TYPE> <BUILD> 19 </BUILD>"}
+{"input": "Таврическая я набережна п. 1, будинок 76", "target": "<STREET> Таврическая я </STREET> <TYPE> набережна </TYPE> <BUILD> 76 </BUILD> <ENTRANCE> 1 </ENTRANCE>"}
+{"input": "вулиця Буровиків, буд. 71, кв. 183, р-н Позняки", "target": "<CITY> Куликів </CITY> <DISTRICT> Позняки </DISTRICT> <STREET> Буровиків </STREET> <TYPE> вулиця </TYPE> <BUILD> 71 </BUILD> <ROOM> 183 </ROOM>"}
+{"input": "48551", "target": "<ZIP> 48551 </ZIP> <CITY> Заболоття </CITY>"}
+{"input": "Чижевського", "target": "<CITY> Чечельник </CITY> <STREET> Чижевського </STREET> <TYPE> вулиця </TYPE> <CORP> Б </CORP>"}
+{"input": "район Печерськ Громова будинок 1, кв. 26", "target": "<CITY> Вендичани </CITY> <DISTRICT> Печерськ </DISTRICT> <STREET> Громова </STREET> <TYPE> провулок </TYPE> <BUILD> 1 </BUILD> <ROOM> 26 </ROOM>"}
+{"input": "набережна В. 129, 4 поверх", "target": "<OBLAST> Одеська область </OBLAST> <CITY> Коротич </CITY> <STREET> В. </STREET> <TYPE> набережна </TYPE> <BUILD> 129 </BUILD> <FLOOR> 4 </FLOOR>"}
+{"input": "квартира 83 №86 Рогатинський провулок", "target": "<CITY> Корець </CITY> <STREET> Рогатинський </STREET> <TYPE> провулок </TYPE> <BUILD> 86 </BUILD> <ROOM> 83 </ROOM>"}
+{"input": "(demo) 70108, кв 21, Забашти вулиця, 14 р-н Солом'янка", "target": "<ZIP> 70108 </ZIP> <CITY> Грэсовский </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Забашти </STREET> <TYPE> вулиця </TYPE> <BUILD> 14 </BUILD> <ROOM> 21 </ROOM> <NOTE> demo </NOTE>"}
+{"input": "№119, набережна Здоров’я", "target": "<OBLAST> Київська область </OBLAST> <CITY> Устинівка </CITY> <STREET> Здоров’я </STREET> <TYPE> набережна </TYPE> <BUILD> 119 </BUILD>"}
+{"input": "провулок Скіфський 133-1, (demo)", "target": "<STREET> Скіфський </STREET> <TYPE> провулок </TYPE> <BUILD> 133 </BUILD> <CORP> 1 </CORP> <NOTE> demo </NOTE>"}
+{"input": "р-н Оболонь", "target": "<CITY> Метьолкіне </CITY> <DISTRICT> Оболонь </DISTRICT>"}
+{"input": "ЖК Центр Нова Пошта №12", "target": "<COMPLEX> ЖК Центр </COMPLEX> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 12 </BRANCH_ID>"}
+{"input": "буд. 133, ЖК Ліквувально бульвар Полуденный", "target": "<STREET> Полуденный </STREET> <TYPE> бульвар </TYPE> <COMPLEX> ЖК Ліквувально </COMPLEX> <BUILD> 133 </BUILD>"}
+{"input": "№129, провулок Григорія сковороди", "target": "<STREET> Григорія сковороди </STREET> <TYPE> провулок </TYPE> <BUILD> 129 </BUILD>"}
+{"input": "№79, Золотий берег 101", "target": "<OBLAST> Одеська область </OBLAST> <CITY> Нові Санжари </CITY> <STREET> Золотий берег 101 </STREET> <TYPE> бульвар </TYPE> <BUILD> 79 </BUILD>"}
+{"input": "код 7895 Провулок українських рятуьників вулиця Укрпошта, буд. 73", "target": "<STREET> Провулок українських рятуьників </STREET> <TYPE> вулиця </TYPE> <BUILD> 73 </BUILD> <CODE> 7895 </CODE> <PROVIDER> Укрпошта </PROVIDER>"}
+{"input": "148, Цементників", "target": "<STREET> Цементників </STREET> <TYPE> проспект </TYPE> <BUILD> 148 </BUILD>"}
+{"input": "район Поділ", "target": "<CITY> Шевченко </CITY> <DISTRICT> Поділ </DISTRICT>"}
+{"input": "Виноградар, кв 81, 23705, поверх 2, Святих кирила та мефодія проспект, будинок 65", "target": "<ZIP> 23705 </ZIP> <DISTRICT> Виноградар </DISTRICT> <STREET> Святих кирила та мефодія </STREET> <TYPE> проспект </TYPE> <BUILD> 65 </BUILD> <FLOOR> 2 </FLOOR> <ROOM> 81 </ROOM>"}
+{"input": "Солом'янка ЖК Львівський, 49573 Добрий провулок", "target": "<ZIP> 49573 </ZIP> <CITY> Леніна </CITY> <DISTRICT> Солом'янка </DISTRICT> <STREET> Добрий </STREET> <TYPE> провулок </TYPE> <COMPLEX> ЖК Львівський </COMPLEX>"}
+{"input": "будинок 138, район Печерськ, кв 60 бульвар Європейський", "target": "<DISTRICT> Печерськ </DISTRICT> <STREET> Європейський </STREET> <TYPE> бульвар </TYPE> <BUILD> 138 </BUILD> <ROOM> 60 </ROOM>"}
+{"input": "будинок 102 Justin (Каса) №222", "target": "<CITY> Молодёжное </CITY> <STREET> nan </STREET> <TYPE> бульвар </TYPE> <BUILD> 102 </BUILD> <PROVIDER> Justin </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 222 </BRANCH_ID>"}
+{"input": "(demo), Позитивна, №32", "target": "<OBLAST> Львівська область </OBLAST> <CITY> Божедарівка </CITY> <STREET> Позитивна </STREET> <TYPE> вулиця </TYPE> <BUILD> 32 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "149, кв 46, 52286, Дь куйбышева", "target": "<ZIP> 52286 </ZIP> <STREET> Дь куйбышева </STREET> <TYPE> площа </TYPE> <BUILD> 149 </BUILD> <ROOM> 46 </ROOM>"}
+{"input": "будинок 14, Rozetka (Каса) №259, квартира 29, 1-й  бориса гмирі провулок", "target": "<STREET> 1-й  бориса гмирі </STREET> <TYPE> провулок </TYPE> <BUILD> 14 </BUILD> <ROOM> 29 </ROOM> <PROVIDER> Rozetka </PROVIDER> <BRANCH_TYPE> Каса </BRANCH_TYPE> <BRANCH_ID> 259 </BRANCH_ID>"}
+{"input": "30545", "target": "<ZIP> 30545 </ZIP> <CITY> Седнів </CITY>"}
+{"input": "Нова Пошта №284, п. 5, квартира 178, 10, провулок Назарія яремчука", "target": "<CITY> Лубни </CITY> <STREET> Назарія яремчука </STREET> <TYPE> провулок </TYPE> <BUILD> 10 </BUILD> <ENTRANCE> 5 </ENTRANCE> <ROOM> 178 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_ID> 284 </BRANCH_ID>"}
+{"input": "провулок 2-й  шевченка, будинок 24, кв 22", "target": "<STREET> 2-й  шевченка </STREET> <TYPE> провулок </TYPE> <BUILD> 24 </BUILD> <ROOM> 22 </ROOM>"}
+{"input": "3-й легпромівський провулок 25181, кв. 23, буд. 148", "target": "<ZIP> 25181 </ZIP> <STREET> 3-й легпромівський </STREET> <TYPE> провулок </TYPE> <BUILD> 148 </BUILD> <ROOM> 23 </ROOM>"}
+{"input": "ст. м. Дніпро", "target": "<CITY> Шахтарське </CITY> <POI> ст. м. Дніпро </POI>"}
+{"input": "13 провулок Н. поліщук, (demo)", "target": "<CITY> Якимівка </CITY> <STREET> Н. поліщук </STREET> <TYPE> провулок </TYPE> <BUILD> 13 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "квартира 146, будинок 16, 12 поверх, вулиця Житловий масив “європейський“", "target": "<STREET> Житловий масив “європейський“ </STREET> <TYPE> вулиця </TYPE> <BUILD> 16 </BUILD> <FLOOR> 12 </FLOOR> <ROOM> 146 </ROOM>"}
+{"input": "р-н Виноградар, 1-й проскурівський провулок під'їзд 1, 11, ст. м. Історичний музей", "target": "<CITY> Харцизьк </CITY> <DISTRICT> Виноградар </DISTRICT> <STREET> 1-й проскурівський </STREET> <TYPE> провулок </TYPE> <BUILD> 11 </BUILD> <ENTRANCE> 1 </ENTRANCE> <POI> ст. м. Історичний музей </POI>"}
+{"input": "буд. 24, Сенчанська вулиця", "target": "<STREET> Сенчанська </STREET> <TYPE> вулиця </TYPE> <BUILD> 24 </BUILD>"}
+{"input": "кв. 175 код 136 набережна Таврическая я, ст. м. Мінська, буд. 78", "target": "<CITY> Чемерівці </CITY> <STREET> Таврическая я </STREET> <TYPE> набережна </TYPE> <BUILD> 78 </BUILD> <ROOM> 175 </ROOM> <CODE> 136 </CODE> <POI> ст. м. Мінська </POI>"}
+{"input": "Канарський узвіз, №108А", "target": "<CITY> Торчин </CITY> <STREET> Канарський </STREET> <TYPE> узвіз </TYPE> <BUILD> 108А </BUILD>"}
+{"input": "район Оболонь, №42/1, Київська, 72109", "target": "<ZIP> 72109 </ZIP> <DISTRICT> Оболонь </DISTRICT> <STREET> Київська </STREET> <TYPE> набережна </TYPE> <BUILD> 42/1 </BUILD>"}
+{"input": "(demo) провулок Космічний", "target": "<CITY> Заліщики </CITY> <STREET> Космічний </STREET> <TYPE> провулок </TYPE> <NOTE> demo </NOTE>"}
+{"input": "вулиця Піддуб, №133", "target": "<CITY> Салькове </CITY> <STREET> Піддуб </STREET> <TYPE> вулиця </TYPE> <BUILD> 133 </BUILD>"}
+{"input": "Тимірязева вулиця, квартира 34, 45", "target": "<OBLAST> Запорізька область </OBLAST> <CITY> Луцьк </CITY> <STREET> Тимірязева </STREET> <TYPE> вулиця </TYPE> <BUILD> 45 </BUILD> <ROOM> 34 </ROOM>"}
+{"input": "Комунарівський провулок будинок 52", "target": "<CITY> Коростень </CITY> <STREET> Комунарівський </STREET> <TYPE> провулок </TYPE> <BUILD> 52 </BUILD>"}
+{"input": "", "target": "<CITY> Старобільськ </CITY>"}
+{"input": "кв. 160, №77, вулиця Хоткевича, Нова Пошта (Поштомат)", "target": "<CITY> Брацлав </CITY> <STREET> Хоткевича </STREET> <TYPE> вулиця </TYPE> <BUILD> 77 </BUILD> <ROOM> 160 </ROOM> <PROVIDER> Нова Пошта </PROVIDER> <BRANCH_TYPE> Поштомат </BRANCH_TYPE>"}
+{"input": "р-н Поділ, (demo) буд. 140 Таврическая я набережна", "target": "<CITY> Більшівці </CITY> <DISTRICT> Поділ </DISTRICT> <STREET> Таврическая я </STREET> <TYPE> набережна </TYPE> <BUILD> 140 </BUILD> <NOTE> demo </NOTE>"}
+{"input": "район Виноградар, Rozetka №107", "target": "<CITY> Пологи </CITY> <DISTRICT> Виноградар </DISTRICT> <PROVIDER> Rozetka </PROVIDER> <BRANCH_ID> 107 </BRANCH_ID>"}
+{"input": "р-н Печерськ Боричів 2", "target": "<OBLAST> Одеська область </OBLAST> <DISTRICT> Печерськ </DISTRICT> <STREET> Боричів </STREET> <TYPE> узвіз </TYPE> <BUILD> 2 </BUILD>"}
+{"input": "Позняки", "target": "<DISTRICT> Позняки </DISTRICT>"}

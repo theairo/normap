@@ -15,7 +15,7 @@ if str(GEN_PATH) not in sys.path: sys.path.insert(0, str(GEN_PATH))
 if str(ROOT) not in sys.path: sys.path.insert(0, str(ROOT))
 
 from generate.synthetic_groq_class import GroqDataFactory
-from data.generate_prompt import generate_single_sample
+from generate.generate_target import generate_single_sample
 #from generate.synthetic_hf_class import HuggingFaceDataFactory
 
 load_dotenv(r"C:\Users\TheAiro\Desktop\Machine Learning Projects\Visuem\generate\.env.local")
