@@ -26,38 +26,67 @@ PROBS = {
     "has_oblast": 0.10,      # 10% have Oblast (Region)
     "has_district": 0.20,    # 20% have District
     "has_provider": 0.15,    # 15% are Service points (NP, Rozetka)
-    "has_poi": 0.1,         # 5% are Landmarks (McDonalds, Achan)
+    "has_poi": 0.2,         # 5% are Landmarks (McDonalds, Achan)
 
     # Street & Building: Independent binary rolls
     "has_street": 0.85,      # 85% have a street
     "has_building": 0.90,    # 90% have a building number
     "has_complex": 0.08,     # 8% mention residential complex name
-    "has_corp": 0.05,        # 5% have a block/corpus
+    "has_corp": 0.07,        # 5% have a block/corpus
 
     # Sub-Units: Independent binary rolls
     "has_room": 0.40,        # 40% have a room number (flat/office)
     "has_entrance": 0.10,    # 10% mention entrance
     "has_floor": 0.10,       # 10% mention floor
-    "has_code": 0.05,        # 5% mention door code
+    "has_code": 0.08,        # 5% mention door code
 
     # Provider details
     "has_branch_type": 0.60, # 60% of providers have branch type
     "has_branch_id": 0.60,   # 60% have branch ID
 }
 
-# Street type distribution
-RARE_TYPES = ['проспект', 'бульвар', 'площа', 'набережна', 'узвіз']
-COMMON_TYPES = ['вулиця', 'провулок']
-RARE_TYPE_PROB = 0.40  # 40% chance to select from rare types
+# Street type distribution (bucketed with observed counts)
+STREET_TYPE_COUNTS = {
+    "вулиця": 35235,
+    "провулок": 9980,
+    "проїзд": 915,
+    "в'їзд": 776,
+    "тупик": 451,
+    "площа": 392,
+    "проспект": 327,
+    "дорога": 207,
+    "бульвар": 200,
+    "алея": 140,
+    "узвіз": 128,
+    "шосе": 121,
+    "лінія": 118,
+    "майдан": 82,
+    "набережна": 73,
+    "обхід": 31,
+    "траса": 26,
+    "сквер": 10,
+    "кільцева": 3,
+    "магістраль": 2,
+    "автодорога": 1,
+}
 
-# Oblast/Region names
-OBLASTS = ['Київська область', 'Львівська область', 'Харківська область', 
-           'Одеська область', 'Дніпропетровська область', 'Запорізька область',
-           'Полтавська область', 'Кіровоградська область', 'Хмельницька область']
+COMMON_TYPES = ["вулиця", "провулок", "проїзд", "в'їзд", "тупик"]
+RARE_TYPES = [
+    "площа", "проспект", "дорога", "бульвар", "алея", "узвіз",
+    "шосе", "лінія", "майдан", "набережна",
+]
+VERY_RARE_TYPES = ["обхід", "траса", "сквер", "кільцева", "магістраль", "автодорога"]
+STREET_BUCKET_WEIGHTS = {"common": 0.75, "rare": 0.2, "very_rare": 0.05}
 
-# Residential complex names
-COMPLEXES = ['ЖК Комфорт Таун', 'ЖК Преміум', 'ЖК Парк', 'ЖК Центр', 'ЖК Гавань',
-             'ЖК Ліквувально', 'ЖК Львівський', 'ЖК Олімп']
+# Fallback Oblast/Region names
+FALLBACK_OBLASTS = [
+    'Київська область', 'Львівська область', 'Харківська область',
+    'Одеська область', 'Дніпропетровська область', 'Запорізька область',
+    'Полтавська область', 'Кіровоградська область', 'Хмельницька область'
+]
+
+# Fallback residential complex names
+FALLBACK_COMPLEXES = ['ЖК Комфорт Таун', 'ЖК Преміум', 'ЖК Парк', 'ЖК Центр', 'ЖК Гавань']
 
 # Provider branch types
 BRANCH_TYPES = ['Відділення', 'Поштомат', 'Парцел', 'Пункт видачі', 'Філія', 'Каса']
@@ -69,6 +98,14 @@ BRANCH_TYPES = ['Відділення', 'Поштомат', 'Парцел', 'П�
 def load_data():
     """Load all necessary data sources"""
     
+    cities = ['Київ']
+    villages = ['Борщагівка']
+    streets_by_type = {}
+    fallback_districts = ['Троєщина', 'Виноградар', 'Оболонь', 'Позняки', 'Осокорки', 'Поділ', 'Печерськ', "Солом'янка"]
+    districts = fallback_districts
+    oblasts = FALLBACK_OBLASTS
+    complexes = FALLBACK_COMPLEXES
+
     # A. Settlements
     try:
         df_places = pd.read_csv(ROOT / "data" / "ua-name-places.csv")
@@ -80,15 +117,38 @@ def load_data():
     # B. Streets
     try:
         df_streets = pd.read_csv(ROOT / "data" / "all_street_names_types.csv")
-        streets_by_type = df_streets.groupby('type')['name'].apply(list).to_dict()
+        streets_by_type = df_streets.groupby('Type')['Name'].apply(list).to_dict()
     except FileNotFoundError:
-        print("Warning: kyiv_types_cleaned.csv not found. Using dummy data.")
-    
+        print("Warning: all_street_names_types.csv not found. Using dummy data.")
+
     # C. Districts
-    KYIV_DISTRICTS = ['Троєщина', 'Виноградар', 'Оболонь', 'Позняки', 
-                      'Осокорки', 'Поділ', 'Печерськ', 'Солом\'янка']
+    try:
+        df_districts = pd.read_csv(ROOT / "data" / "districts.csv")
+        districts = df_districts['district'].dropna().unique().tolist()
+        if not districts:
+            districts = fallback_districts
+    except FileNotFoundError:
+        print("Warning: districts.csv not found. Using fallback districts.")
+
+    # D. Oblasts
+    try:
+        df_oblasts = pd.read_csv(ROOT / "data" / "oblasti.csv", usecols=['Name'])
+        oblasts = df_oblasts['Name'].dropna().tolist()
+        if not oblasts:
+            oblasts = FALLBACK_OBLASTS
+    except FileNotFoundError:
+        print("Warning: oblasti.csv not found. Using fallback oblasts.")
+
+    # E. Complexes
+    try:
+        df_complexes = pd.read_csv(ROOT / "data" / "zhk.csv")
+        complexes = df_complexes['name'].dropna().tolist()
+        if not complexes:
+            complexes = FALLBACK_COMPLEXES
+    except FileNotFoundError:
+        print("Warning: zhk.csv not found. Using fallback complexes.")
     
-    # D. Services & POIs
+    # F. Services & POIs
     try:
         df_prov = pd.read_csv(ROOT / "data" / "providers.csv")
         df_poi = pd.read_csv(ROOT / "data" / "poi.csv", header=None, 
@@ -111,7 +171,9 @@ def load_data():
         'cities': cities,
         'villages': villages,
         'streets_by_type': streets_by_type,
-        'districts': KYIV_DISTRICTS,
+        'districts': districts,
+        'oblasts': oblasts,
+        'complexes': complexes,
         'providers': providers,
         'pois': pois
     }
@@ -120,16 +182,38 @@ def load_data():
 # HELPER FUNCTIONS
 # ==========================================
 
+def _choose_street_bucket(available_types):
+    """Select bucket based on configured weights and what is available."""
+    bucket_map = {
+        "common": [t for t in COMMON_TYPES if t in available_types],
+        "rare": [t for t in RARE_TYPES if t in available_types],
+        "very_rare": [t for t in VERY_RARE_TYPES if t in available_types],
+    }
+
+    buckets = [(name, types) for name, types in bucket_map.items() if types]
+    if not buckets:
+        return None, []
+
+    names = [b[0] for b in buckets]
+    weights = [STREET_BUCKET_WEIGHTS.get(b[0], 0.0) for b in buckets]
+    chosen_bucket = random.choices(names, weights=weights, k=1)[0]
+    return chosen_bucket, dict(buckets)[chosen_bucket]
+
+
 def get_random_street(streets_by_type):
-    """Select a street with biased type distribution"""
-    if random.random() < RARE_TYPE_PROB:
-        avail = [t for t in RARE_TYPES if t in streets_by_type]
-        chosen_type = random.choice(avail) if avail else "вулиця"
+    """Select a street type using buckets and weighted counts."""
+    available_types = {k: v for k, v in streets_by_type.items() if v}
+    bucket, bucket_types = _choose_street_bucket(available_types)
+
+    if bucket_types:
+        type_weights = [STREET_TYPE_COUNTS.get(t, 1) for t in bucket_types]
+        chosen_type = random.choices(bucket_types, weights=type_weights, k=1)[0]
     else:
-        avail = [t for t in COMMON_TYPES if t in streets_by_type]
-        chosen_type = random.choice(avail) if avail else "вулиця"
+        # Fallback: use any available type or default to вулиця
+        fallback_types = list(available_types.keys()) or ["вулиця"]
+        chosen_type = random.choice(fallback_types)
     
-    name = random.choice(streets_by_type.get(chosen_type, ["Шевченка"]))
+    name = random.choice(available_types.get(chosen_type, ["Шевченка"]))
     return name, chosen_type
 
 
@@ -217,7 +301,7 @@ def generate_sample(data_sources):
     
     # Oblast (10% probability)
     if random.random() < PROBS["has_oblast"]:
-        canonical['oblast'] = random.choice(OBLASTS)
+        canonical['oblast'] = random.choice(data_sources['oblasts'])
     
     # City (70% probability)
     city_name = None
@@ -243,7 +327,7 @@ def generate_sample(data_sources):
     
     # Complex (8% probability)
     if random.random() < PROBS["has_complex"]:
-        canonical['complex'] = random.choice(COMPLEXES)
+        canonical['complex'] = random.choice(data_sources['complexes'])
     
     # Corp (5% probability)
     if random.random() < PROBS["has_corp"]:
@@ -281,7 +365,13 @@ def generate_sample(data_sources):
     # POI (5% probability)
     if random.random() < PROBS["has_poi"]:
         poi = random.choice(data_sources['pois'])
-        canonical['poi'] = poi['official_name']
+        # Use official name or slang variation
+        if poi.get('slang_variations') and random.random() < 0.6:
+            # Parse slang variations (comma or pipe-separated)
+            slang_list = [s.strip() for s in str(poi['slang_variations']).split(',')]
+            canonical['poi'] = random.choice(slang_list)
+        else:
+            canonical['poi'] = poi['official_name']
     
     # ======================
     # BUILD INPUT STRING
@@ -298,13 +388,25 @@ def build_input_string(canonical, city_name, street_name, street_type):
     """
     parts = []
     
+    # Oblast
+    if 'oblast' in canonical:
+        oblast = canonical['oblast']
+        parts.append(random.choice([
+            f"обл. {oblast}",
+            f"область {oblast}",
+            oblast,
+        ]))
+    
     # Variation templates
     city_format = random.choice([
         f"м. {city_name}",
         f"місто {city_name}",
         f"{city_name}",
-        f"в {city_name}",
     ]) if city_name else ""
+
+    # City (add before shuffling so it appears in input)
+    if city_format:
+        parts.append(city_format)
     
     # District
     if 'district' in canonical:
@@ -315,42 +417,42 @@ def build_input_string(canonical, city_name, street_name, street_type):
             f"р-н {district}"
         ]))
     
-    # Street
+    # Street and building (building must follow street)
+    street_building_part = None
     if street_name and street_type:
         try:
             if street_type.lower() in street_name.lower():
                 street_part = street_name
             else:
-                # Different street formats
                 street_part = random.choice([
                     f"{street_type} {street_name}",
                     f"{street_name} {street_type}",
                     f"{street_name}",  # Type omitted sometimes
                 ])
-            parts.append(street_part)
-        except:
-            print(street_name, street_type)
-        # Anti-redundancy: if type is in name, don't duplicate
-        
-    
-    # Building
-    if 'build' in canonical:
-        build_str = canonical['build']
-        
-        # Add corp if exists
-        if 'corp' in canonical:
-            build_str += random.choice([
-                f" корп. {canonical['corp']}",
-                f"/{canonical['corp']}",
-                f"-{canonical['corp']}"
+        except Exception:
+            street_part = street_name
+
+        if 'build' in canonical:
+            build_str = canonical['build']
+            if 'corp' in canonical:
+                build_str += random.choice([
+                    f" корп. {canonical['corp']}",
+                    f"/{canonical['corp']}",
+                    f"-{canonical['corp']}"
+                ])
+            building_form = random.choice([
+                f"буд. {build_str}",
+                f"будинок {build_str}",
+                f"{build_str}",
+                f"№{build_str}"
             ])
-        
-        parts.append(random.choice([
-            f"буд. {build_str}",
-            f"будинок {build_str}",
-            f"{build_str}",
-            f"№{build_str}"
-        ]))
+            sep = ", " if random.random() < 0.7 else " "
+            street_building_part = f"{street_part}{sep}{building_form}"
+        else:
+            street_building_part = street_part
+
+    if street_building_part:
+        parts.append(street_building_part)
     
     # Complex (residential complex)
     if 'complex' in canonical:
@@ -473,7 +575,9 @@ def generate_dataset(num_samples=1000, output_file="training_dataset.jsonl", var
     
     with open(output_path, 'w', encoding='utf-8') as f:
         for item in dataset:
-            f.write(json.dumps(item, ensure_ascii=False) + '\n')
+            # Skip entries with empty input or target
+            if item["input"].strip() and item["target"].strip():
+                f.write(json.dumps(item, ensure_ascii=False) + '\n')
     
     print(f"\n✓ Dataset saved to {output_path}")
     print(f"  Total samples: {len(dataset)}")
@@ -489,7 +593,7 @@ def generate_dataset(num_samples=1000, output_file="training_dataset.jsonl", var
 if __name__ == "__main__":
     # Generate dataset matching final_training_dataset format
     generate_dataset(
-        num_samples=1000,           # 200 unique addresses
+        num_samples=200000,           # 200 unique addresses
         variations_per_sample=1,   # 5 variations each = 1000 total samples
         output_file="alg_dat.jsonl"
     )

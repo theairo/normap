@@ -34,7 +34,6 @@ build/
 
 # Large data files
 data/canonical_train_data.json
-data/poi.csv
 data/ua-name-places.csv
 
 # Generated datasets
