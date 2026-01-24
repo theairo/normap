@@ -31,7 +31,6 @@ PROBS = {
     # Street & Building: Independent binary rolls
     "has_street": 0.85,      # 85% have a street
     "has_building": 0.90,    # 90% have a building number
-    "has_complex": 0.08,     # 8% mention residential complex name
     "has_corp": 0.07,        # 5% have a block/corpus
 
     # Sub-Units: Independent binary rolls
@@ -62,7 +61,6 @@ STREET_TYPE_COUNTS = {
     "лінія": 118,
     "майдан": 82,
     "набережна": 73,
-    "обхід": 31,
     "траса": 26,
     "сквер": 10,
     "кільцева": 3,
@@ -75,8 +73,32 @@ RARE_TYPES = [
     "площа", "проспект", "дорога", "бульвар", "алея", "узвіз",
     "шосе", "лінія", "майдан", "набережна",
 ]
-VERY_RARE_TYPES = ["обхід", "траса", "сквер", "кільцева", "магістраль", "автодорога"]
+VERY_RARE_TYPES = ["траса", "сквер", "кільцева", "магістраль", "автодорога"]
 STREET_BUCKET_WEIGHTS = {"common": 0.75, "rare": 0.2, "very_rare": 0.05}
+
+# Street type abbreviations and variations
+STREET_TYPE_VARIATIONS = {
+    "вулиця": ["вулиця", "вул.", "вул"],
+    "провулок": ["провулок", "пров.", "провул.", "пров"],
+    "проїзд": ["проїзд", "пр-д"],
+    "в'їзд": ["в'їзд"],
+    "тупик": ["тупик"],
+    "площа": ["площа", "пл."],
+    "проспект": ["проспект", "просп.", "пр-т"],
+    "дорога": ["дорога", "дор."],
+    "бульвар": ["бульвар", "бульв.", "б-р"],
+    "алея": ["алея", "ал."],
+    "узвіз": ["узвіз", "узв."],
+    "шосе": ["шосе", "ш."],
+    "лінія": ["лінія"],
+    "майдан": ["майдан", "майд."],
+    "набережна": ["набережна", "наб.", "набер."],
+    "траса": ["траса", "тр."],
+    "сквер": ["сквер", "скв."],
+    "кільцева": ["кільцева", "кільц."],
+    "магістраль": ["магістраль", "маг."],
+    "автодорога": ["автодорога", "а/д"],
+}
 
 # Fallback Oblast/Region names
 FALLBACK_OBLASTS = [
@@ -85,11 +107,8 @@ FALLBACK_OBLASTS = [
     'Полтавська область', 'Кіровоградська область', 'Хмельницька область'
 ]
 
-# Fallback residential complex names
-FALLBACK_COMPLEXES = ['ЖК Комфорт Таун', 'ЖК Преміум', 'ЖК Парк', 'ЖК Центр', 'ЖК Гавань']
-
 # Provider branch types
-BRANCH_TYPES = ['Відділення', 'Поштомат', 'Парцел', 'Пункт видачі', 'Філія', 'Каса']
+BRANCH_TYPES = ['Відділення', 'Поштомат', 'Пункт видачі', 'Філія', 'Каса']
 
 # ==========================================
 # DATA LOADING
@@ -104,7 +123,6 @@ def load_data():
     fallback_districts = ['Троєщина', 'Виноградар', 'Оболонь', 'Позняки', 'Осокорки', 'Поділ', 'Печерськ', "Солом'янка"]
     districts = fallback_districts
     oblasts = FALLBACK_OBLASTS
-    complexes = FALLBACK_COMPLEXES
 
     # A. Settlements
     try:
@@ -138,17 +156,8 @@ def load_data():
             oblasts = FALLBACK_OBLASTS
     except FileNotFoundError:
         print("Warning: oblasti.csv not found. Using fallback oblasts.")
-
-    # E. Complexes
-    try:
-        df_complexes = pd.read_csv(ROOT / "data" / "zhk.csv")
-        complexes = df_complexes['name'].dropna().tolist()
-        if not complexes:
-            complexes = FALLBACK_COMPLEXES
-    except FileNotFoundError:
-        print("Warning: zhk.csv not found. Using fallback complexes.")
     
-    # F. Services & POIs
+    # E. Services & POIs
     try:
         df_prov = pd.read_csv(ROOT / "data" / "providers.csv")
         df_poi = pd.read_csv(ROOT / "data" / "poi.csv", header=None, 
@@ -173,7 +182,6 @@ def load_data():
         'streets_by_type': streets_by_type,
         'districts': districts,
         'oblasts': oblasts,
-        'complexes': complexes,
         'providers': providers,
         'pois': pois
     }
@@ -221,7 +229,7 @@ def format_target_string(data):
     """Convert canonical dict to XML tag format"""
     parts = []
     
-    # Order: ZIP → OBLAST → CITY → DISTRICT → STREET → TYPE → COMPLEX → BUILD → CORP → 
+    # Order: ZIP → OBLAST → CITY → DISTRICT → STREET → TYPE → BUILD → CORP → 
     # ENTRANCE → FLOOR → ROOM → CODE → PROVIDER → BRANCH_TYPE → BRANCH_ID → POI
     
     if 'zip' in data: 
@@ -236,8 +244,6 @@ def format_target_string(data):
         parts.append(f"<STREET> {data['street']} </STREET>")
     if 'type' in data: 
         parts.append(f"<TYPE> {data['type']} </TYPE>")
-    if 'complex' in data: 
-        parts.append(f"<COMPLEX> {data['complex']} </COMPLEX>")
     if 'build' in data: 
         parts.append(f"<BUILD> {data['build']} </BUILD>")
     if 'corp' in data: 
@@ -303,10 +309,16 @@ def generate_sample(data_sources):
     if random.random() < PROBS["has_oblast"]:
         canonical['oblast'] = random.choice(data_sources['oblasts'])
     
-    # City (70% probability)
+    # City (70% probability) - includes villages
     city_name = None
+    is_village = False
     if random.random() < PROBS["has_city"]:
-        city_name = random.choice(data_sources['cities'])
+        # 20% chance to pick a village instead of a city
+        if random.random() < 0.2:
+            city_name = random.choice(data_sources['villages'])
+            is_village = True
+        else:
+            city_name = random.choice(data_sources['cities'])
         canonical['city'] = city_name
     
     # District (20% probability)
@@ -324,10 +336,6 @@ def generate_sample(data_sources):
     # Building (90% probability) - ONLY if Street exists
     if random.random() < PROBS["has_building"] and 'street' in canonical:
         canonical['build'] = generate_building_number()
-    
-    # Complex (8% probability)
-    if random.random() < PROBS["has_complex"]:
-        canonical['complex'] = random.choice(data_sources['complexes'])
     
     # Corp (5% probability)
     if random.random() < PROBS["has_corp"]:
@@ -367,8 +375,8 @@ def generate_sample(data_sources):
         poi = random.choice(data_sources['pois'])
         # Use official name or slang variation
         if poi.get('slang_variations') and random.random() < 0.6:
-            # Parse slang variations (comma or pipe-separated)
-            slang_list = [s.strip() for s in str(poi['slang_variations']).split(',')]
+            # Parse slang variations (pipe-separated)
+            slang_list = [s.strip() for s in str(poi['slang_variations']).split('|')]
             canonical['poi'] = random.choice(slang_list)
         else:
             canonical['poi'] = poi['official_name']
@@ -376,12 +384,12 @@ def generate_sample(data_sources):
     # ======================
     # BUILD INPUT STRING
     # ======================
-    input_str = build_input_string(canonical, city_name, street_name, street_type)
+    input_str = build_input_string(canonical, city_name, street_name, street_type, is_village)
     
     return input_str, canonical
 
 
-def build_input_string(canonical, city_name, street_name, street_type):
+def build_input_string(canonical, city_name, street_name, street_type, is_village=False):
     """
     Build natural Ukrainian input string from canonical data.
     Applies variations in formatting and word order.
@@ -397,14 +405,29 @@ def build_input_string(canonical, city_name, street_name, street_type):
             oblast,
         ]))
     
-    # Variation templates
-    city_format = random.choice([
-        f"м. {city_name}",
-        f"місто {city_name}",
-        f"{city_name}",
-    ]) if city_name else ""
+    # Variation templates for city/village
+    city_format = ""
+    if city_name:
+        if is_village:
+            # Village formatting with various prefixes
+            city_format = random.choice([
+                f"село {city_name}",
+                f"с. {city_name}",
+                f"селище {city_name}",
+                f"смт {city_name}",
+                f"смт. {city_name}",
+                f"селище міського типу {city_name}",
+                f"{city_name}",  # Sometimes no prefix
+            ])
+        else:
+            # City formatting
+            city_format = random.choice([
+                f"м. {city_name}",
+                f"місто {city_name}",
+                f"{city_name}",
+            ])
 
-    # City (add before shuffling so it appears in input)
+    # City/Village (add before shuffling so it appears in input)
     if city_format:
         parts.append(city_format)
     
@@ -424,9 +447,13 @@ def build_input_string(canonical, city_name, street_name, street_type):
             if street_type.lower() in street_name.lower():
                 street_part = street_name
             else:
+                # Get random variation of street type
+                type_variations = STREET_TYPE_VARIATIONS.get(street_type, [street_type])
+                street_type_var = random.choice(type_variations)
+                
                 street_part = random.choice([
-                    f"{street_type} {street_name}",
-                    f"{street_name} {street_type}",
+                    f"{street_type_var} {street_name}",
+                    f"{street_name} {street_type_var}",
                     f"{street_name}",  # Type omitted sometimes
                 ])
         except Exception:
@@ -454,18 +481,19 @@ def build_input_string(canonical, city_name, street_name, street_type):
     if street_building_part:
         parts.append(street_building_part)
     
-    # Complex (residential complex)
-    if 'complex' in canonical:
-        parts.append(canonical['complex'])
-    
     # Room (apartment or office)
     if 'room' in canonical:
         # Randomly choose if it's apartment or office based on context
-        if random.random() < 0.85:
+        if random.random() < 0.6:
             parts.append(random.choice([
                 f"кв. {canonical['room']}",
                 f"квартира {canonical['room']}",
                 f"кв {canonical['room']}"
+            ]))
+        elif random.random() < 0.8:
+            parts.append(random.choice([
+                f"каб. {canonical['room']}",
+                f"кабінет {canonical['room']}",
             ]))
         else:
             parts.append(random.choice([
@@ -498,7 +526,7 @@ def build_input_string(canonical, city_name, street_name, street_type):
     if 'provider' in canonical:
         prov_str = canonical['provider']
         if 'branch_type' in canonical:
-            prov_str += f" ({canonical['branch_type']})"
+            prov_str += f" {canonical['branch_type']}"
         if 'branch_id' in canonical:
             prov_str += f" №{canonical['branch_id']}"
         parts.append(prov_str)
@@ -507,7 +535,6 @@ def build_input_string(canonical, city_name, street_name, street_type):
     if 'poi' in canonical:
         parts.append(canonical['poi'])
 
-    
     # ZIP
     if 'zip' in canonical:
         parts.append(canonical['zip'])
@@ -532,7 +559,7 @@ def build_input_string(canonical, city_name, street_name, street_type):
 # DATASET GENERATION
 # ==========================================
 
-def generate_dataset(num_samples=1000, output_file="training_dataset.jsonl", variations_per_sample=5):
+def generate_dataset(num_samples=1000, output_file="training_dataset.jsonl", variations_per_sample=5, generate_for_llm=False):
     """
     Generate complete dataset with multiple variations per canonical address.
     
@@ -540,6 +567,7 @@ def generate_dataset(num_samples=1000, output_file="training_dataset.jsonl", var
         num_samples: Number of unique canonical addresses
         output_file: Output JSONL file path
         variations_per_sample: Number of input variations per canonical
+        generate_for_llm: If True, saves only inputs (no tags) to gen_for_llm.jsonl
     """
 
     data_sources = load_data()
@@ -561,8 +589,10 @@ def generate_dataset(num_samples=1000, output_file="training_dataset.jsonl", var
             city_name = canonical.get('city')
             street_name = canonical.get('street')
             street_type = canonical.get('type')
+            # Check if it's a village by seeing if it exists in villages list
+            is_village = city_name in data_sources['villages'] if city_name else False
             
-            input_str = build_input_string(canonical, city_name, street_name, street_type)
+            input_str = build_input_string(canonical, city_name, street_name, street_type, is_village)
             
             dataset.append({
                 "input": input_str,
@@ -571,15 +601,43 @@ def generate_dataset(num_samples=1000, output_file="training_dataset.jsonl", var
     
     # Save to file
     ROOT = Path(__file__).resolve().parents[1]
-    output_path = ROOT / "generate" / output_file
     
-    with open(output_path, 'w', encoding='utf-8') as f:
-        for item in dataset:
-            # Skip entries with empty input or target
-            if item["input"].strip() and item["target"].strip():
-                f.write(json.dumps(item, ensure_ascii=False) + '\n')
+    if generate_for_llm:
+        # Save inputs to gen_for_llm.jsonl (one per line)
+        input_path = ROOT / "generate" / "gen_for_llm.jsonl"
+        with open(input_path, 'w', encoding='utf-8') as f:
+            for item in dataset:
+                if item["input"].strip():
+                    f.write(item["input"] + '\n')
+        
+        # Save targets to gen_for_llm_targets.jsonl (one per line)
+        target_path = ROOT / "generate" / "gen_for_llm_targets.jsonl"
+        with open(target_path, 'w', encoding='utf-8') as f:
+            for item in dataset:
+                if item["target"].strip():
+                    f.write(item["target"] + '\n')
+        
+        output_path = input_path
+        print(f"\n✓ Inputs saved to {input_path}")
+        print(f"✓ Targets saved to {target_path}")
+    else:
+        # Save full JSONL format with input and target
+        output_path = ROOT / "generate" / output_file
+        with open(output_path, 'w', encoding='utf-8') as f:
+            for item in dataset:
+                # Skip entries with empty input or target
+                if item["input"].strip() and item["target"].strip():
+                    # Add llm_mess flag
+                    item_with_flag = {
+                        "input": item["input"],
+                        "target": item["target"],
+                        "llm_mess": False
+                    }
+                    f.write(json.dumps(item_with_flag, ensure_ascii=False) + '\n')
     
-    print(f"\n✓ Dataset saved to {output_path}")
+    if not generate_for_llm:
+        print(f"\n✓ Dataset saved to {output_path}")
+    
     print(f"  Total samples: {len(dataset)}")
     print(f"  Unique addresses: {num_samples}")
     
@@ -593,9 +651,10 @@ def generate_dataset(num_samples=1000, output_file="training_dataset.jsonl", var
 if __name__ == "__main__":
     # Generate dataset matching final_training_dataset format
     generate_dataset(
-        num_samples=200000,           # 200 unique addresses
+        num_samples=50000,           # 200 unique addresses
         variations_per_sample=1,   # 5 variations each = 1000 total samples
-        output_file="alg_dat.jsonl"
+        output_file="alg_dat.jsonl",
+        generate_for_llm=False       # Set to True to generate plain input list
     )
     
     print("\n" + "="*50)

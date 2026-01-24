@@ -13,7 +13,7 @@ GENERATE_PATH = ROOT / "generate"
 # Input files
 INPUT_FILES = [
     GENERATE_PATH / "alg_dat.jsonl",
-    GENERATE_PATH / "final_training_dataset.jsonl"
+    GENERATE_PATH / "aligned_dataset.jsonl"
 ]
 
 # Output file
