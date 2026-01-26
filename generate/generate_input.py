@@ -20,6 +20,7 @@ from generate.generate_target import generate_single_sample
 
 load_dotenv(r"C:\Users\TheAiro\Desktop\Machine Learning Projects\Visuem\generate\.env.local")
 
+
 # CONFIGURATION
 PROMPT_TEMPLATE_PATH = ROOT / "data" / "llm_prompt.txt"
 TEMP_CHUNK_OUTPUT = ROOT / "generate" / "temp_chunk_raw.txt"

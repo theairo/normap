@@ -374,12 +374,20 @@ def generate_sample(data_sources):
     if random.random() < PROBS["has_poi"]:
         poi = random.choice(data_sources['pois'])
         # Use official name or slang variation
-        if poi.get('slang_variations') and random.random() < 0.6:
+        slang_variations = poi.get('slang_variations')
+        # Check if slang_variations is valid (not NaN, not empty, not the string "nan")
+        if (slang_variations and 
+            str(slang_variations).lower() != 'nan' and 
+            str(slang_variations).strip() and
+            random.random() < 0.6):
             # Parse slang variations (pipe-separated)
-            slang_list = [s.strip() for s in str(poi['slang_variations']).split('|')]
-            canonical['poi'] = random.choice(slang_list)
+            slang_list = [s.strip() for s in str(slang_variations).split('|') if s.strip()]
+            if slang_list:  # Only use if list is not empty
+                canonical['poi'] = random.choice(slang_list)
+            else:
+                canonical['poi'] = poi.get('official_name', '')
         else:
-            canonical['poi'] = poi['official_name']
+            canonical['poi'] = poi.get('official_name', '')
     
     # ======================
     # BUILD INPUT STRING
@@ -651,7 +659,7 @@ def generate_dataset(num_samples=1000, output_file="training_dataset.jsonl", var
 if __name__ == "__main__":
     # Generate dataset matching final_training_dataset format
     generate_dataset(
-        num_samples=50000,           # 200 unique addresses
+        num_samples=42000,           # 200 unique addresses
         variations_per_sample=1,   # 5 variations each = 1000 total samples
         output_file="alg_dat.jsonl",
         generate_for_llm=False       # Set to True to generate plain input list

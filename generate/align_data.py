@@ -114,9 +114,9 @@ def align_with_sliding_window(input_lines, target_lines, window_size=5, threshol
 def main():
     ROOT = Path(__file__).resolve().parents[1]
     
-    input_file = ROOT / "generate" / "gen_for_llm_inject.jsonl"
+    input_file = ROOT / "generate" / "testset_inject.jsonl"
     target_file = ROOT / "generate" / "gen_for_llm_targets.jsonl"
-    output_file = ROOT / "generate" / "aligned_dataset.jsonl"
+    output_file = ROOT / "generate" / "testset_aligned.jsonl"
     
     # Read input lines
     print(f"Reading {input_file}...")

@@ -65,3 +65,10 @@ prototypesV1/
 
 # Not used
 not used(probably)/
+
+# Temporary
+generate/*
+evaluate/*
+data_cleaning/*
+data/*
+poi.csv
